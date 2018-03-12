@@ -4,5 +4,5 @@
    <name>TeamAutomation</name>
    <tag></tag>
    <UUID>85fedfed-6d6c-4dae-9277-285a90ea1adb</UUID>
-   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeout>0</pageLoadTimeout>
 </Project>
