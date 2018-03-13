@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Add</name>
+   <tag></tag>
+   <elementGuidId>6310a888-2f13-4bb0-809b-f4b0d5466a9a</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>add-panel-button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;vss_8&quot;)/div[@class=&quot;leftPane hotkey-section hotkey-section-2&quot;]/div[@class=&quot;right-hub-content&quot;]/div[@class=&quot;hub-pivot-content&quot;]/div[@class=&quot;main-content&quot;]/div[@class=&quot;backlog-header&quot;]/div[@class=&quot;panel-region&quot;]/div[@class=&quot;add-panel-data add-panel&quot;]/div[1]/table[@class=&quot;add-panel-table&quot;]/tbody[1]/tr[@class=&quot;add-panel-row dynamic-add-panel-row&quot;]/td[2]/table[@class=&quot;addpanel-full-width-row&quot;]/tbody[1]/tr[1]/td[@class=&quot;add-panel-full-width-row-button&quot;]/button[@class=&quot;add-panel-button&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>
