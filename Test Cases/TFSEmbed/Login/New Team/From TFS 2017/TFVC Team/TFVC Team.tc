@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>dummyTest</name>
+   <name>TFVC Team</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>44d25146-eff0-4b1b-91c9-ad8bca79f80a</testCaseGuid>
+   <testCaseGuid>5bb1ae03-616c-48ad-bf8a-2727293de6a2</testCaseGuid>
 </TestCaseEntity>

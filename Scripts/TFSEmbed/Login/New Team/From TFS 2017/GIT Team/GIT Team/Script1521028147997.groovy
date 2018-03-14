@@ -19,7 +19,37 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.check(findTestObject(null))
+WebUI.openBrowser('')
 
-WebUI.clickImage(findTestObject(null))
+WebUI.maximizeWindow()
+
+String server = findTestData('Datafile').getValue('TFSServer', 4)
+
+WebUI.navigateToUrl(server)
+
+WebUI.click(findTestObject('TFSEmbed/Login/New Team/From TFS 2017/Team/button_New Project'))
+
+String ProjectName = CustomKeywords.'keyword.edevkatalon.com.GeneralKeywords.GetRandomString'()
+
+WebUI.setText(findTestObject('TFSEmbed/Login/New Team/From TFS 2017/Team/input_project-name'), ProjectName)
+
+WebUI.scrollToElement(findTestObject('TFSEmbed/Login/New Team/From TFS 2017/Team/button_Create'), 10)
+
+WebUI.waitForElementClickable(findTestObject('TFSEmbed/Login/New Team/From TFS 2017/Team/button_Create'), 2)
+
+WebUI.click(findTestObject('TFSEmbed/Login/New Team/From TFS 2017/Team/button_Create'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('TFSEmbed/Login/New Team/From TFS 2017/Team/Project dropdown for Create Team'))
+
+WebUI.click(findTestObject('TFSEmbed/Login/New Team/From TFS 2017/Team/span_New team'))
+
+String TeamName = CustomKeywords.'keyword.edevkatalon.com.GeneralKeywords.GetRandomString'()
+
+WebUI.setText(findTestObject('TFSEmbed/Login/New Team/From TFS 2017/Team/input_groupName'), TeamName)
+
+WebUI.click(findTestObject('TFSEmbed/Login/New Team/From TFS 2017/Team/button_Create team'))
+
+WebUI.closeBrowser()
 
