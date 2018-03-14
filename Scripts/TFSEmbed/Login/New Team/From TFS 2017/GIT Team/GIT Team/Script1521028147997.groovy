@@ -27,29 +27,29 @@ String server = findTestData('Datafile').getValue('TFSServer', 4)
 
 WebUI.navigateToUrl(server)
 
-WebUI.click(findTestObject('TFSEmbed/Login/New Team/From TFS 2017/Team Creation Objects/button_New Project'))
+WebUI.click(findTestObject('TFSEmbed/Login/New Team/From TFS 2017/TeamCreationObjects-Rename/button_New Project'))
 
 String ProjectName = CustomKeywords.'keyword.edevkatalon.com.GeneralKeywords.GetRandomString'()
 
-WebUI.setText(findTestObject('TFSEmbed/Login/New Team/From TFS 2017/Team Creation Objects/input_project-name'), ProjectName)
+WebUI.setText(findTestObject('TFSEmbed/Login/New Team/From TFS 2017/TeamCreationObjects-Rename/input_project-name'), ProjectName)
 
-WebUI.scrollToElement(findTestObject('TFSEmbed/Login/New Team/From TFS 2017/Team Creation Objects/button_Create'), 10)
+WebUI.scrollToElement(findTestObject('TFSEmbed/Login/New Team/From TFS 2017/TeamCreationObjects-Rename/button_Create'), 10)
 
-WebUI.waitForElementClickable(findTestObject('TFSEmbed/Login/New Team/From TFS 2017/Team Creation Objects/button_Create'), 2)
+WebUI.waitForElementClickable(findTestObject('TFSEmbed/Login/New Team/From TFS 2017/TeamCreationObjects-Rename/button_Create'), 2)
 
-WebUI.click(findTestObject('TFSEmbed/Login/New Team/From TFS 2017/Team Creation Objects/button_Create'))
+WebUI.click(findTestObject('TFSEmbed/Login/New Team/From TFS 2017/TeamCreationObjects-Rename/button_Create'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('TFSEmbed/Login/New Team/From TFS 2017/Team Creation Objects/Project dropdown for Create Team'))
+WebUI.click(findTestObject('TFSEmbed/Login/New Team/From TFS 2017/TeamCreationObjects-Rename/Project dropdown for Create Team'))
 
-WebUI.click(findTestObject('TFSEmbed/Login/New Team/From TFS 2017/Team Creation Objects/span_New team'))
+WebUI.click(findTestObject('TFSEmbed/Login/New Team/From TFS 2017/TeamCreationObjects-Rename/span_New team'))
 
 String TeamName = CustomKeywords.'keyword.edevkatalon.com.GeneralKeywords.GetRandomString'()
 
-WebUI.setText(findTestObject('TFSEmbed/Login/New Team/From TFS 2017/Team Creation Objects/input_groupName'), TeamName)
+WebUI.setText(findTestObject('TFSEmbed/Login/New Team/From TFS 2017/TeamCreationObjects-Rename/input_groupName'), TeamName)
 
-WebUI.click(findTestObject('TFSEmbed/Login/New Team/From TFS 2017/Team Creation Objects/button_Create team'))
+WebUI.click(findTestObject('TFSEmbed/Login/New Team/From TFS 2017/TeamCreationObjects-Rename/button_Create team'))
 
 WebUI.closeBrowser()
 
