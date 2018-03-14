@@ -22,11 +22,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-String server = findTestData('TestData').getValue('TFSServer', 2)
+String server = findTestData('datadriven').getValue('TFSServer', 2)
 
-String username = findTestData('TestData').getValue('username', 1)
+String username = findTestData('datadriven').getValue('username', 1)
 
-String password = findTestData('TestData').getValue('password', 1)
+String password = findTestData('datadriven').getValue('password', 1)
 
 WebUI.navigateToUrl(server)
 

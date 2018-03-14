@@ -22,3 +22,34 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('VSTS/Login/Existing Team/TFVC Team/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.click(findTestObject('Standalone/Modules Objects/Smart Note/Page_Overview dashboard - Microsoft (2)/Work_tab'))
+
+WebUI.click(findTestObject('Standalone/Modules Objects/Smart Note/Page_SmartNote - Microsoft Team Fou (2)/New_dropdown'))
+
+WebUI.click(findTestObject('Standalone/Modules Objects/Smart Note/Page_SmartNote - Microsoft Team Fou (2)/Page_en_NewDropdown'))
+
+WebUI.click(findTestObject('Standalone/Modules Objects/Smart Note/Page_SmartNote - Microsoft Team Fou (2)/Name_page'))
+
+WebUI.setText(findTestObject('Standalone/Modules Objects/Smart Note/Page_SmartNote - Microsoft Team Fou (2)/Name_page'), 
+    '')
+
+WebUI.click(findTestObject('Standalone/Modules Objects/Smart Note/Page_SmartNote - Microsoft Team Fou (2)/OkButton_page_creation'))
+
+WebUI.click(findTestObject('Standalone/Modules Objects/Smart Note/Page_SmartNote - Microsoft Team Fou (2)/editor_area'))
+
+WebUI.click(findTestObject('Standalone/Modules Objects/Smart Note/Page_SmartNote - Microsoft Team Fou (2)/editor_ContainerArea'))
+
+WebUI.setText(findTestObject('Standalone/Modules Objects/Smart Note/Page_SmartNote - Microsoft Team Fou (2)/editor_ContainerArea'), 
+    'asdasd')
+
+WebUI.click(findTestObject('Standalone/Modules Objects/Smart Note/Page_SmartNote - Microsoft Team Fou (2)/Save_dropdown'))
+
+WebUI.click(findTestObject('Standalone/Modules Objects/Smart Note/Page_SmartNote - Microsoft Team Fou (2)/Save_en_saveDropdown'))
+
+WebUI.verifyElementVisible(findTestObject('Standalone/Modules Objects/Smart Note/Page_SmartNote - Microsoft Team Fou (2)/notification_save_message'))
+
+WebUI.refresh()
+
+WebUI.verifyElementText(findTestObject('Standalone/Modules Objects/Smart Note/Page_SmartNote - Microsoft Team Fou (2)/editor_ContainerArea'), 
+    'asdasd')
+
