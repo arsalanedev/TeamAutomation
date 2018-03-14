@@ -21,3 +21,5 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.check(findTestObject(null))
 
+WebUI.acceptAlert()
+
