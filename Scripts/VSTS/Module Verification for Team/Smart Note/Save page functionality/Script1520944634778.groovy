@@ -22,7 +22,3 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('VSTS/Login/Existing Team/TFVC Team/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('VSTS/Login/Existing Team/GIT Team/Page_Overview dashboard - Visual St/Dashboard_Work'))
-
-WebUI.click(findTestObject('VSTS/Login/Existing Team/GIT Team/Page_Product backlog/SmartNote'))
-

@@ -22,7 +22,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-String server = findTestData('TestData').getValue('TFSServer', 1)
+String server = findTestData('TestData').getValue('TFSServer', 2)
 
 String username = findTestData('TestData').getValue('username', 1)
 
@@ -41,7 +41,9 @@ WebUI.click(findTestObject('VSTS/Login/Existing Team/TFVC Team/Page_Sign in to y
 
 WebUI.click(findTestObject('VSTS/Login/Existing Team/TFVC Team/Page_Sign in to your account/input_idSIButton9'))
 
-WebUI.delay(2)
+WebUI.waitForPageLoad(2)
 
-WebUI.navigateToUrl('easyedsaad.visualstudio.com/13.13.1TFVCAgile/TeamA')
+WebUI.navigateToUrl('https://automationkatalon.visualstudio.com/xktl3tcg72/21e05d5804/')
+
+WebUI.waitForPageLoad(2)
 
