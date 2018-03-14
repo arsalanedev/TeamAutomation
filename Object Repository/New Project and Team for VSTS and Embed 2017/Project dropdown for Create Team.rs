@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>li_New team</name>
+   <name>Project dropdown for Create Team</name>
    <tag></tag>
-   <elementGuidId>9730b7e4-a36a-4f12-b299-8a8c895aa9f1</elementGuidId>
+   <elementGuidId>8bab6028-362b-4fad-a071-652db0a592a9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//li[@id = 'mi_5_teams']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,14 +24,21 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>mi_161</value>
+      <value>mi_5_teams</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>menu-item hover</value>
+      <value>menu-item l1-navigation-text drop-visible hover focus</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Project Selector</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -44,6 +57,27 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>command</name>
+      <type>Main</type>
+      <value>teams</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-haspopup</name>
+      <type>Main</type>
+      <value>true</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>true</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
@@ -53,27 +87,27 @@
       <matchCondition>equals</matchCondition>
       <name>aria-posinset</name>
       <type>Main</type>
-      <value>7</value>
+      <value>1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>aria-setsize</name>
       <type>Main</type>
-      <value>7</value>
+      <value>1</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>New team</value>
+      <value>qp51fk4a5wqp51fk4a5w HomeRecent projects/teamsvcszr7vfp813.13.1GIT_Agile4qah3uwj385mr4qhbaebBrowse...New team</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mi_161&quot;)</value>
+      <value>id(&quot;mi_5_teams&quot;)</value>
    </webElementProperties>
 </WebElementEntity>

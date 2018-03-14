@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>li_qp51fk4a5wqp51fk4a5w HomeRe</name>
+   <name>li_(CtrlS)Save  Close</name>
    <tag></tag>
-   <elementGuidId>8bab6028-362b-4fad-a071-652db0a592a9</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//li[@id = 'mi_5_teams']</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>fa1616ba-0a65-4630-8fe0-0af79218caac</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -24,21 +18,14 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>mi_5_teams</value>
+      <value>mi_754_save-and-close-work-item</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>menu-item l1-navigation-text drop-visible hover focus</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-label</name>
-      <type>Main</type>
-      <value>Project Selector</value>
+      <value>menu-item split-drop-item drop-down-save hover</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -59,21 +46,7 @@
       <matchCondition>equals</matchCondition>
       <name>command</name>
       <type>Main</type>
-      <value>teams</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-haspopup</name>
-      <type>Main</type>
-      <value>true</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-expanded</name>
-      <type>Main</type>
-      <value>true</value>
+      <value>save-and-close-work-item</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,20 +67,20 @@
       <matchCondition>equals</matchCondition>
       <name>aria-setsize</name>
       <type>Main</type>
-      <value>1</value>
+      <value>5</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>qp51fk4a5wqp51fk4a5w HomeRecent projects/teamsvcszr7vfp813.13.1GIT_Agile4qah3uwj385mr4qhbaebBrowse...New team</value>
+      <value>(Ctrl+S)Save &amp; Close</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mi_5_teams&quot;)</value>
+      <value>id(&quot;mi_754_save-and-close-work-item&quot;)</value>
    </webElementProperties>
 </WebElementEntity>

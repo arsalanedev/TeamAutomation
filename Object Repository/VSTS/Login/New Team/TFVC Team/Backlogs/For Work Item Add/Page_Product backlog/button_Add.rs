@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Work</name>
+   <name>button_Add</name>
    <tag></tag>
-   <elementGuidId>715fbe27-913f-4174-94d0-cae537e688dc</elementGuidId>
+   <elementGuidId>06f082b0-2618-48b7-904f-3437028b69db</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//span[@class = 'text' and (text() = 'Work' or . = 'Work')]</value>
+         <value>//button[@type = 'button' and (text() = 'Add' or . = 'Add')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,34 +17,34 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>type</name>
       <type>Main</type>
-      <value>text</value>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>role</name>
+      <name>class</name>
       <type>Main</type>
-      <value>button</value>
+      <value>add-panel-button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Work</value>
+      <value>Add</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mi_343_ms.vss-work-web.work-hub-group&quot;)/span[@class=&quot;text&quot;]</value>
+      <value>id(&quot;vss_8&quot;)/div[@class=&quot;leftPane hotkey-section hotkey-section-2&quot;]/div[@class=&quot;right-hub-content&quot;]/div[@class=&quot;hub-pivot-content&quot;]/div[@class=&quot;main-content&quot;]/div[@class=&quot;backlog-header&quot;]/div[@class=&quot;panel-region&quot;]/div[@class=&quot;add-panel-data add-panel&quot;]/div[1]/table[@class=&quot;add-panel-table&quot;]/tbody[1]/tr[@class=&quot;add-panel-row dynamic-add-panel-row&quot;]/td[2]/table[@class=&quot;addpanel-full-width-row&quot;]/tbody[1]/tr[1]/td[@class=&quot;add-panel-full-width-row-button&quot;]/button[@class=&quot;add-panel-button&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ProjectNameOnDashboard</name>
+   <name>ProjectNameOnDashboard - Project name for Team</name>
    <tag></tag>
    <elementGuidId>c824240d-5bb1-41c1-a52e-0e41161aeb9c</elementGuidId>
    <selectorCollection>

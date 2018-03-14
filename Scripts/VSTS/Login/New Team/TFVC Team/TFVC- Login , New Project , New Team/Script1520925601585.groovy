@@ -28,37 +28,31 @@ WebUI.callTestCase(findTestCase('VSTS/Login/Login VSTS'), [:], FailureHandling.S
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('VSTS/Login/New Team/TFVC Team/CreateNewProject/newProject-btn'))
+WebUI.click(findTestObject('New Project and Team for VSTS and Embed 2017/newProject-btn'))
 
-WebUI.setText(findTestObject('VSTS/Login/New Team/TFVC Team/CreateNewProject/newProjectTextField'), projectName)
+WebUI.setText(findTestObject('New Project and Team for VSTS and Embed 2017/newProjectTextField'), projectName)
 
-WebUI.click(findTestObject('VSTS/Login/New Team/TFVC Team/CreateNewProject/versionControlDropdown'))
+WebUI.waitForElementClickable(findTestObject('New Project and Team for VSTS and Embed 2017/button_Create'), 5)
 
-WebUI.click(findTestObject('VSTS/Login/New Team/TFVC Team/CreateNewProject/versionControlValue -TFVC'))
-
-WebUI.waitForElementClickable(findTestObject('Object Repository/VSTS/Login/New Team/TFVC Team/CreateNewProject/button_Create'), 
-    5)
-
-WebUI.click(findTestObject('VSTS/Login/New Team/TFVC Team/CreateNewProject/button_Create'))
+WebUI.click(findTestObject('New Project and Team for VSTS and Embed 2017/button_Create'))
 
 WebUI.delay(5)
 
-WebUI.waitForElementPresent(findTestObject('VSTS/Login/New Team/TFVC Team/CreateNewTeam/ProjectNameOnDashboard'), 10)
+WebUI.waitForElementPresent(findTestObject('New Project and Team for VSTS and Embed 2017/ProjectNameOnDashboard - Project name for Team'), 10)
 
-WebUI.click(findTestObject('VSTS/Login/New Team/TFVC Team/CreateNewTeam/Page_Project Overview - Visual Stud/li_qp51fk4a5wqp51fk4a5w HomeRe'))
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('VSTS/Login/New Team/TFVC Team/CreateNewTeam/NewTeamButtonClick/span_New team'))
+WebUI.click(findTestObject('New Project and Team for VSTS and Embed 2017/Project dropdown for Create Team'))
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('VSTS/Login/New Team/TFVC Team/CreateNewTeam/Team Name/Page_Project Overview - Visual Stud/input_groupName'), 
-    TeamName)
+WebUI.click(findTestObject('New Project and Team for VSTS and Embed 2017/span_New team'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('VSTS/Login/New Team/TFVC Team/CreateNewTeam/Team Name/Page_Project Overview - Visual Stud/span_Create team'))
+WebUI.setText(findTestObject('New Project and Team for VSTS and Embed 2017/input_groupName'), TeamName)
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('New Project and Team for VSTS and Embed 2017/span_Create team'))
 
 WebUI.delay(20)
 

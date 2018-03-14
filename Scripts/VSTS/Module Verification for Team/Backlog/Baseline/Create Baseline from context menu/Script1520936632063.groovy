@@ -23,12 +23,10 @@ WebUI.callTestCase(findTestCase('VSTS/Login/New Team/TFVC Team/TFVC- Login , New
 
 WebUI.click(findTestObject('VSTS/Modules Objects/Backlog/Work Tab Click/span_Work'))
 
-WebUI.click(findTestObject('VSTS/Modules Objects/Backlog/Work Tab Click/Page_Product backlog/div_Features'))
-
-WebUI.waitForElementPresent(findTestObject('VSTS/Modules Objects/Backlog/Add work item/Page_Features/h1_Features'), 5)
-
 for (def index : (0..10)) {
-    WebUI.setText(findTestObject('VSTS/Modules Objects/Backlog/Work Tab Click/backlog_newWiTextBox'), 'newName' + index)
+    WebUI.setText(findTestObject('VSTS/Modules Objects/Backlog/Work Tab Click/backlog_newWiTextBox'), 'TestWI' + index)
+
+    WebUI.click(findTestObject('VSTS/Login/New Team/TFVC Team/Backlogs/For Work Item Add/Page_Product backlog (1)/li_(CtrlS)Save  Close'))
 
     WebUI.click(findTestObject('VSTS/Modules Objects/Backlog/Add work item/Page_Features/button_Add'))
 }

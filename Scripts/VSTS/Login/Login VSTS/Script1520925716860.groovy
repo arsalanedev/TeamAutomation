@@ -24,7 +24,7 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-String server = findTestData('Datafile').getValue('TFSServer', 1)
+String server = findTestData('Datafile').getValue('TFSServer', 2)
 
 String username = findTestData('Datafile').getValue('username', 1)
 
