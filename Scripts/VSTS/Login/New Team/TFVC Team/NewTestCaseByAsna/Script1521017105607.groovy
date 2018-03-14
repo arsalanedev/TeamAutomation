@@ -19,7 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.check(findTestObject(null))
+WebUI.acceptAlert()
 
-WebUI.clickImage(findTestObject(null))
+Mobile.checkElement(findTestObject(null), 0)
 
