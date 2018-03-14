@@ -32,6 +32,10 @@ WebUI.click(findTestObject('New Project and Team for VSTS and Embed 2017/newProj
 
 WebUI.setText(findTestObject('New Project and Team for VSTS and Embed 2017/newProjectTextField'), projectName)
 
+WebUI.click(findTestObject('New Project and Team for VSTS and Embed 2017/versionControlDropdown'))
+
+WebUI.click(findTestObject('New Project and Team for VSTS and Embed 2017/versionControlValue -TFVC'))
+
 WebUI.waitForElementClickable(findTestObject('New Project and Team for VSTS and Embed 2017/button_Create'), 5)
 
 WebUI.click(findTestObject('New Project and Team for VSTS and Embed 2017/button_Create'))
@@ -56,6 +60,4 @@ WebUI.delay(5)
 WebUI.click(findTestObject('New Project and Team for VSTS and Embed 2017/span_Create team'))
 
 WebUI.delay(20)
-
-WebUI.acceptAlert()
 

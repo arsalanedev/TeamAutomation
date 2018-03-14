@@ -20,37 +20,40 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+String projectName = CustomKeywords.'keyword.edevkatalon.com.GeneralKeywords.GetRandomString'()
 
-WebUI.maximizeWindow()
+String TeamName = CustomKeywords.'keyword.edevkatalon.com.GeneralKeywords.GetRandomString'()
 
-String server = findTestData('Datafile').getValue("TFSServer", 2)
-
-String username = findTestData('Datafile').getValue("username", 1)
-
-String password = findTestData('Datafile').getValue("password", 1)
-
-WebUI.navigateToUrl(server)
-
-WebUI.setText(findTestObject('VSTS/Login/New Team/TFVC Team/Login/Page_Sign in to your Microsoft acco/input_loginfmt'), 
-    username)
+WebUI.callTestCase(findTestCase('VSTS/Login/Login VSTS'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3)
 
-WebUI.sendKeys(findTestObject('VSTS/Login/New Team/TFVC Team/Login/Page_Sign in to your Microsoft acco/input_loginfmt'), 
-    Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('New Project and Team for VSTS and Embed 2017/newProject-btn'))
 
-WebUI.setText(findTestObject('VSTS/Login/New Team/TFVC Team/Login/Page_Sign in to your Microsoft acco/input_passwd'), password)
+WebUI.setText(findTestObject('New Project and Team for VSTS and Embed 2017/newProjectTextField'), projectName)
 
-WebUI.delay(3)
+WebUI.waitForElementClickable(findTestObject('New Project and Team for VSTS and Embed 2017/button_Create'), 5)
 
-WebUI.sendKeys(findTestObject('VSTS/Login/New Team/TFVC Team/Login/Page_Sign in to your Microsoft acco/input_passwd'), Keys.chord(
-        Keys.ENTER))
+WebUI.click(findTestObject('New Project and Team for VSTS and Embed 2017/button_Create'))
 
-WebUI.click(findTestObject('VSTS/Login/New Team/TFVC Team/Login/Page_Sign in to your account/input_idBtn_Back'))
+WebUI.delay(5)
 
-WebUI.delay(3)
+WebUI.waitForElementPresent(findTestObject('New Project and Team for VSTS and Embed 2017/ProjectNameOnDashboard - Project name for Team'), 
+    10)
 
-not_run: assert WebUI.getText(findTestObject('Object Repository/Login/Page_Projects - Visual Studio Team/span_Projects')) == 
-'Projects'
+WebUI.click(findTestObject('New Project and Team for VSTS and Embed 2017/Project dropdown for Create Team'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('New Project and Team for VSTS and Embed 2017/span_New team'))
+
+WebUI.delay(5)
+
+WebUI.setText(findTestObject('New Project and Team for VSTS and Embed 2017/input_groupName'), TeamName)
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('New Project and Team for VSTS and Embed 2017/span_Create team'))
+
+WebUI.delay(20)
 

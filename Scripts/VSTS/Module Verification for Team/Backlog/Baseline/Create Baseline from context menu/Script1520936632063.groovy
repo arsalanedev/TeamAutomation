@@ -18,16 +18,25 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('VSTS/Login/New Team/TFVC Team/TFVC- Login , New Project , New Team'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('VSTS/Modules Objects/Backlog/Work Tab Click/span_Work'))
 
-for (def index : (0..10)) {
+for (def index : (1..10)) {
     WebUI.setText(findTestObject('VSTS/Modules Objects/Backlog/Work Tab Click/backlog_newWiTextBox'), 'TestWI' + index)
 
-    WebUI.click(findTestObject('VSTS/Login/New Team/TFVC Team/Backlogs/For Work Item Add/Page_Product backlog (1)/li_(CtrlS)Save  Close'))
+    WebUI.delay(3)
 
     WebUI.click(findTestObject('VSTS/Modules Objects/Backlog/Add work item/Page_Features/button_Add'))
 }
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('VSTS/Modules Objects/Backlog/Work Item Selection/Page_Product backlog/div_grid-cell add-icon-cell'))
+WebUI.sendKeys(findTestObject('VSTS/Modules Objects/Backlog/Work Item Selection/Page_Product backlog/div_grid-cell add-icon-cell'),
+	Keys.chord(Keys.SHIFT))
+
+WebUI.click(findTestObject('VSTS/Modules Objects/Backlog/Work Item Selection/Page_Product backlog/div_grid-cell add-icon-cell (1)'))
 
