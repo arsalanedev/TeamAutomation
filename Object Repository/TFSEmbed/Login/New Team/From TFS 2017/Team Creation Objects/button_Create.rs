@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Create</name>
+   <tag></tag>
+   <elementGuidId>6dda2200-256d-4266-9604-f1968f87ba09</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>root_0f1ee530 ms-Button ms-Button--primary root_064e1043 isEnabled_064e1043</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Create project</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Create</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;vss_1&quot;)/div[@class=&quot;internal-content-host&quot;]/div[@class=&quot;project-hub-component&quot;]/div[@class=&quot;create-project-view&quot;]/div[@class=&quot;create-project-component&quot;]/div[@class=&quot;ms-Fabric ms-font-m&quot;]/div[@class=&quot;create-project-form bowtie-fabric&quot;]/fieldset[@class=&quot;form-fieldset&quot;]/div[@class=&quot;actions-container&quot;]/span[@class=&quot;create-action&quot;]/button[@class=&quot;root_0f1ee530 ms-Button ms-Button--primary root_064e1043 isEnabled_064e1043&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>
