@@ -38,7 +38,8 @@ WebUI.click(findTestObject('New Project and Team for VSTS and Embed 2017/button_
 
 WebUI.delay(5)
 
-WebUI.waitForElementPresent(findTestObject('New Project and Team for VSTS and Embed 2017/ProjectNameOnDashboard - Project name for Team'), 10)
+WebUI.waitForElementPresent(findTestObject('New Project and Team for VSTS and Embed 2017/ProjectNameOnDashboard - Project name for Team'), 
+    10)
 
 WebUI.click(findTestObject('New Project and Team for VSTS and Embed 2017/Project dropdown for Create Team'))
 
@@ -55,4 +56,6 @@ WebUI.delay(5)
 WebUI.click(findTestObject('New Project and Team for VSTS and Embed 2017/span_Create team'))
 
 WebUI.delay(20)
+
+WebUI.acceptAlert()
 
