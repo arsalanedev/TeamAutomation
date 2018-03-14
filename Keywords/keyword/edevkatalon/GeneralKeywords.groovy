@@ -1,4 +1,4 @@
-package generalkeywords
+package keyword.edevkatalon
 
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
@@ -25,12 +25,13 @@ import MobileBuiltInKeywords as Mobile
 import WSBuiltInKeywords as WS
 import WebUiBuiltInKeywords as WebUI
 
-public class random_text {
+public class GeneralKeywords {
+
 	@Keyword
 	def GetRandomString()
 	{
 		String chars = 'abcdefghijklmnopqrstuvwxyz0123456789'
-		int length = 10
+		int length = 5
 		
 		Random random = new Random()
 		
