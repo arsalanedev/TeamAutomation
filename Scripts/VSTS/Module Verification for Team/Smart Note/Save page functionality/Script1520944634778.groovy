@@ -20,6 +20,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+
+
+String page_name = CustomKeywords.'keyword.edevkatalon.com.GeneralKeywords.GetRandomString'()
+
 WebUI.callTestCase(findTestCase('VSTS/Login/Existing Team/TFVC Team/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Standalone/Modules Objects/Smart Note/Page_Overview dashboard - Microsoft (2)/Work_tab'))
@@ -31,7 +35,7 @@ WebUI.click(findTestObject('Standalone/Modules Objects/Smart Note/Page_SmartNote
 WebUI.click(findTestObject('Standalone/Modules Objects/Smart Note/Page_SmartNote - Microsoft Team Fou (2)/Name_page'))
 
 WebUI.setText(findTestObject('Standalone/Modules Objects/Smart Note/Page_SmartNote - Microsoft Team Fou (2)/Name_page'), 
-    '')
+    page_name)
 
 WebUI.click(findTestObject('Standalone/Modules Objects/Smart Note/Page_SmartNote - Microsoft Team Fou (2)/OkButton_page_creation'))
 

@@ -3,6 +3,24 @@
    <description></description>
    <name>TeamAutomation</name>
    <tag></tag>
+   <integratedEntity>
+      <productName>qTest</productName>
+      <type>PROJECT</type>
+   </integratedEntity>
    <UUID>85fedfed-6d6c-4dae-9277-285a90ea1adb</UUID>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <recentExpandedTreeEntityIds>Test Cases</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Test Cases/VSTS</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Test Cases/VSTS/Login</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Test Cases/VSTS/Login/Existing Team</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Test Cases/VSTS/Login/Existing Team/GIT Team</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Test Cases/VSTS/Login/Existing Team/TFVC Team</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Test Cases/VSTS/Login/New Team</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Test Cases/VSTS/Login/New Team/GIT Team</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Test Cases/VSTS/Login/New Team/TFVC Team</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Object Repository</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Object Repository/VSTS</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Object Repository/VSTS/Login</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Object Repository/VSTS/Login/Existing Team</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Data Files</recentExpandedTreeEntityIds>
 </Project>
