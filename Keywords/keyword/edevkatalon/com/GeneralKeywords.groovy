@@ -24,6 +24,7 @@ import internal.GlobalVariable
 import MobileBuiltInKeywords as Mobile
 import WSBuiltInKeywords as WS
 import WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.testobject.ConditionType as ConditionType
 
 
 public class GeneralKeywords {
@@ -43,6 +44,15 @@ public class GeneralKeywords {
 			}
 			
 			return sb.toString()
+	}
+	
+	@Keyword
+	def getCustomTestObjectBy(java.lang.String selectorType , java.lang.String selector) {
+
+		// Create a new object programmatically
+		TestObject myNewObject = new TestObject("TheObjectName");
+		myNewObject.addProperty(selectorType, ConditionType.EQUALS , selector);
+		return myNewObject;
 	}
 }
 
