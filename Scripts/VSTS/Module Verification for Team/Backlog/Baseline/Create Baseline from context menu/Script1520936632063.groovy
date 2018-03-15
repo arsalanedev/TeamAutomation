@@ -34,9 +34,17 @@ for (def index : (1..10)) {
 
 WebUI.delay(3)
 
+WebUI.focus(findTestObject('VSTS/Modules Objects/Backlog/Work Item Selection/Page_Product backlog/div_grid-cell add-icon-cell'))
+
 WebUI.click(findTestObject('VSTS/Modules Objects/Backlog/Work Item Selection/Page_Product backlog/div_grid-cell add-icon-cell'))
-WebUI.sendKeys(findTestObject('VSTS/Modules Objects/Backlog/Work Item Selection/Page_Product backlog/div_grid-cell add-icon-cell'),
-	Keys.chord(Keys.SHIFT))
+
+WebUI.delay(3)
+
+WebUI.sendKeys(findTestObject('VSTS/Modules Objects/Backlog/Work Item Selection/Page_Product backlog/div_grid-cell add-icon-cell'), 
+    Keys.chord(Keys.SHIFT))
 
 WebUI.click(findTestObject('VSTS/Modules Objects/Backlog/Work Item Selection/Page_Product backlog/div_grid-cell add-icon-cell (1)'))
+
+WebUI.sendKeys(findTestObject('VSTS/Modules Objects/Backlog/Work Item Selection/Page_Product backlog/div_grid-cell add-icon-cell'), 
+    Keys.chord(Keys.LEFT_CONTROL, 'a'))
 
