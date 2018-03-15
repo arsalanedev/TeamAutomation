@@ -24,13 +24,13 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-String server = findTestData('Datafile').getValue('TFSServer', 9)
+String server = findTestData('TestData').getValue('TFSServer', 9)
 
-String username = findTestData('Datafile').getValue('username', 9)
+String username = findTestData('TestData').getValue('username', 9)
 
-String password = findTestData('Datafile').getValue('password', 9)
+String password = findTestData('TestData').getValue('password', 9)
 
 WebUI.navigateToUrl(server)
 
-WebUI.navigateToUrl('http://syedsaad:8080/tfs/QA%20Collection/Cmmi_Git_Automation/Automation-Team-Git/_dashboards')
+WebUI.navigateToUrl('http://syedsaad:8080/tfs/QA%20Collection/Agile_TFVC_Automation/Automation-Team-TFvc/_dashboards')
 
