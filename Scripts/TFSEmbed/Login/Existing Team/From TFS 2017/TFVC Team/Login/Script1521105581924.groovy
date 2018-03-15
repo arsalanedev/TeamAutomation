@@ -24,11 +24,11 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-String server = findTestData('TestData').getValue('TFSServer', 9)
+String server = findTestData('Datafile').getValue('TFSServer', 9)
 
-String username = findTestData('TestData').getValue('username', 9)
+String username = findTestData('Datafile').getValue('username', 9)
 
-String password = findTestData('TestData').getValue('password', 9)
+String password = findTestData('Datafile').getValue('password', 9)
 
 WebUI.navigateToUrl(server)
 
