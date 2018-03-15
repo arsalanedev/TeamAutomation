@@ -4,6 +4,12 @@
    <name>input_idSIButton9</name>
    <tag></tag>
    <elementGuidId>7c68463a-78fc-4bea-81dd-e9cb64a45faa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id = 'idSIButton9' and @value = 'Sign in' and @type = 'submit']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -43,11 +49,11 @@
             visible: isPrimaryButtonVisible</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>Next</value>
+      <value>Sign in</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

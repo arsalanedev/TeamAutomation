@@ -34,17 +34,14 @@ for (def index : (1..10)) {
 
 WebUI.delay(3)
 
-WebUI.focus(findTestObject('VSTS/Modules Objects/Backlog/Work Item Selection/Page_Product backlog/div_grid-cell add-icon-cell'))
+CustomKeywords.'keyword.edevkatalon.com.ActionClass.SelectElement'()
 
-WebUI.click(findTestObject('VSTS/Modules Objects/Backlog/Work Item Selection/Page_Product backlog/div_grid-cell add-icon-cell'))
+WebUI.rightClick(findTestObject('VSTS/Modules Objects/Backlog/Click Context Menu and Select Baseline/Page_Features/span_grid-context-menu-icon CLICK'))
 
-WebUI.delay(3)
+WebUI.click(findTestObject('VSTS/Modules Objects/Backlog/Click Context Menu and Select Baseline/Page_Features/span_Create Baseline CLick'))
 
-WebUI.sendKeys(findTestObject('VSTS/Modules Objects/Backlog/Work Item Selection/Page_Product backlog/div_grid-cell add-icon-cell'), 
-    Keys.chord(Keys.SHIFT))
+not_run: WebUI.setText(findTestObject('VSTS/Modules Objects/Backlog/Click Context Menu and Select Baseline/Page_Features/input_ig-NewBaselineDialog-txt'), 
+    'tEST1bASELINE')
 
-WebUI.click(findTestObject('VSTS/Modules Objects/Backlog/Work Item Selection/Page_Product backlog/div_grid-cell add-icon-cell (1)'))
-
-WebUI.sendKeys(findTestObject('VSTS/Modules Objects/Backlog/Work Item Selection/Page_Product backlog/div_grid-cell add-icon-cell'), 
-    Keys.chord(Keys.LEFT_CONTROL, 'a'))
+not_run: WebUI.click(findTestObject('VSTS/Modules Objects/Backlog/Click Context Menu and Select Baseline/Page_Features/input_ig-NewBaselineDialog-new'))
 

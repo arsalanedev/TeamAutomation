@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_grid-context-menu-icon</name>
+   <name>span_grid-context-menu-icon CLICK</name>
    <tag></tag>
-   <elementGuidId>da64f769-96bc-4ce4-9700-365a441d0f56</elementGuidId>
+   <elementGuidId>9d3c904f-1f76-4bcd-a51e-3ef5b5cae7cb</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,6 +25,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;row_vss_69_0&quot;)/div[@class=&quot;grid-cell&quot;]/div[@class=&quot;grid-context-menu-container grid-context-menu&quot;]/span[@class=&quot;grid-context-menu-icon bowtie-icon bowtie-ellipsis&quot;]</value>
+      <value>id(&quot;row_vss_104_0&quot;)/div[@class=&quot;grid-cell&quot;]/div[@class=&quot;grid-context-menu-container grid-context-menu&quot;]/span[@class=&quot;grid-context-menu-icon bowtie-icon bowtie-ellipsis&quot;]</value>
    </webElementProperties>
 </WebElementEntity>
