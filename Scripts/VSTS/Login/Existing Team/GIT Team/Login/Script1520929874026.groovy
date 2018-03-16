@@ -22,7 +22,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-String server = findTestData('datadriven').getValue('TFSServer', 2)
+String server = findTestData('datadriven').getValue('TFSServer', 1)
 
 String username = findTestData('datadriven').getValue('username', 1)
 

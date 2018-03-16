@@ -18,4 +18,51 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.callTestCase(findTestCase('VSTS/Login/Existing Team/TFVC Team/Login'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('VSTS/Modules Objects/Smart Note/Page_Overview dashboard - Visual St (2)/span_Work'))
+
+WebUI.click(findTestObject('VSTS/Modules Objects/Smart Note/Page_Product backlog (2)/span_SmartNote'))
+
+WebUI.click(findTestObject('VSTS/Modules Objects/Smart Note/Page_SmartNote - Visual Studio Team (2)/span_New'))
+
+WebUI.click(findTestObject('VSTS/Modules Objects/Smart Note/Page_SmartNote - Visual Studio Team (1)/span_Page'))
+
+WebUI.setText(findTestObject('VSTS/Modules Objects/Smart Note/Page_SmartNote - Visual Studio Team (2)/input_ig-newfile-textbox-snt-n'), 
+    '123')
+
+WebUI.click(findTestObject('VSTS/Modules Objects/Smart Note/Page_SmartNote - Visual Studio Team (2)/input_ig-newfile-ok-button-snt'))
+
+WebUI.click(findTestObject('VSTS/Modules Objects/Smart Note/Page_SmartNote - Visual Studio Team (2)/div_ADSADASDADSDSAD'))
+
+WebUI.sendKeys(findTestObject('VSTS/Modules Objects/Smart Note/Page_SmartNote - Visual Studio Team (2)/div_sn_absolute_EditorCxacZ'), 
+    Keys.chord(Keys.ENTER))
+
+WebUI.click(findTestObject('VSTS/Modules Objects/Smart Note/Page_SmartNote - Visual Studio Team (2)/span_k-link'))
+
+WebUI.click(findTestObject('VSTS/Modules Objects/Smart Note/Page_SmartNote - Visual Studio Team (2)/span_Save'))
+
+WebUI.click(findTestObject('VSTS/Modules Objects/Smart Note/Page_SmartNote - Visual Studio Team (2)/span_k-link'))
+
+WebUI.click(findTestObject('VSTS/Modules Objects/Smart Note/Page_SmartNote - Visual Studio Team (2)/span_Check In Changes'))
+
+WebUI.click(findTestObject('VSTS/Modules Objects/Smart Note/Page_SmartNote - Visual Studio Team (2)/a_Edit'))
+
+WebUI.click(findTestObject('VSTS/Modules Objects/Smart Note/Page_SmartNote - Visual Studio Team (2)/a_145'))
+
+WebUI.click(findTestObject('VSTS/Modules Objects/Smart Note/Page_SmartNote - Visual Studio Team (2)/img_saveAsImg'))
+
+WebUI.switchToWindowTitle('SmartNote - Visual Studio Team Services')
+
+WebUI.doubleClick(findTestObject('VSTS/Modules Objects/Smart Note/Page_SmartNote - Visual Studio Team (2)/img_saveAsImg'))
+
+WebUI.switchToWindowTitle('SmartNote - Visual Studio Team Services')
+
+WebUI.click(findTestObject('VSTS/Modules Objects/Smart Note/Page_SmartNote - Visual Studio Team (2)/button_ui-button ui-widget ui-'))
+
+WebUI.click(findTestObject('VSTS/Modules Objects/Smart Note/Page_SmartNote - Visual Studio Team (2)/button_ok'))
+
+WebUI.acceptAlert()
 

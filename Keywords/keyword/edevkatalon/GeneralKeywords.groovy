@@ -31,7 +31,7 @@ public class GeneralKeywords {
 	def GetRandomString()
 	{
 		String chars = 'abcdefghijklmnopqrstuvwxyz0123456789'
-		int length = 5
+		int length = 10
 		
 		Random random = new Random()
 		
