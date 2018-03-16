@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_idBtn_Back</name>
+   <name>a_257</name>
    <tag></tag>
-   <elementGuidId>29b046af-3bbc-4a04-bba8-10542adc6a06</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//input[@type = 'button' and @id = 'idBtn_Back']</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>c7265b63-dc5a-478b-ac42-a30eed1d123a</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -17,56 +11,62 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>button</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>idBtn_Back</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-block</value>
+      <value>ig-mp-heading-title-link</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>257</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-bind</name>
+      <name>data-linkdata</name>
       <type>Main</type>
-      <value>
-            attr: {
-                'id': secondaryButtonId || 'idBtn_Back',
-                'aria-describedby': secondaryButtonDescribedBy },
-            value: secondaryButtonText() || str['CT_HRD_STR_Splitter_Back'],
-            hasFocus: focusOnSecondaryButton,
-            click: secondaryButton_onClick,
-            enable: isSecondaryButtonEnabled,
-            visible: isSecondaryButtonVisible</value>
+      <value>257</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>value</name>
+      <name>onclick</name>
       <type>Main</type>
-      <value>No</value>
+      <value>$(&quot;#snt-main-panel&quot;).trigger('onHeadingTitleLinkClicked',{data:$('#snt-main-panel .ig-mp-heading-title-link').attr('data-linkdata'),ev:event});</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>257:</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;idBtn_Back&quot;)</value>
+      <value>id(&quot;snt-main-panel&quot;)/div[@class=&quot;ig-mp-heading-pane&quot;]/div[1]/a[@class=&quot;ig-mp-heading-title-link&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/VSTS/Modules Objects/Smart Note/CHECK IN CHANGES/Page_SmartNote - Visual Studio Team/iframe_externalContentHost227</value>
    </webElementProperties>
 </WebElementEntity>

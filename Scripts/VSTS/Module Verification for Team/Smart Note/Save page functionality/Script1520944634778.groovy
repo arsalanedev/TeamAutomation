@@ -24,7 +24,7 @@ String page_name = CustomKeywords.'keyword.edevkatalon.GeneralKeywords.GetRandom
 
 WebUI.callTestCase(findTestCase('VSTS/Login/Existing Team/TFVC Team/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('VSTS/Modules Objects/Smart Note/Page_Overview dashboard - Visual St (1)/span_Work'))
+WebUI.click(findTestObject('VSTS/Modules Objects/Smart Note/CHECK IN CHANGES/Page_Overview dashboard - Visual St/span_Work'))
 
 WebUI.click(findTestObject('VSTS/Modules Objects/Smart Note/Page_Product backlog (1)/span_SmartNote'))
 

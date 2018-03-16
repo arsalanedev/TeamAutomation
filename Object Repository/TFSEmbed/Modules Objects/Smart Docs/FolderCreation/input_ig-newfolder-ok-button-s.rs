@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_idBtn_Back</name>
+   <name>input_ig-newfolder-ok-button-s</name>
    <tag></tag>
-   <elementGuidId>29b046af-3bbc-4a04-bba8-10542adc6a06</elementGuidId>
+   <elementGuidId>c53a3414-3436-47c3-89d1-b21860fd1481</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@type = 'button' and @id = 'idBtn_Back']</value>
+         <value>//input[@type = 'button' and @id = 'ig-newfolder-ok-button-smd-new-folder-dialog' and @ref_element = 'Object Repository/Page_Smart Docs - Microsoft Team Fo/iframe_externalContentHost4']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -27,46 +27,45 @@
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>idBtn_Back</value>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-block</value>
+      <value>ig-ui-button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-bind</name>
+      <name>id</name>
       <type>Main</type>
-      <value>
-            attr: {
-                'id': secondaryButtonId || 'idBtn_Back',
-                'aria-describedby': secondaryButtonDescribedBy },
-            value: secondaryButtonText() || str['CT_HRD_STR_Splitter_Back'],
-            hasFocus: focusOnSecondaryButton,
-            click: secondaryButton_onClick,
-            enable: isSecondaryButtonEnabled,
-            visible: isSecondaryButtonVisible</value>
+      <value>ig-newfolder-ok-button-smd-new-folder-dialog</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>No</value>
+      <value>OK</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>newFolderDialog.onNewFolderOkButtonClick('smd-new-folder-dialog')</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;idBtn_Back&quot;)</value>
+      <value>id(&quot;ig-newfolder-ok-button-smd-new-folder-dialog&quot;)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/TFSEmbed/Modules Objects/Smart Docs/FolderCreation/iframe_externalContentHost4</value>
    </webElementProperties>
 </WebElementEntity>

@@ -20,3 +20,35 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('https://automationkatalon.visualstudio.com/xktl3tcg72/21e05d5804/')
+
+WebUI.click(findTestObject('VSTS/Modules Objects/Smart Note/CHECK IN CHANGES/Page_Overview dashboard - Visual St/span_Work'))
+
+WebUI.click(findTestObject('VSTS/Modules Objects/Smart Note/CHECK IN CHANGES/Page_Work Items - Visual Studio Tea/span_SmartNote'))
+
+WebUI.click(findTestObject('VSTS/Modules Objects/Smart Note/Page_SmartNote - Visual Studio Team/span_New'))
+
+WebUI.click(findTestObject('VSTS/Modules Objects/Smart Note/Page_SmartNote - Visual Studio Team/span_Page'))
+
+WebUI.setText(findTestObject('VSTS/Modules Objects/Smart Note/CHECK IN CHANGES/Page_SmartNote - Visual Studio Team/input_ig-newfile-textbox-snt-n'), 
+    'ASDSAD')
+
+WebUI.click(findTestObject('VSTS/Modules Objects/Smart Note/CHECK IN CHANGES/Page_SmartNote - Visual Studio Team/input_ig-newfile-ok-button-snt'))
+
+WebUI.click(findTestObject('VSTS/Modules Objects/Smart Note/CHECK IN CHANGES/Page_SmartNote - Visual Studio Team/div_'))
+
+WebUI.sendKeys(findTestObject('VSTS/Modules Objects/Smart Note/CHECK IN CHANGES/Page_SmartNote - Visual Studio Team/div_ASDASDSADASDASDASD'), 
+    Keys.chord(Keys.ENTER))
+
+WebUI.click(findTestObject('VSTS/Modules Objects/Smart Note/CHECK IN CHANGES/Page_SmartNote - Visual Studio Team/span_k-icon  k-i-arrow-60-down'))
+
+WebUI.click(findTestObject('VSTS/Modules Objects/Smart Note/CHECK IN CHANGES/Page_SmartNote - Visual Studio Team/span_Check In Changes'))
+
+WebUI.click(findTestObject('VSTS/Modules Objects/Smart Note/CHECK IN CHANGES/Page_SmartNote - Visual Studio Team/a_257'))
+
+WebUI.click(findTestObject('VSTS/Modules Objects/Smart Note/CHECK IN CHANGES/Page_SmartNote - Visual Studio Team/img_saveAsImg'))
+
+WebUI.click(findTestObject('VSTS/Modules Objects/Smart Note/CHECK IN CHANGES/Page_SmartNote - Visual Studio Team/span_Save  Close'))
+
+WebUI.closeBrowser()
+

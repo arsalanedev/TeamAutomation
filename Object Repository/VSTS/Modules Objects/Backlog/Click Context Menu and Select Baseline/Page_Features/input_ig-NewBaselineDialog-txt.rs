@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_idBtn_Back</name>
+   <name>input_ig-NewBaselineDialog-txt</name>
    <tag></tag>
-   <elementGuidId>29b046af-3bbc-4a04-bba8-10542adc6a06</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//input[@type = 'button' and @id = 'idBtn_Back']</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>9ea8da69-fbc1-4296-9db9-217b6b527cc6</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -24,49 +18,48 @@
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>button</value>
+      <value>text</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>idBtn_Back</value>
+      <value>ig-NewBaselineDialog-txtBaselineLabel-ig-vsts-create-baseline</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>onkeypress</name>
       <type>Main</type>
-      <value>btn btn-block</value>
+      <value>newBaselineDialog.onNewBaselineEnterPress(event, this)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-bind</name>
+      <name>data-parentcontainerid</name>
       <type>Main</type>
-      <value>
-            attr: {
-                'id': secondaryButtonId || 'idBtn_Back',
-                'aria-describedby': secondaryButtonDescribedBy },
-            value: secondaryButtonText() || str['CT_HRD_STR_Splitter_Back'],
-            hasFocus: focusOnSecondaryButton,
-            click: secondaryButton_onClick,
-            enable: isSecondaryButtonEnabled,
-            visible: isSecondaryButtonVisible</value>
+      <value>ig-vsts-create-baseline</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>value</name>
+      <name>maxlength</name>
       <type>Main</type>
-      <value>No</value>
+      <value>100</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;idBtn_Back&quot;)</value>
+      <value>id(&quot;ig-NewBaselineDialog-txtBaselineLabel-ig-vsts-create-baseline&quot;)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/VSTS/Modules Objects/Backlog/Click Context Menu and Select Baseline/Page_Features/iframe_externalContentHost2026</value>
    </webElementProperties>
 </WebElementEntity>

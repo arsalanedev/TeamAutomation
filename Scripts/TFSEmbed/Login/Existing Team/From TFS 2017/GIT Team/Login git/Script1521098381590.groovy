@@ -22,28 +22,15 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-String server = findTestData('datadriven').getValue('TFSServer', 2)
+WebUI.maximizeWindow()
 
-String username = findTestData('datadriven').getValue('username', 1)
+String server = findTestData('Datafile').getValue('TFSServer', 9)
 
-String password = findTestData('datadriven').getValue('password', 1)
+String username = findTestData('Datafile').getValue('username', 9)
+
+String password = findTestData('Datafile').getValue('password', 9)
 
 WebUI.navigateToUrl(server)
 
-WebUI.setText(findTestObject('VSTS/Login/Existing Team/TFVC Team/Page_Sign in to your Microsoft acco/input_loginfmt'), username)
-
-WebUI.sendKeys(findTestObject('VSTS/Login/Existing Team/TFVC Team/Page_Sign in to your Microsoft acco/input_idSIButton9'), 
-    Keys.chord(Keys.ENTER))
-
-WebUI.setText(findTestObject('VSTS/Login/Existing Team/TFVC Team/Page_Sign in to your Microsoft acco/input_passwd'), password)
-
-WebUI.click(findTestObject('VSTS/Login/Existing Team/TFVC Team/Page_Sign in to your Microsoft acco/input_idSIButton9'))
-
-WebUI.click(findTestObject('VSTS/Login/Existing Team/TFVC Team/Page_Sign in to your account/input_idSIButton9'))
-
-WebUI.waitForPageLoad(2)
-
-WebUI.navigateToUrl('https://automationkatalon.visualstudio.com/xktl3tcg72/21e05d5804/')
-
-WebUI.waitForPageLoad(2)
+WebUI.navigateToUrl('http://syedsaad:8080/tfs/QA%20Collection/Cmmi_Git_Automation/Automation-Team-Git/_dashboards')
 

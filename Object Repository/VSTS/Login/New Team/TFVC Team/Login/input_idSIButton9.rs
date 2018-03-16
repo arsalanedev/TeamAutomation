@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_idBtn_Back</name>
+   <name>input_idSIButton9</name>
    <tag></tag>
-   <elementGuidId>29b046af-3bbc-4a04-bba8-10542adc6a06</elementGuidId>
+   <elementGuidId>7c68463a-78fc-4bea-81dd-e9cb64a45faa</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@type = 'button' and @id = 'idBtn_Back']</value>
+         <value>//input[@id = 'idSIButton9' and @class = 'btn btn-block btn-primary' and @type = 'submit']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -22,23 +22,16 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>id</name>
       <type>Main</type>
-      <value>button</value>
+      <value>idSIButton9</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>idBtn_Back</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-block</value>
+      <value>btn btn-block btn-primary</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,26 +40,33 @@
       <type>Main</type>
       <value>
             attr: {
-                'id': secondaryButtonId || 'idBtn_Back',
-                'aria-describedby': secondaryButtonDescribedBy },
-            value: secondaryButtonText() || str['CT_HRD_STR_Splitter_Back'],
-            hasFocus: focusOnSecondaryButton,
-            click: secondaryButton_onClick,
-            enable: isSecondaryButtonEnabled,
-            visible: isSecondaryButtonVisible</value>
+                'id': primaryButtonId || 'idSIButton9',
+                'aria-describedby': primaryButtonDescribedBy },
+            value: primaryButtonText() || str['CT_PWD_STR_SignIn_Button_Next'],
+            hasFocus: focusOnPrimaryButton,
+            click: primaryButton_onClick,
+            enable: isPrimaryButtonEnabled,
+            visible: isPrimaryButtonVisible</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>No</value>
+      <value>Next</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;idBtn_Back&quot;)</value>
+      <value>id(&quot;idSIButton9&quot;)</value>
    </webElementProperties>
 </WebElementEntity>

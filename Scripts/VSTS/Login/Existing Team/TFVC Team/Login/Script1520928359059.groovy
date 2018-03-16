@@ -30,7 +30,6 @@ String username = findTestData('datadriven').getValue('username', 1)
 
 String password = findTestData('datadriven').getValue('password', 1)
 
-
 WebUI.navigateToUrl(server)
 
 WebUI.setText(findTestObject('VSTS/Login/Existing Team/TFVC Team/NEW LOGIN/Page_Sign in to your Microsoft acco/input_loginfmt'), 
@@ -45,8 +44,6 @@ WebUI.setText(findTestObject('VSTS/Login/Existing Team/TFVC Team/NEW LOGIN/Page_
 WebUI.click(findTestObject('VSTS/Login/Existing Team/TFVC Team/Page_Sign in to your Microsoft acco/input_idSIButton9'))
 
 WebUI.click(findTestObject('VSTS/Login/Existing Team/TFVC Team/NEW LOGIN/Page_Sign in to your Microsoft acco/input_idSIButton9'))
-
-WebUI.waitForPageLoad(2)
 
 WebUI.navigateToUrl('https://automationkatalon.visualstudio.com/xktl3tcg72/21e05d5804/')
 
