@@ -1,37 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Work</name>
+   <name>div_Click Context Menu</name>
    <tag></tag>
-   <elementGuidId>195d8864-da0b-4fc6-a261-05cd5fb3a6fb</elementGuidId>
+   <elementGuidId>4ba376ac-2bfe-487e-979a-93e322ee7c98</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>a[id$='vss-work-web.work-hub-group']</value>
+         <value>id(&quot;row_vss_55_0&quot;)/div[@class=&quot;grid-cell&quot;]/div[@class=&quot;grid-context-menu-container grid-context-menu&quot;][count(. | //div[@role = 'button']) = count(//div[@role = 'button'])]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>text</value>
+      <value>grid-context-menu-container grid-context-menu</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>role</name>
       <type>Main</type>
@@ -40,15 +43,15 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>aria-label</name>
       <type>Main</type>
-      <value>Work</value>
+      <value>Row actions</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mi_338_ms.vss-work-web.work-hub-group&quot;)/span[@class=&quot;text&quot;]</value>
+      <value>id(&quot;row_vss_55_0&quot;)/div[@class=&quot;grid-cell&quot;]/div[@class=&quot;grid-context-menu-container grid-context-menu&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

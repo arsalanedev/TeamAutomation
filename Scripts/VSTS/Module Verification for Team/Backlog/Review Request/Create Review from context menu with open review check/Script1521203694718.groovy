@@ -19,3 +19,27 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.callTestCase(findTestCase('VSTS/Login/New Team/TFVC Team/TFVC- Login , New Project , New Team'), [:], FailureHandling.STOP_ON_FAILURE)
+
+String BaselineName = CustomKeywords.'keyword.edevkatalon.com.GeneralKeywords.GetRandomString'()
+
+WebUI.click(findTestObject('VSTS/Modules Objects/Backlog/Work Tab Click/span_Work'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('VSTS/Modules Objects/Backlog/Backlogs tab click/Page_Features (1)/span_Backlogs'))
+
+for (def index : (1..10)) {
+    WebUI.setText(findTestObject('VSTS/Modules Objects/Backlog/Work Tab Click/backlog_newWiTextBox'), 'TestWI' + index)
+
+    WebUI.delay(3)
+
+    WebUI.click(findTestObject('VSTS/Modules Objects/Backlog/Add work item/Page_Features/button_Add'))
+}
+
+WebUI.delay(3)
+
+CustomKeywords.'keyword.edevkatalon.com.ActionClass.SelectElement'()
+
+WebUI.rightClick(findTestObject('VSTS/Modules Objects/Backlog/Click CM/Page_Product backlog/div_grid-context-menu-containe'))
+

@@ -3,7 +3,7 @@
    <description></description>
    <name>input_ig-NewBaselineDialog-txt</name>
    <tag></tag>
-   <elementGuidId>9ea8da69-fbc1-4296-9db9-217b6b527cc6</elementGuidId>
+   <elementGuidId>91a2a4a4-61c1-402d-8061-0a0fc14b2f40</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -60,6 +60,6 @@
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/VSTS/Modules Objects/Backlog/Click Context Menu and Select Baseline/Page_Features/iframe_externalContentHost2026</value>
+      <value>Object Repository/VSTS/Modules Objects/Backlog/Click Context Menu and Select Baseline/Test/Page_Product backlog/iframe_externalContentHost476</value>
    </webElementProperties>
 </WebElementEntity>
