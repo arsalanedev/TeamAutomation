@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_idBtn_Back</name>
+   <name>a_GIT Team</name>
    <tag></tag>
-   <elementGuidId>29b046af-3bbc-4a04-bba8-10542adc6a06</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//input[@type = 'button' and @id = 'idBtn_Back']</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>13c924b4-a963-41c8-85af-575f2c00fb1c</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -17,56 +11,48 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>href</name>
       <type>Main</type>
-      <value>button</value>
+      <value>http://tfs2013s:8080/tfs/Test/00SSCmmiGIT/GIT Team</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_blank</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>idBtn_Back</value>
+      <value>projectwebaccess</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>title</name>
       <type>Main</type>
-      <value>btn btn-block</value>
+      <value>Open Team in Web Access</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-bind</name>
+      <name>text</name>
       <type>Main</type>
-      <value>
-            attr: {
-                'id': secondaryButtonId || 'idBtn_Back',
-                'aria-describedby': secondaryButtonDescribedBy },
-            value: secondaryButtonText() || str['CT_HRD_STR_Splitter_Back'],
-            hasFocus: focusOnSecondaryButton,
-            click: secondaryButton_onClick,
-            enable: isSecondaryButtonEnabled,
-            visible: isSecondaryButtonVisible</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>No</value>
+      <value>GIT Team</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;idBtn_Back&quot;)</value>
+      <value>id(&quot;projectwebaccess&quot;)</value>
    </webElementProperties>
 </WebElementEntity>

@@ -19,29 +19,32 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import org.stringtemplate.v4.compiler.STParser.ifstat_return as ifstat_return
 
-WebUI.callTestCase(findTestCase('VSTS/Login/New Team/TFVC Team/TFVC- Login , New Project , New Team'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Standalone/Login/Existing Team/From TFS 2013/GIT Team/Standalone 2013 GIT Team'), [:], 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('VSTS/Modules Objects/Backlog/Work Tab Click/span_Work'))
+WebUI.click(findTestObject('Standalone/Modules Objects/Diagram/folder in team/span_DEFINE'))
 
-for (def index : (1..10)) {
-    WebUI.setText(findTestObject('VSTS/Modules Objects/Backlog/Work Tab Click/backlog_newWiTextBox'), 'TestWI' + index)
+WebUI.waitForElementVisible(findTestObject('Object Repository/Standalone/Modules Objects/Diagram/folder in team/span_DEFINE'), 1)
 
-    WebUI.delay(3)
+WebUI.click(findTestObject('Standalone/Modules Objects/Diagram/folder in team/span_k-icon  k-i-arrow-60-down'))
 
-    WebUI.click(findTestObject('VSTS/Modules Objects/Backlog/Add work item/Page_Features/button_Add'))
-}
+WebUI.click(findTestObject('Standalone/Modules Objects/Diagram/folder in team/span_Folder'))
 
-WebUI.delay(3)
+String FolderName = CustomKeywords.'keyword.edevkatalon.com.GeneralKeywords.GetRandomString'()
 
-CustomKeywords.'keyword.edevkatalon.com.ActionClass.SelectElement'()
+WebUI.setText(findTestObject('Standalone/Modules Objects/Diagram/folder in team/input_ig-newfolder-textbox-mdl'), FolderName)
 
-WebUI.rightClick(findTestObject('VSTS/Modules Objects/Backlog/Click Context Menu and Select Baseline/Page_Features/span_grid-context-menu-icon CLICK'))
+WebUI.click(findTestObject('Standalone/Modules Objects/Diagram/folder in team/input_ig-newfolder-ok-button-m'))
 
-WebUI.click(findTestObject('VSTS/Modules Objects/Backlog/Click Context Menu and Select Baseline/Page_Features/span_Create Baseline CLick'))
+WebUI.click(findTestObject('Standalone/Modules Objects/Diagram/Page_Modern Requirements4TFS 2018 (1)/span_Folder created successful'))
 
-not_run: WebUI.setText(findTestObject('VSTS/Modules Objects/Backlog/Click Context Menu and Select Baseline/Page_Features/input_ig-NewBaselineDialog-txt'), 
-    'tEST1bASELINE')
+String selector = ('li.sim-ff-tv-folder-item[title=\'' + FolderName) + '\']'
 
-not_run: WebUI.click(findTestObject('VSTS/Modules Objects/Backlog/Click Context Menu and Select Baseline/Page_Features/input_ig-NewBaselineDialog-new'))
+TestObject folderExplorer = CustomKeywords.'keyword.edevkatalon.com.GeneralKeywords.getCustomTestObjectBy'('css', selector)
+
+WebUI.delay(2)
+
+assert WebUI.getText(folderExplorer) == FolderName
 

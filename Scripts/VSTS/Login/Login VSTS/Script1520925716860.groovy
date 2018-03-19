@@ -24,11 +24,11 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-String server = findTestData('Datafile').getValue("TFSServer", 2)
+String server = findTestData('Datafile').getValue('TFSServer', 2)
 
-String username = findTestData('Datafile').getValue("username", 1)
+String username = findTestData('Datafile').getValue('username', 1)
 
-String password = findTestData('Datafile').getValue("password", 1)
+String password = findTestData('Datafile').getValue('password', 1)
 
 WebUI.navigateToUrl(server)
 
@@ -37,6 +37,8 @@ WebUI.setText(findTestObject('VSTS/Login/New Team/TFVC Team/Login/Page_Sign in t
 
 WebUI.delay(3)
 
+not_run: WebUI.click(findTestObject('VSTS/Login/Firefox Login/Page_Sign in to your Microsoft acco/input_idSIButton9'))
+
 WebUI.sendKeys(findTestObject('VSTS/Login/New Team/TFVC Team/Login/Page_Sign in to your Microsoft acco/input_loginfmt'), 
     Keys.chord(Keys.ENTER))
 
@@ -44,8 +46,12 @@ WebUI.setText(findTestObject('VSTS/Login/New Team/TFVC Team/Login/Page_Sign in t
 
 WebUI.delay(3)
 
+not_run: WebUI.click(findTestObject('VSTS/Login/New Team/TFVC Team/Login/Page_Sign in to your Microsoft acco (1)/input_idSIButton9'))
+
 WebUI.sendKeys(findTestObject('VSTS/Login/New Team/TFVC Team/Login/Page_Sign in to your Microsoft acco/input_passwd'), Keys.chord(
         Keys.ENTER))
+
+not_run: WebUI.click(findTestObject('VSTS/Login/Firefox Login/Page_Sign in to your Microsoft acco/input_idSIButton9'))
 
 WebUI.click(findTestObject('VSTS/Login/New Team/TFVC Team/Login/Page_Sign in to your account/input_idBtn_Back'))
 

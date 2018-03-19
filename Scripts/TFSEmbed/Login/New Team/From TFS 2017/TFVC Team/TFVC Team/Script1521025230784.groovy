@@ -38,9 +38,11 @@ WebUI.click(findTestObject('TFSEmbed/Login/New Team/From TFS 2017/TeamCreationOb
 
 WebUI.click(findTestObject('TFSEmbed/Login/New Team/From TFS 2017/TeamCreationObjects-Rename/div_Team Foundation Version Co'))
 
-WebUI.scrollToElement(findTestObject('TFSEmbed/Login/New Team/From TFS 2017/TeamCreationObjects-Rename/button_Create'), 10)
+WebUI.scrollToElement(findTestObject('TFSEmbed/Login/New Team/From TFS 2017/TeamCreationObjects-Rename/button_Create'), 
+    10)
 
-WebUI.waitForElementClickable(findTestObject('TFSEmbed/Login/New Team/From TFS 2017/TeamCreationObjects-Rename/button_Create'), 2)
+WebUI.waitForElementClickable(findTestObject('TFSEmbed/Login/New Team/From TFS 2017/TeamCreationObjects-Rename/button_Create'), 
+    2)
 
 WebUI.click(findTestObject('TFSEmbed/Login/New Team/From TFS 2017/TeamCreationObjects-Rename/button_Create'))
 
@@ -55,6 +57,4 @@ String TeamName = CustomKeywords.'keyword.edevkatalon.com.GeneralKeywords.GetRan
 WebUI.setText(findTestObject('TFSEmbed/Login/New Team/From TFS 2017/TeamCreationObjects-Rename/input_groupName'), TeamName)
 
 WebUI.click(findTestObject('TFSEmbed/Login/New Team/From TFS 2017/TeamCreationObjects-Rename/button_Create team'))
-
-WebUI.closeBrowser()
 
