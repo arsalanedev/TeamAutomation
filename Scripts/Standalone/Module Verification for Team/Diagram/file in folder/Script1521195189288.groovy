@@ -30,7 +30,7 @@ WebUI.click(findTestObject('Standalone/Modules Objects/Diagram/New file craetion
 
 WebUI.click(findTestObject('Standalone/Modules Objects/Diagram/New file craetion/Page_Modern Requirements4TFS 2018/span_Folder'))
 
-String Newfolder = CustomKeywords.'keyword.edevkatalon.com.GeneralKeywords.GetRandomString'()
+String Newfolder = CustomKeywords.'shehzad.GeneralKeywords.GetRandomString'()
 
  WebUI.setText(findTestObject('Standalone/Modules Objects/Diagram/New file craetion/Page_Modern Requirements4TFS 2018/input_ig-newfolder-textbox-mdl'), 
     Newfolder)
@@ -43,7 +43,7 @@ WebUI.rightClick(findTestObject('Standalone/Modules Objects/Diagram/New file cra
 
 WebUI.click(findTestObject('Standalone/Modules Objects/Diagram/New file craetion/Page_Modern Requirements4TFS 2018/span_Diagram'))
 
-String Newfile = CustomKeywords.'keyword.edevkatalon.com.GeneralKeywords.GetRandomString'()
+String Newfile = CustomKeywords.'shehzad.GeneralKeywords.GetRandomString'()
 
 WebUI.setText(findTestObject('Standalone/Modules Objects/Diagram/New file craetion/Page_Modern Requirements4TFS 2018/input_dia-title-text'), 
   Newfile)

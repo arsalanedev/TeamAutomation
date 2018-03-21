@@ -22,7 +22,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('VSTS/Login/New Team/TFVC Team/TFVC- Login , New Project , New Team'), [:], FailureHandling.STOP_ON_FAILURE)
 
-String BaselineName = CustomKeywords.'keyword.edevkatalon.com.GeneralKeywords.GetRandomString'()
+String BaselineName = CustomKeywords.'shehzad.GeneralKeywords.GetRandomString'()
 
 WebUI.click(findTestObject('VSTS/Modules Objects/Backlog/Work Tab Click/span_Work'))
 
@@ -40,7 +40,7 @@ for (def index : (1..10)) {
 
 WebUI.delay(3)
 
-CustomKeywords.'keyword.edevkatalon.com.ActionClass.SelectElement'()
+CustomKeywords.'shehzad.ActionClass.SelectElement'()
 
 WebUI.rightClick(findTestObject('VSTS/Modules Objects/Backlog/Click CM/Page_Product backlog/div_grid-context-menu-containe'))
 

@@ -20,9 +20,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String projectName = CustomKeywords.'keyword.edevkatalon.com.GeneralKeywords.GetRandomString'()
+String projectName = CustomKeywords.'shehzad.GeneralKeywords.GetRandomString'()
 
-String TeamName = CustomKeywords.'keyword.edevkatalon.com.GeneralKeywords.GetRandomString'()
+String TeamName = CustomKeywords.'shehzad.GeneralKeywords.GetRandomString'()
 
 WebUI.callTestCase(findTestCase('VSTS/Login/Login VSTS'), [:], FailureHandling.STOP_ON_FAILURE)
 

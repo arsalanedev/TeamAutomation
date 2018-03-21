@@ -32,7 +32,7 @@ WebUI.click(findTestObject('Standalone/Modules Objects/Diagram/folder in team/sp
 
 WebUI.click(findTestObject('Standalone/Modules Objects/Diagram/folder in team/span_Folder'))
 
-String FolderName = CustomKeywords.'keyword.edevkatalon.com.GeneralKeywords.GetRandomString'()
+String FolderName = CustomKeywords.'shehzad.GeneralKeywords.GetRandomString'()
 
 WebUI.setText(findTestObject('Standalone/Modules Objects/Diagram/folder in team/input_ig-newfolder-textbox-mdl'), FolderName)
 
@@ -42,7 +42,7 @@ WebUI.click(findTestObject('Standalone/Modules Objects/Diagram/Page_Modern Requi
 
 String selector = ('li.sim-ff-tv-folder-item[title=\'' + FolderName) + '\']'
 
-TestObject folderExplorer = CustomKeywords.'keyword.edevkatalon.com.GeneralKeywords.getCustomTestObjectBy'('css', selector)
+TestObject folderExplorer = CustomKeywords.'shehzad.GeneralKeywords.getCustomTestObjectBy'('css', selector)
 
 WebUI.delay(2)
 
