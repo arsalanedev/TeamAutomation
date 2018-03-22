@@ -3,18 +3,8 @@
    <description></description>
    <name>span_New</name>
    <tag></tag>
-   <elementGuidId>b3ad2e87-2412-45a4-b0ac-65feb3750b54</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>#snt-left-pane-btn-new > div</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//span[(text() = 'New' or . = 'New')]</value>
-      </entry>
-   </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <elementGuidId>9be516fb-5d0e-42bf-9cb1-66ef235de9c5</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,5 +33,12 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;snt-left-pane-btn-new&quot;)/span[@class=&quot;k-link&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/VSTS/Modules Objects/Smart Note/NEW FOLDER/Page_SmartNote - Visual Studio Team/iframe_externalContentHost179</value>
    </webElementProperties>
 </WebElementEntity>

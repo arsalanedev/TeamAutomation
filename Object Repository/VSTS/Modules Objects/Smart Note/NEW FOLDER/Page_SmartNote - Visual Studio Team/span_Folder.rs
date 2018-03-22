@@ -1,20 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_New</name>
+   <name>span_Folder</name>
    <tag></tag>
-   <elementGuidId>b3ad2e87-2412-45a4-b0ac-65feb3750b54</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>#snt-left-pane-btn-new > div</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//span[(text() = 'New' or . = 'New')]</value>
-      </entry>
-   </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <elementGuidId>7a4fad38-da05-452d-b886-effeddb485fd</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,13 +25,20 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>New</value>
+      <value>Folder</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;snt-left-pane-btn-new&quot;)/span[@class=&quot;k-link&quot;]</value>
+      <value>id(&quot;snt-left-pane-new-folder&quot;)/span[@class=&quot;k-link&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/VSTS/Modules Objects/Smart Note/NEW FOLDER/Page_SmartNote - Visual Studio Team/iframe_externalContentHost179</value>
    </webElementProperties>
 </WebElementEntity>
