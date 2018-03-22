@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_ig-NewBaselineDialog-txt</name>
+   <name>iframe_rteSample_Iframe</name>
    <tag></tag>
-   <elementGuidId>9ea8da69-fbc1-4296-9db9-217b6b527cc6</elementGuidId>
+   <elementGuidId>3e2ca15e-2d95-4b84-a234-c4a0e23ae5af</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -11,55 +11,41 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>text</value>
+      <value>iframe</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>ig-NewBaselineDialog-txtBaselineLabel-ig-vsts-create-baseline</value>
+      <value>rteSample_Iframe</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>onkeypress</name>
+      <name>class</name>
       <type>Main</type>
-      <value>newBaselineDialog.onNewBaselineEnterPress(event, this)</value>
+      <value>content-iframe</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-parentcontainerid</name>
+      <name>frameborder</name>
       <type>Main</type>
-      <value>ig-vsts-create-baseline</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>maxlength</name>
-      <type>Main</type>
-      <value>100</value>
+      <value>0</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;ig-NewBaselineDialog-txtBaselineLabel-ig-vsts-create-baseline&quot;)</value>
+      <value>id(&quot;rteSample_Iframe&quot;)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/VSTS/Modules Objects/Backlog/Click Context Menu and Select Baseline/Page_Features/iframe_externalContentHost2026</value>
+      <value>Object Repository/TFSEmbed/Modules Objects/Use Case/Create usecase with branch/Page_Simulation and Use case - Micr (1)/iframe_externalContentHost4</value>
    </webElementProperties>
 </WebElementEntity>

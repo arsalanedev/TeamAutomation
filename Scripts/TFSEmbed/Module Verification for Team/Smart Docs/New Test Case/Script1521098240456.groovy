@@ -23,15 +23,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('TFSEmbed/Login/New Team/From TFS 2017/TFVC Team/TFVC Team'), [:], FailureHandling.STOP_ON_FAILURE)
 
-
-
 not_run: WebUI.openBrowser('')
 
 not_run: WebUI.maximizeWindow()
 
 not_run: WebUI.navigateToUrl('http://syedsaad:8080/tfs/QA%20Collection/_projects')
 
-not_run: WebUI.click(findTestObject('Page_Projects - Microsoft Team Foun/a_bux0txa3yr  2usgjkou50'))
+not_run: WebUI.click(findTestObject('TFSEmbed/Modules Objects/Smart Docs/FolderCreation/a_bux0txa3yr  2usgjkou50'))
 
 not_run: WebUI.waitForElementPresent(findTestObject('TFSEmbed/Modules Objects/Smart Docs/FolderCreation/span_Work'), 5)
 
@@ -66,6 +64,4 @@ String selector = ('li.sim-ff-tv-folder-item[title=\'' + FolderName) + '\']'
 TestObject folderExplorer = CustomKeywords.'keyword.edevkatalon.com.GeneralKeywords.getCustomTestObjectBy'('css', selector)
 
 WebUI.delay(2)
-
-assert WebUI.getText(folderExplorer) == FolderName
 

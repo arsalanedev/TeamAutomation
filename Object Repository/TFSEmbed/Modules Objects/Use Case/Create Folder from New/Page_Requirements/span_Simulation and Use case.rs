@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Work</name>
+   <name>span_Simulation and Use case</name>
    <tag></tag>
-   <elementGuidId>645070cf-9eaf-483c-a137-667f70b45d4d</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//span[@class = 'text' and (text() = 'Work' or . = 'Work')]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>904c9efb-c827-40f3-995a-2cd97f16d449</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -20,7 +14,7 @@
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -31,13 +25,13 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Work</value>
+      <value>Simulation and Use case</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mi_76_ms.vss-work-web.work-hub-group&quot;)/span[@class=&quot;text&quot;]</value>
+      <value>id(&quot;mi_298_edevtech-mr.iGVSO-OnPrem-001.subHubWork-SimulationandUsecase-OnPrem&quot;)/span[@class=&quot;text&quot;]</value>
    </webElementProperties>
 </WebElementEntity>
