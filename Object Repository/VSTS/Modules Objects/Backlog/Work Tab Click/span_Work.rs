@@ -4,6 +4,7 @@
    <name>span_Work</name>
    <tag></tag>
    <elementGuidId>195d8864-da0b-4fc6-a261-05cd5fb3a6fb</elementGuidId>
+<<<<<<< HEAD
    <selectorCollection>
       <entry>
 <<<<<<< HEAD
@@ -31,9 +32,12 @@
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>
 >>>>>>> branch 'master' of https://github.com/arsalanedev/TeamAutomation
+=======
+   <selectorMethod>BASIC</selectorMethod>
+>>>>>>> branch 'master' of https://github.com/arsalanedev/TeamAutomation
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -54,7 +58,7 @@
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

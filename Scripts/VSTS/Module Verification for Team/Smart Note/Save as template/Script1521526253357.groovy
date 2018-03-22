@@ -25,9 +25,10 @@ WebUI.click(findTestObject('VSTS/Modules Objects/Smart Note/Save as template/Pag
 
 WebUI.click(findTestObject('VSTS/Modules Objects/Smart Note/Save as template/Page_with_smartnote_tab/SmartNote_tab1'))
 
-WebUI.delay(5)
+WebUI.waitForElementClickable(findTestObject('VSTS/Modules Objects/Smart Note/Save as template/Page_with_smartnote_tab/SmartNote_tab1'), 
+    10)
 
-WebUI.click(findTestObject('VSTS/Modules Objects/Smart Note/SAVE AS/Page_SmartNote - Visual Studio Team/span_New'))
+WebUI.click(findTestObject('VSTS/Modules Objects/Smart Note/Save as template/Page_SmartNote - Visual Studio Team (3)/span_New'))
 
-WebUI.click(findTestObject('VSTS/Modules Objects/Smart Note/SAVE AS/Page_SmartNote - Visual Studio Team/span_Page'))
+WebUI.click(findTestObject('VSTS/Modules Objects/Smart Note/Save as template/Page_SmartNote - Visual Studio Team/span_Page'))
 

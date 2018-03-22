@@ -4,7 +4,17 @@
    <name>span_Page</name>
    <tag></tag>
    <elementGuidId>de378d32-53d2-4451-a3ab-17342d5a2d33</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'Page' or . = 'Page') and @ref_element = 'Object Repository/VSTS/Modules Objects/Smart Note/Save as template/Page_SmartNote - Visual Studio Team/iframe_externalContentHost502']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#snt-left-pane-new-smartnote > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
