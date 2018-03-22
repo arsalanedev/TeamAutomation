@@ -1,39 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Work</name>
+   <name>work1</name>
    <tag></tag>
-   <elementGuidId>195d8864-da0b-4fc6-a261-05cd5fb3a6fb</elementGuidId>
-   <selectorCollection>
-      <entry>
-<<<<<<< HEAD
-         <key>CSS</key>
-         <value>#mi_50_ms\2e vss-work-web\2e work-hub-group > span.text</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;mi_50_ms.vss-work-web.work-hub-group&quot;]/span[1]</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value></value>
-      </entry>
-   </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
-=======
-         <key>BASIC</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>a[id$='vss-work-web.work-hub-group']</value>
-      </entry>
-   </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
->>>>>>> branch 'master' of https://github.com/arsalanedev/TeamAutomation
+   <elementGuidId>109a30cd-2e73-4548-87d9-47dc3ab8adb9</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -54,7 +28,7 @@
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -65,6 +39,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mi_338_ms.vss-work-web.work-hub-group&quot;)/span[@class=&quot;text&quot;]</value>
+      <value>id(&quot;mi_137_ms.vss-work-web.work-hub-group&quot;)/span[@class=&quot;text&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

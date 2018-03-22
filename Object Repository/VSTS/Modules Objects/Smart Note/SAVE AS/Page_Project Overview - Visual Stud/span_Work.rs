@@ -3,37 +3,11 @@
    <description></description>
    <name>span_Work</name>
    <tag></tag>
-   <elementGuidId>195d8864-da0b-4fc6-a261-05cd5fb3a6fb</elementGuidId>
-   <selectorCollection>
-      <entry>
-<<<<<<< HEAD
-         <key>CSS</key>
-         <value>#mi_50_ms\2e vss-work-web\2e work-hub-group > span.text</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;mi_50_ms.vss-work-web.work-hub-group&quot;]/span[1]</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value></value>
-      </entry>
-   </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
-=======
-         <key>BASIC</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>a[id$='vss-work-web.work-hub-group']</value>
-      </entry>
-   </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
->>>>>>> branch 'master' of https://github.com/arsalanedev/TeamAutomation
+   <elementGuidId>11fdaf7c-359c-4650-a918-a2945326e1a6</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -54,7 +28,7 @@
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -65,6 +39,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mi_338_ms.vss-work-web.work-hub-group&quot;)/span[@class=&quot;text&quot;]</value>
+      <value>id(&quot;mi_138_ms.vss-work-web.work-hub-group&quot;)/span[@class=&quot;text&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

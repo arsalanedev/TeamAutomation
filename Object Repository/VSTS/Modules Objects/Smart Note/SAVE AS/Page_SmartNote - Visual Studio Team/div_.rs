@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_ig-NewBaselineDialog-txt</name>
+   <name>div_</name>
    <tag></tag>
-   <elementGuidId>9ea8da69-fbc1-4296-9db9-217b6b527cc6</elementGuidId>
+   <elementGuidId>bf67d8b0-6dbd-417c-8e15-daad8439764c</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -11,55 +11,48 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>text</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>ig-NewBaselineDialog-txtBaselineLabel-ig-vsts-create-baseline</value>
+      <value>sn_designerArea</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>onkeypress</name>
+      <name>class</name>
       <type>Main</type>
-      <value>newBaselineDialog.onNewBaselineEnterPress(event, this)</value>
+      <value>e-sn-DesignerArea sn-noSelect</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-parentcontainerid</name>
+      <name>contenteditable</name>
       <type>Main</type>
-      <value>ig-vsts-create-baseline</value>
+      <value>false</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>maxlength</name>
+      <name>text</name>
       <type>Main</type>
-      <value>100</value>
+      <value>  </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;ig-NewBaselineDialog-txtBaselineLabel-ig-vsts-create-baseline&quot;)</value>
+      <value>id(&quot;sn_designerArea&quot;)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/VSTS/Modules Objects/Backlog/Click Context Menu and Select Baseline/Page_Features/iframe_externalContentHost2026</value>
+      <value>Object Repository/VSTS/Modules Objects/Smart Note/SAVE AS/Page_SmartNote - Visual Studio Team/iframe_externalContentHost479</value>
    </webElementProperties>
 </WebElementEntity>

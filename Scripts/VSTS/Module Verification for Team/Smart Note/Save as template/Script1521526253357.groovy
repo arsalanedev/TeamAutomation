@@ -21,5 +21,13 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('VSTS/Login/Existing Team/TFVC Team/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('VSTS/Modules Objects/Backlog/Work Tab Click/span_Work'))
+WebUI.click(findTestObject('VSTS/Modules Objects/Smart Note/Save as template/Page_with_work_tab/work1'))
+
+WebUI.click(findTestObject('VSTS/Modules Objects/Smart Note/Save as template/Page_with_smartnote_tab/SmartNote_tab1'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('VSTS/Modules Objects/Smart Note/SAVE AS/Page_SmartNote - Visual Studio Team/span_New'))
+
+WebUI.click(findTestObject('VSTS/Modules Objects/Smart Note/SAVE AS/Page_SmartNote - Visual Studio Team/span_Page'))
 

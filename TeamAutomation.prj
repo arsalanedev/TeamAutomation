@@ -23,4 +23,25 @@
    <recentExpandedTreeEntityIds>Object Repository/VSTS/Login</recentExpandedTreeEntityIds>
    <recentExpandedTreeEntityIds>Object Repository/VSTS/Login/Existing Team</recentExpandedTreeEntityIds>
    <recentExpandedTreeEntityIds>Data Files</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Test Cases/Standalone</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Test Cases/Standalone/Login</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Test Cases/Standalone/Login/Existing Team</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Test Cases/Standalone/Login/Existing Team/From TFS 2013</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Test Cases/Standalone/Login/Existing Team/From TFS 2013/GIT Team</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Test Cases/Standalone/Module Verification for Team/Diagram</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Test Cases/TFSEmbed/Login</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Test Cases/TFSEmbed/Login/Existing Team</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Test Cases/TFSEmbed/Login/Existing Team/From TFS 2017</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Test Cases/TFSEmbed/Login/Existing Team/From TFS 2017/GIT Team</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Test Cases/TFSEmbed/Login/Existing Team/From TFS 2017/TFVC Team</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Test Cases/VSTS/Login</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Test Cases/VSTS/Login/New Team</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Test Cases/VSTS/Login/New Team/GIT Team</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Test Cases/VSTS/Module Verification for Team</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Keywords</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Keywords/keyword/edevkatalon/com</recentExpandedTreeEntityIds>
+   <recentOpenedTreeEntityIds>Test Cases/Standalone/Login/Existing Team/From TFS 2013/GIT Team/Standalone 2013 GIT Team</recentOpenedTreeEntityIds>
+   <recentOpenedTreeEntityIds>Test Cases/Standalone/Module Verification for Team/Diagram/File creation</recentOpenedTreeEntityIds>
+   <recentOpenedTreeEntityIds>Test Cases/Standalone/Module Verification for Team/Diagram/folder in team</recentOpenedTreeEntityIds>
+    branch 'master' of https://github.com/arsalanedev/TeamAutomation
 </Project>
