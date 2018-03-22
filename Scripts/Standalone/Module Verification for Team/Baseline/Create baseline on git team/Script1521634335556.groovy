@@ -41,11 +41,11 @@ WebUI.click(findTestObject('Standalone/Modules Objects/Baseline/create baseline/
 
 WebUI.click(findTestObject('Standalone/Modules Objects/Baseline/create baseline/Page_Modern Requirements4TFS 2018 (2)/div_e-treegridcollapse e-icon'))
 
-WebUI.click(findTestObject('Standalone/Modules Objects/Baseline/create baseline/Page_Modern Requirements4TFS 2018/div_Product Planning'))
+WebUI.click(findTestObject('Standalone/Modules Objects/Baseline/create baseline/Page_Modern Requirements4TFS 2018 (1)/td_Product Planning'))
 
 WebUI.click(findTestObject('Standalone/Modules Objects/Baseline/create baseline/Page_Modern Requirements4TFS 2018/input_ig-linkToWindow-btnFind-'))
 
-WebUI.click(findTestObject('Standalone/Modules Objects/Baseline/create baseline/Page_Modern Requirements4TFS 2018 (1)/input_ig-linkToWindow-SelectAl'))
+WebUI.click(findTestObject('Standalone/Modules Objects/Baseline/create baseline/Page_Modern Requirements4TFS 2018 (3)/input_ig-linkToWindow-SelectAl'))
 
 WebUI.click(findTestObject('Standalone/Modules Objects/Baseline/create baseline/Page_Modern Requirements4TFS 2018/input_ig-linkToWindow-OkBtn-bl'))
 
@@ -58,7 +58,7 @@ WebUI.setText(findTestObject('Standalone/Modules Objects/Baseline/create baselin
 
 WebUI.click(findTestObject('Standalone/Modules Objects/Baseline/create baseline/Page_Modern Requirements4TFS 2018/input_ig-linkToWindow-btnFind-'))
 
-WebUI.click(findTestObject('Standalone/Modules Objects/Baseline/create baseline/Page_Modern Requirements4TFS 2018 (1)/input_ig-linkToWindow-SelectAl'))
+WebUI.click(findTestObject('Standalone/Modules Objects/Baseline/create baseline/Page_Modern Requirements4TFS 2018 (3)/input_ig-linkToWindow-SelectAl'))
 
 WebUI.click(findTestObject('Standalone/Modules Objects/Baseline/create baseline/Page_Modern Requirements4TFS 2018/input_ig-linkToWindow-OkBtn-bl'))
 
@@ -71,7 +71,7 @@ WebUI.setText(findTestObject('Standalone/Modules Objects/Baseline/create baselin
 
 WebUI.click(findTestObject('Standalone/Modules Objects/Baseline/create baseline/Page_Modern Requirements4TFS 2018/input_ig-linkToWindow-btnFind-'))
 
-WebUI.click(findTestObject('Standalone/Modules Objects/Baseline/create baseline/Page_Modern Requirements4TFS 2018 (1)/input_ig-linkToWindow-SelectAl'))
+WebUI.click(findTestObject('Standalone/Modules Objects/Baseline/create baseline/Page_Modern Requirements4TFS 2018 (3)/input_ig-linkToWindow-SelectAl'))
 
 WebUI.click(findTestObject('Standalone/Modules Objects/Baseline/create baseline/Page_Modern Requirements4TFS 2018/input_ig-linkToWindow-OkBtn-bl'))
 
@@ -90,10 +90,4 @@ WebUI.click(findTestObject('Standalone/Modules Objects/Baseline/create baseline/
 WebUI.click(findTestObject('Standalone/Modules Objects/Baseline/create baseline/Page_Modern Requirements4TFS 2018/input_ig-linkToWindow-OkBtn-bl'))
 
 WebUI.click(findTestObject('Standalone/Modules Objects/Baseline/create baseline/Page_Modern Requirements4TFS 2018/img_k-image'))
-
-WebUI.openBrowser('')
-
-WebUI.click(findTestObject('Standalone/Login/Existing Team/From TFS 2013/GIT Team/Page_Modern Requirements4TFS 2018/Page_Modern Requirements4TFS 2018/div_Product Planning'))
-
-WebUI.closeBrowser()
 

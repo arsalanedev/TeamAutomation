@@ -20,7 +20,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-baselinename = CustomKeywords.'shehzad.generalkeys.GetRandomString'()
+String baselinename = CustomKeywords.'shehzad.generalkeys.GetRandomString'()
 
 WebUI.callTestCase(findTestCase('Standalone/Login/New Team/From TFS 2013/TFVC Team/Login To Team Project'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -45,7 +45,7 @@ WebUI.click(findTestObject('Standalone/Modules Objects/Baseline/create baseline/
 
 WebUI.click(findTestObject('Standalone/Modules Objects/Baseline/create baseline/Page_Modern Requirements4TFS 2018/input_ig-linkToWindow-btnFind-'))
 
-WebUI.click(findTestObject('Standalone/Modules Objects/Baseline/create baseline/Page_Modern Requirements4TFS 2018 (1)/input_ig-linkToWindow-SelectAl'))
+WebUI.click(findTestObject('Standalone/Modules Objects/Baseline/create baseline/Page_Modern Requirements4TFS 2018/input_ig-linkToWindow-SelectAl'))
 
 WebUI.click(findTestObject('Standalone/Modules Objects/Baseline/create baseline/Page_Modern Requirements4TFS 2018/input_ig-linkToWindow-OkBtn-bl'))
 
@@ -58,7 +58,7 @@ WebUI.setText(findTestObject('Standalone/Modules Objects/Baseline/create baselin
 
 WebUI.click(findTestObject('Standalone/Modules Objects/Baseline/create baseline/Page_Modern Requirements4TFS 2018/input_ig-linkToWindow-btnFind-'))
 
-WebUI.click(findTestObject('Standalone/Modules Objects/Baseline/create baseline/Page_Modern Requirements4TFS 2018 (1)/input_ig-linkToWindow-SelectAl'))
+WebUI.click(findTestObject('Standalone/Modules Objects/Baseline/create baseline/Page_Modern Requirements4TFS 2018/input_ig-linkToWindow-SelectAl'))
 
 WebUI.click(findTestObject('Standalone/Modules Objects/Baseline/create baseline/Page_Modern Requirements4TFS 2018/input_ig-linkToWindow-OkBtn-bl'))
 
@@ -71,7 +71,7 @@ WebUI.setText(findTestObject('Standalone/Modules Objects/Baseline/create baselin
 
 WebUI.click(findTestObject('Standalone/Modules Objects/Baseline/create baseline/Page_Modern Requirements4TFS 2018/input_ig-linkToWindow-btnFind-'))
 
-WebUI.click(findTestObject('Standalone/Modules Objects/Baseline/create baseline/Page_Modern Requirements4TFS 2018 (1)/input_ig-linkToWindow-SelectAl'))
+WebUI.click(findTestObject('Standalone/Modules Objects/Baseline/create baseline/Page_Modern Requirements4TFS 2018/input_ig-linkToWindow-SelectAl'))
 
 WebUI.click(findTestObject('Standalone/Modules Objects/Baseline/create baseline/Page_Modern Requirements4TFS 2018/input_ig-linkToWindow-OkBtn-bl'))
 

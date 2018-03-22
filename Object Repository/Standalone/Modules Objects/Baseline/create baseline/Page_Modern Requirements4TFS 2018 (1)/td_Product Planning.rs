@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_ig-linkToWindow-SelectAl</name>
+   <name>td_Product Planning</name>
    <tag></tag>
-   <elementGuidId>d39b7a20-cdd4-4673-a297-5a732afedbaa</elementGuidId>
+   <elementGuidId>e3814147-da3c-4c71-adb1-538c1fd00c75</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -11,55 +11,41 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>ig-linkToWindow-SelectAllBtn-bl-cb-addWorkItemDialogDiv</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>button</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>Select All</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>onclick</name>
-      <type>Main</type>
-      <value>onLinkToWindowSelectAllButtonClick(this)</value>
+      <value>td</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ig-ui-button</value>
+      <value>e-rowcell e-intend   e-selectionbackground e-active</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-containerid</name>
+      <name>role</name>
       <type>Main</type>
-      <value>bl-cb-addWorkItemDialogDiv</value>
+      <value>gridcell</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Product Planning</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;ig-linkToWindow-SelectAllBtn-bl-cb-addWorkItemDialogDiv&quot;)</value>
+      <value>id(&quot;igEjsTreeGridigjqxDropDownDivIdblcbaddWorkItemDialogDive-table&quot;)/tbody[1]/tr[@class=&quot;e-treegridrows gridrowIndex1level1&quot;]/td[@class=&quot;e-rowcell e-intend   e-selectionbackground e-active&quot;]</value>
    </webElementProperties>
 </WebElementEntity>
