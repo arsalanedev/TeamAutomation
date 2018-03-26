@@ -22,12 +22,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('VSTS/Login/New Team/TFVC Team/TFVC- Login , New Project , New Team'), [:], FailureHandling.STOP_ON_FAILURE)
 
+'Click Work Tab'
 WebUI.click(findTestObject('VSTS/Modules Objects/Backlog/Work Tab Click/span_Work'))
+
+String ReviewName = CustomKeywords.'keyword.edevkatalon.com.GeneralKeywords.GetRandomString'()
 
 WebUI.delay(2)
 
+'Backlogs tab open'
 WebUI.click(findTestObject('VSTS/Modules Objects/Backlog/Backlogs tab click/Page_Features (1)/span_Backlogs'))
 
+'Work Item Creation - Randomly'
 for (def index : (1..10)) {
     WebUI.setText(findTestObject('VSTS/Modules Objects/Backlog/Work Tab Click/backlog_newWiTextBox'), 'TestWI' + index)
 
@@ -40,47 +45,50 @@ WebUI.delay(3)
 
 CustomKeywords.'keyword.edevkatalon.com.ActionClass.SelectElement'()
 
+'Click Context Menu'
 WebUI.rightClick(findTestObject('VSTS/Modules Objects/Backlog/Click CM/Page_Product backlog/div_grid-context-menu-containe'))
 
 WebUI.click(findTestObject('VSTS/Modules Objects/Backlog/Review Request/Page_Product backlog/span_Review Request'))
 
+'Switched to IFrame'
 WebUI.switchToFrame(findTestObject('VSTS/Modules Objects/Backlog/RR window/Page_Product backlog/iframe_externalContentHost514'), 
     0)
 
+'Selected Reviewer dropdown'
 WebUI.doubleClick(findTestObject('VSTS/Modules Objects/Backlog/RR window/Page_Product backlog/input_rvm-req-stakeholdercombo'))
 
 WebUI.setText(findTestObject('VSTS/Modules Objects/Backlog/RR window/Page_Product backlog/input_rvm-req-stakeholdercombo'), 
     'shehzad ali')
 
+'Reviewer Added'
 WebUI.sendKeys(findTestObject('VSTS/Modules Objects/Backlog/RR window/Page_Product backlog/input_rvm-req-stakeholdercombo'), 
     Keys.chord(Keys.ENTER))
 
 WebUI.doubleClick(findTestObject('VSTS/Modules Objects/Backlog/Review Set Text dropdowns/Page_Product backlog/input_rvm-req-approverscombobo'))
 
+'Selected Approver Dropdown'
 WebUI.setText(findTestObject('VSTS/Modules Objects/Backlog/Review Set Text dropdowns/Page_Product backlog/input_rvm-req-approverscombobo'), 
     'syed saad')
 
+'Approver Added'
 WebUI.sendKeys(findTestObject('VSTS/Modules Objects/Backlog/Review Set Text dropdowns/Page_Product backlog/input_rvm-req-approverscombobo'), 
     Keys.chord(Keys.ENTER))
 
-not_run: WebUI.setText(findTestObject('VSTS/Modules Objects/Backlog/Review Set Text dropdowns/Page_Product backlog/input_rvm-req-stakeholdercombo'), 
+'Selected Approver Dropdown'
+WebUI.setText(findTestObject('VSTS/Modules Objects/Backlog/Review Set Text dropdowns/Page_Product backlog/input_rvm-req-approverscombobo'), 
     'arsalan mushtaq')
 
-not_run: WebUI.sendKeys(findTestObject('VSTS/Modules Objects/Backlog/Review Set Text dropdowns/Page_Product backlog/input_rvm-req-stakeholdercombo'), 
+'Approver Added'
+WebUI.sendKeys(findTestObject('VSTS/Modules Objects/Backlog/Review Set Text dropdowns/Page_Product backlog/input_rvm-req-approverscombobo'), 
     Keys.chord(Keys.ENTER))
 
-not_run: WebUI.setText(findTestObject('VSTS/Modules Objects/Backlog/Review Record/Page_Product backlog/input_rvm-req-approverscombobo'), 
-    'shehzad')
+WebUI.doubleClick(findTestObject('VSTS/Modules Objects/Backlog/Review Record/Page_Product backlog (1)/input_rvm-req-workitremtitletx'))
 
-not_run: WebUI.click(findTestObject('VSTS/Modules Objects/Backlog/Review Record/Page_Product backlog/li_shehzad ali'))
+'Subject Name'
+WebUI.setText(findTestObject('VSTS/Modules Objects/Backlog/Review Record/Page_Product backlog (1)/input_rvm-req-workitremtitletx'), 
+    ReviewName)
 
-not_run: WebUI.setText(findTestObject('VSTS/Modules Objects/Backlog/Review Record/Page_Product backlog/input_rvm-req-stakeholdercombo'), 
-    'arsalan')
+WebUI.click(findTestObject('VSTS/Modules Objects/Backlog/Review Record/Calender/Page_Product backlog/span_k-icon k-i-calendar'))
 
-not_run: WebUI.click(findTestObject('VSTS/Modules Objects/Backlog/Review Record/Page_Product backlog/li_arsalan mushtaq ahmed'))
-
-not_run: WebUI.doubleClick(findTestObject('VSTS/Modules Objects/Backlog/Review Record/Page_Product backlog/input_rvm-req-workitremtitletx'))
-
-not_run: WebUI.setText(findTestObject('VSTS/Modules Objects/Backlog/Review Record/Page_Product backlog/input_rvm-req-workitremtitletx'), 
-    'Test-Review')
+WebUI.click(findTestObject('VSTS/Modules Objects/Backlog/Review Record/Calender/Page_Product backlog/a_Monday March 26 2018'))
 

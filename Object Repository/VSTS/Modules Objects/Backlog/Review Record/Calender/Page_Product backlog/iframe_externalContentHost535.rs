@@ -1,23 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>iframe_externalContentHost514</name>
+   <name>iframe_externalContentHost535</name>
    <tag></tag>
-   <elementGuidId>06250d42-b040-4631-b717-c859b47a24c7</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>div[class*='modal-dialog'] iframe</value>
-      </entry>
-   </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <elementGuidId>fcf93644-b8b5-4893-9876-d10cbc6bf489</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -38,18 +28,18 @@
       <value>external-content-iframe</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>externalContentHost</value>
+      <value>externalContentHost535</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>contains</matchCondition>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>externalContentHost</value>
+      <value>externalContentHost535</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -59,7 +49,7 @@
       <value>presentation</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>src</name>
       <type>Main</type>
@@ -70,6 +60,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;externalContentHost514&quot;)</value>
+      <value>id(&quot;externalContentHost535&quot;)</value>
    </webElementProperties>
 </WebElementEntity>

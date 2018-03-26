@@ -1,75 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>iframe_externalContentHost514</name>
+   <name>div_5566</name>
    <tag></tag>
-   <elementGuidId>06250d42-b040-4631-b717-c859b47a24c7</elementGuidId>
+   <elementGuidId>a1a99c07-6b22-4d90-ab23-7515cf28f848</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>div[class*='modal-dialog'] iframe</value>
+         <value>//div[@class = 'draggable jqx-rc-all jqx-tree-item jqx-item jqx-draggable jqx-fill-state-pressed jqx-tree-item-selected jqx-fill-state-hover jqx-tree-item-hover']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>iframe</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>frameborder</name>
-      <type>Main</type>
-      <value>0</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>external-content-iframe</value>
+      <value>draggable jqx-rc-all jqx-tree-item jqx-item jqx-draggable jqx-fill-state-pressed jqx-tree-item-selected jqx-fill-state-hover jqx-tree-item-hover</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>externalContentHost</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>contains</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>externalContentHost</value>
+      <value>jqxWidgeted3acfd6</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>role</name>
+      <name>unselectable</name>
       <type>Main</type>
-      <value>presentation</value>
+      <value>on</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>src</name>
+      <name>text</name>
       <type>Main</type>
-      <value>https://modernrequirements.net:8028/VSOInteGreat4TFS/RequestReviewDialog?reviewDialogId=RequestReview-OnPrem</value>
+      <value>5566</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;externalContentHost514&quot;)</value>
+      <value>id(&quot;jqxWidgeted3acfd6&quot;)</value>
    </webElementProperties>
 </WebElementEntity>
