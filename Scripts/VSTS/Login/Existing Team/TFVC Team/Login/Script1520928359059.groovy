@@ -22,26 +22,30 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-String server = findTestData('null').getValue('TFSServer', 1)
+WebUI.maximizeWindow()
 
-String username = findTestData('null').getValue('username', 1)
+String server = findTestData('datadriven').getValue('TFSServer', 2)
 
-String password = findTestData('null').getValue('password', 1)
+String username = findTestData('datadriven').getValue('username', 1)
+
+String password = findTestData('datadriven').getValue('password', 1)
 
 WebUI.navigateToUrl(server)
 
-WebUI.setText(findTestObject('VSTS/Login/Existing Team/TFVC Team/Page_Sign in to your Microsoft acco/input_loginfmt'), username)
+WebUI.setText(findTestObject('VSTS/Login/Existing Team/TFVC Team/NEW LOGIN/Page_Sign in to your Microsoft acco/input_loginfmt'), 
+    username)
 
-WebUI.sendKeys(findTestObject('VSTS/Login/Existing Team/TFVC Team/Page_Sign in to your Microsoft acco/input_idSIButton9'), 
+WebUI.sendKeys(findTestObject('VSTS/Login/Existing Team/TFVC Team/NEW LOGIN/Page_Sign in to your Microsoft acco/input_idSIButton9'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.setText(findTestObject('VSTS/Login/Existing Team/TFVC Team/Page_Sign in to your Microsoft acco/input_passwd'), password)
+WebUI.setText(findTestObject('VSTS/Login/Existing Team/TFVC Team/NEW LOGIN/Page_Sign in to your Microsoft acco/input_passwd'), 
+    password)
 
 WebUI.click(findTestObject('VSTS/Login/Existing Team/TFVC Team/Page_Sign in to your Microsoft acco/input_idSIButton9'))
 
-WebUI.click(findTestObject('VSTS/Login/Existing Team/TFVC Team/Page_Sign in to your account/input_idSIButton9'))
+WebUI.click(findTestObject('VSTS/Login/Existing Team/TFVC Team/NEW LOGIN/Page_Sign in to your Microsoft acco/input_idSIButton9'))
 
-WebUI.delay(2)
+WebUI.navigateToUrl('https://automationkatalon.visualstudio.com/xktl3tcg72/21e05d5804/')
 
-WebUI.navigateToUrl('easyedsaad.visualstudio.com/13.13.1TFVCAgile/TeamA')
+WebUI.waitForPageLoad(2)
 

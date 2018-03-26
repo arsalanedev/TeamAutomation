@@ -4,8 +4,24 @@
    <name>span_Work</name>
    <tag></tag>
    <elementGuidId>195d8864-da0b-4fc6-a261-05cd5fb3a6fb</elementGuidId>
+<<<<<<< HEAD
    <selectorCollection>
       <entry>
+<<<<<<< HEAD
+         <key>CSS</key>
+         <value>#mi_50_ms\2e vss-work-web\2e work-hub-group > span.text</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;mi_50_ms.vss-work-web.work-hub-group&quot;]/span[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+=======
          <key>BASIC</key>
          <value></value>
       </entry>
@@ -15,9 +31,13 @@
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>
+>>>>>>> branch 'master' of https://github.com/arsalanedev/TeamAutomation
+=======
+   <selectorMethod>BASIC</selectorMethod>
+>>>>>>> branch 'master' of https://github.com/arsalanedev/TeamAutomation
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -38,7 +58,7 @@
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
