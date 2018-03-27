@@ -32,39 +32,27 @@ String password = findTestData('Datafile').getValue('password', 1)
 
 WebUI.navigateToUrl(server)
 
+'Typed Username'
 WebUI.setText(findTestObject('VSTS/Login/Existing Team/GIT Team/Page_Sign in to your Microsoft acco/input_loginfmt'), username)
 
 WebUI.delay(3)
 
-<<<<<<< HEAD
 WebUI.sendKeys(findTestObject('VSTS/Login/Existing Team/GIT Team/Page_Sign in to your Microsoft acco/input_loginfmt'), Keys.chord(
         Keys.ENTER))
-=======
-not_run: WebUI.click(findTestObject('VSTS/Login/Firefox Login/Page_Sign in to your Microsoft acco/input_idSIButton9'))
 
 WebUI.sendKeys(findTestObject('VSTS/Login/New Team/TFVC Team/Login/Page_Sign in to your Microsoft acco/input_loginfmt'), 
     Keys.chord(Keys.ENTER))
->>>>>>> branch 'master' of https://github.com/arsalanedev/TeamAutomation
 
+'Type Password'
 WebUI.setText(findTestObject('VSTS/Login/Existing Team/GIT Team/Page_Sign in to your Microsoft acco/input_passwd'), password)
 
 WebUI.delay(3)
 
-<<<<<<< HEAD
 WebUI.sendKeys(findTestObject('VSTS/Login/Existing Team/GIT Team/Page_Sign in to your Microsoft acco/input_passwd'), Keys.chord(
-=======
-not_run: WebUI.click(findTestObject('VSTS/Login/New Team/TFVC Team/Login/Page_Sign in to your Microsoft acco (1)/input_idSIButton9'))
-
-WebUI.sendKeys(findTestObject('VSTS/Login/New Team/TFVC Team/Login/Page_Sign in to your Microsoft acco/input_passwd'), Keys.chord(
->>>>>>> branch 'master' of https://github.com/arsalanedev/TeamAutomation
         Keys.ENTER))
-
-not_run: WebUI.click(findTestObject('VSTS/Login/Firefox Login/Page_Sign in to your Microsoft acco/input_idSIButton9'))
 
 WebUI.click(findTestObject('VSTS/Login/New Team/TFVC Team/Login/Page_Sign in to your account/input_idBtn_Back'))
 
+'Clicked No'
 WebUI.delay(3)
-
-not_run: assert WebUI.getText(findTestObject('Object Repository/Login/Page_Projects - Visual Studio Team/span_Projects')) == 
-'Projects'
 

@@ -30,10 +30,13 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('New Project and Team for VSTS and Embed 2017/newProject-btn'))
 
+'New Project Name - Random'
 WebUI.setText(findTestObject('New Project and Team for VSTS and Embed 2017/newProjectTextField'), projectName)
 
+'Click dropdown'
 WebUI.click(findTestObject('New Project and Team for VSTS and Embed 2017/versionControlDropdown'))
 
+'Select version control from dropdown'
 WebUI.click(findTestObject('New Project and Team for VSTS and Embed 2017/versionControlValue -TFVC'))
 
 WebUI.waitForElementClickable(findTestObject('New Project and Team for VSTS and Embed 2017/button_Create'), 5)
@@ -49,15 +52,17 @@ WebUI.click(findTestObject('New Project and Team for VSTS and Embed 2017/Project
 
 WebUI.delay(5)
 
+'New Team window opened'
 WebUI.click(findTestObject('New Project and Team for VSTS and Embed 2017/span_New team'))
 
 WebUI.delay(5)
 
+'Team Name - Random'
 WebUI.setText(findTestObject('New Project and Team for VSTS and Embed 2017/input_groupName'), TeamName)
 
 WebUI.delay(5)
 
 WebUI.click(findTestObject('New Project and Team for VSTS and Embed 2017/span_Create team'))
 
-WebUI.delay(20)
+WebUI.delay(10)
 

@@ -24,11 +24,11 @@ String BaselineName = CustomKeywords.'keyword.edevkatalon.com.GeneralKeywords.Ge
 
 WebUI.callTestCase(findTestCase('VSTS/Login/New Team/TFVC Team/TFVC- Login , New Project , New Team'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('VSTS/Modules Objects/Backlog/Work Tab Click/span_Work'))
+WebUI.click(findTestObject('VSTS/Modules Objects/Backlog/Click Work Tab/Page_Overview dashboard - Visual St/span_Work'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('VSTS/Modules Objects/Backlog/Backlogs tab click/Page_Features (1)/span_Backlogs'))
+WebUI.click(findTestObject('VSTS/Modules Objects/Backlog/Click Work Tab/Page_Work Items - Visual Studio Tea/a_Backlogs'))
 
 for (def index : (1..10)) {
     WebUI.setText(findTestObject('VSTS/Modules Objects/Backlog/Work Tab Click/backlog_newWiTextBox'), 'TestWI' + index)
@@ -42,7 +42,7 @@ WebUI.delay(3)
 
 CustomKeywords.'keyword.edevkatalon.com.ActionClass.SelectElement'()
 
-WebUI.rightClick(findTestObject('VSTS/Modules Objects/Backlog/Click CM/Page_Product backlog/div_grid-context-menu-containe'))
+WebUI.rightClick(findTestObject('VSTS/Modules Objects/Backlog/Click Work Tab/Page_Features/div_grid-context-menu-containe'))
 
 WebUI.waitForElementPresent(findTestObject('VSTS/Modules Objects/Backlog/Click Context Menu and Select Baseline/Page_Features/span_Create Baseline CLick'), 
     5)
@@ -66,4 +66,10 @@ WebUI.setText(findTestObject('VSTS/Modules Objects/Backlog/Click Context Menu an
 WebUI.delay(3)
 
 WebUI.click(findTestObject('VSTS/Modules Objects/Backlog/Click Context Menu and Select Baseline/Test/Page_Product backlog/input_ig-NewBaselineDialog-new'))
+
+WebUI.openBrowser('')
+
+WebUI.click(findTestObject('VSTS/Modules Objects/Backlog/Click Work Tab/Page_Work Items - Visual Studio Tea/a_Backlogs'))
+
+WebUI.closeBrowser()
 

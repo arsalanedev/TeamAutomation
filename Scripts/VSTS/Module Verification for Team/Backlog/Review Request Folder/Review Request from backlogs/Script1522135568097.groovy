@@ -23,7 +23,7 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('VSTS/Login/New Team/TFVC Team/TFVC- Login , New Project , New Team'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Click Work Tab'
-WebUI.click(findTestObject('VSTS/Modules Objects/Backlog/Work Tab Click/span_Work'))
+WebUI.click(findTestObject('VSTS/Login/New Team/TFVC Team/Backlogs/Page_Overview dashboard/span_Work'))
 
 String ReviewName = CustomKeywords.'keyword.edevkatalon.com.GeneralKeywords.GetRandomString'()
 
