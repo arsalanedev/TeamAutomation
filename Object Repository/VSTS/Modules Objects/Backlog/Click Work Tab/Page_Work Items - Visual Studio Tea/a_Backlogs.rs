@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[@id = 'mi_120_ms.vss-work-web.agile-hub' and (text() = 'Backlogs' or . = 'Backlogs')]</value>
+         <value>//a[@class = 'menu-item hover' and @id = 'mi_120_ms.vss-work-web.agile-hub' and (text() = 'Backlogs' or . = 'Backlogs')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -20,7 +20,7 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
