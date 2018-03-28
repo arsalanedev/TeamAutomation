@@ -24,12 +24,17 @@ String BaselineName = CustomKeywords.'keyword.edevkatalon.com.GeneralKeywords.Ge
 
 WebUI.callTestCase(findTestCase('VSTS/Login/New Team/TFVC Team/TFVC- Login , New Project , New Team'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(3)
+
+'Work Tab Open'
 WebUI.click(findTestObject('VSTS/Modules Objects/Backlog/Click Work Tab/Page_Overview dashboard - Visual St/span_Work'))
 
-WebUI.delay(2)
+WebUI.delay(3)
 
-WebUI.click(findTestObject('VSTS/Modules Objects/Backlog/Click Work Tab/Page_Work Items - Visual Studio Tea/a_Backlogs'))
+'Backlogs tab Opened'
+WebUI.click(findTestObject('VSTS/Modules Objects/Backlog/Click Work Tab/Click Backlogs Tab/span_Backlogs'))
 
+'Work Items Creation'
 for (def index : (1..10)) {
     WebUI.setText(findTestObject('VSTS/Modules Objects/Backlog/Work Tab Click/backlog_newWiTextBox'), 'TestWI' + index)
 
@@ -40,36 +45,33 @@ for (def index : (1..10)) {
 
 WebUI.delay(3)
 
+'Select all Work Items (Keyword)'
 CustomKeywords.'keyword.edevkatalon.com.ActionClass.SelectElement'()
 
+'Open Context Menu options'
 WebUI.rightClick(findTestObject('VSTS/Modules Objects/Backlog/Click Work Tab/Page_Features/div_grid-context-menu-containe'))
 
-WebUI.waitForElementPresent(findTestObject('VSTS/Modules Objects/Backlog/Click Context Menu and Select Baseline/Page_Features/span_Create Baseline CLick'), 
+WebUI.waitForElementPresent(findTestObject('VSTS/Modules Objects/Backlog/Click Work Tab/Page_Features/div_grid-context-menu-containe'), 
     5)
 
+WebUI.waitForElementPresent(findTestObject('VSTS/Modules Objects/Backlog/Click Context Menu and Select Baseline/Page_Features/span_Create Baseline CLick'), 
+    10)
+
+'Clicked Create Baseline window to open'
 WebUI.click(findTestObject('VSTS/Modules Objects/Backlog/Click Context Menu and Select Baseline/Page_Features/span_Create Baseline CLick'))
 
-not_run: WebUI.waitForElementPresent(findTestObject('VSTS/Modules Objects/Backlog/Click Context Menu and Select Baseline/Page_Product backlog (1)/iframe_externalContentHost'), 
+WebUI.switchToFrame(findTestObject('VSTS/Modules Objects/Backlog/Baseline Create button/iframe_externalContentHost481'), 
+    0)
+
+'Random Baseline Name '
+WebUI.setText(findTestObject('VSTS/Modules Objects/Backlog/Baseline TextBox/input_ig-NewBaselineDialog-txt'), BaselineName)
+
+not_run: WebUI.delay(3)
+
+not_run: WebUI.switchToFrame(findTestObject('VSTS/Modules Objects/Backlog/Baseline TextBox/iframe_externalContentHost481'), 
     5)
 
-not_run: WebUI.switchToFrame(findTestObject('VSTS/Modules Objects/Backlog/Click Context Menu and Select Baseline/Test/Page_Product backlog/iframe_externalContentHost476'), 
-    5)
+not_run: WebUI.click(findTestObject('VSTS/Modules Objects/Backlog/Baseline Create button/input_ig-NewBaselineDialog-new'))
 
-WebUI.click(findTestObject('VSTS/Modules Objects/Backlog/Click Context Menu and Select Baseline/Test/Page_Product backlog/input_ig-NewBaselineDialog-new'))
-
-WebUI.waitForElementPresent(findTestObject('VSTS/Modules Objects/Backlog/Click Context Menu and Select Baseline/Test/Page_Product backlog/input_ig-NewBaselineDialog-new'), 
-    5)
-
-WebUI.setText(findTestObject('VSTS/Modules Objects/Backlog/Click Context Menu and Select Baseline/Page_Product backlog (1)/input_ig-NewBaselineDialog-txt'), 
-    BaselineName)
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('VSTS/Modules Objects/Backlog/Click Context Menu and Select Baseline/Test/Page_Product backlog/input_ig-NewBaselineDialog-new'))
-
-WebUI.openBrowser('')
-
-WebUI.click(findTestObject('VSTS/Modules Objects/Backlog/Click Work Tab/Page_Work Items - Visual Studio Tea/a_Backlogs'))
-
-WebUI.closeBrowser()
+WebUI.click(findTestObject('VSTS/Modules Objects/Backlog/Baseline Create button/Page_Product backlog/input_ig-NewBaselineDialog-new'))
 
