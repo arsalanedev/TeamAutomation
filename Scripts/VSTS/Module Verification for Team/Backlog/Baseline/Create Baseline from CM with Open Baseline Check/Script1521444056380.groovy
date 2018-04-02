@@ -51,27 +51,23 @@ CustomKeywords.'keyword.edevkatalon.com.ActionClass.SelectElement'()
 'Open Context Menu options'
 WebUI.rightClick(findTestObject('VSTS/Modules Objects/Backlog/Click Work Tab/Page_Features/div_grid-context-menu-containe'))
 
-WebUI.waitForElementPresent(findTestObject('VSTS/Modules Objects/Backlog/Click Work Tab/Page_Features/div_grid-context-menu-containe'), 
-    5)
-
-WebUI.waitForElementPresent(findTestObject('VSTS/Modules Objects/Backlog/Click Context Menu and Select Baseline/Page_Features/span_Create Baseline CLick'), 
+WebUI.waitForElementVisible(findTestObject('VSTS/Modules Objects/Backlog/Click Context Menu and Select Baseline/Page_Features/span_Create Baseline CLick'), 
     10)
 
 'Clicked Create Baseline window to open'
 WebUI.click(findTestObject('VSTS/Modules Objects/Backlog/Click Context Menu and Select Baseline/Page_Features/span_Create Baseline CLick'))
 
+WebUI.waitForElementVisible(findTestObject('VSTS/Modules Objects/Backlog/Baseline Create button/iframe_externalContentHost481'), 
+    50)
+
 WebUI.switchToFrame(findTestObject('VSTS/Modules Objects/Backlog/Baseline Create button/iframe_externalContentHost481'), 
-    0)
+    5)
 
 'Random Baseline Name '
 WebUI.setText(findTestObject('VSTS/Modules Objects/Backlog/Baseline TextBox/input_ig-NewBaselineDialog-txt'), BaselineName)
 
-not_run: WebUI.delay(3)
+WebUI.delay(5)
 
-not_run: WebUI.switchToFrame(findTestObject('VSTS/Modules Objects/Backlog/Baseline TextBox/iframe_externalContentHost481'), 
-    5)
-
-not_run: WebUI.click(findTestObject('VSTS/Modules Objects/Backlog/Baseline Create button/input_ig-NewBaselineDialog-new'))
-
+'Baseline file created and opened in new tab'
 WebUI.click(findTestObject('VSTS/Modules Objects/Backlog/Baseline Create button/Page_Product backlog/input_ig-NewBaselineDialog-new'))
 
