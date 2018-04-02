@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>iframe_externalContentHost4</name>
+   <name>body_Main Success Scenario</name>
    <tag></tag>
-   <elementGuidId>3b6036f7-3bc7-4d6f-8ac1-fad6c3e8cb2e</elementGuidId>
+   <elementGuidId>f96dea93-de45-48a6-b298-b46cdd428bb6</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
       <entry>
          <key>CSS</key>
          <value></value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;externalContentHost4&quot;)[count(. | //iframe[@src = 'http://syedsaad:8028/VSOInteGreat4TFS/IndexForVSTS?selectedTab=simulation&amp;adminHubId=collection-level-admin-hub']) = count(//iframe[@src = 'http://syedsaad:8028/VSOInteGreat4TFS/IndexForVSTS?selectedTab=simulation&amp;adminHubId=collection-level-admin-hub'])]</value>
+         <value>/html[1]/body[1][count(. | //body[(text() = ' Main Success Scenario' or . = ' Main Success Scenario') and @ref_element = 'Object Repository/TFSEmbed/Modules Objects/Use Case/Create usecase with branch/Page_Simulation and Use case - Micr (4)/iframe_rteSample_Iframe']) = count(//body[(text() = ' Main Success Scenario' or . = ' Main Success Scenario') and @ref_element = 'Object Repository/TFSEmbed/Modules Objects/Use Case/Create usecase with branch/Page_Simulation and Use case - Micr (4)/iframe_rteSample_Iframe'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,48 +25,41 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>iframe</value>
+      <value>body</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>frameborder</name>
+      <name>autocorrect</name>
       <type>Main</type>
-      <value>0</value>
+      <value>off</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>contenteditable</name>
       <type>Main</type>
-      <value>external-content-iframe</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>externalContentHost4</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>externalContentHost4</value>
+      <value>true</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>src</name>
+      <name>text</name>
       <type>Main</type>
-      <value>http://syedsaad:8028/VSOInteGreat4TFS/IndexForVSTS?selectedTab=simulation&amp;adminHubId=collection-level-admin-hub</value>
+      <value> Main Success Scenario</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;externalContentHost4&quot;)</value>
+      <value>/html[1]/body[1]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/TFSEmbed/Modules Objects/Use Case/Create usecase with branch/Page_Simulation and Use case - Micr (4)/iframe_rteSample_Iframe</value>
    </webElementProperties>
 </WebElementEntity>

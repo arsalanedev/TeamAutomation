@@ -38,22 +38,27 @@ WebUI.setText(findTestObject('TFSEmbed/Modules Objects/Use Case/Create usecase w
 'Create button'
 WebUI.click(findTestObject('TFSEmbed/Modules Objects/Use Case/Create usecase with branch/Page_Simulation and Use case - Micr/input_createNewUsecase'))
 
-WebUI.click(findTestObject('TFSEmbed/Modules Objects/Use Case/Create usecase with branch/Page_Simulation and Use case - Micr (3)/iframe_externalContentHost4'))
+not_run: WebUI.click(findTestObject('TFSEmbed/Modules Objects/Use Case/Create usecase with branch/Page_Simulation and Use case - Micr (1)/li'))
 
-WebUI.switchToFrame(findTestObject('TFSEmbed/Modules Objects/Use Case/Create usecase with branch/Page_Simulation and Use case - Micr (3)/iframe_rteSample_Iframe'), 
-    0)
+WebUI.focus(findTestObject('TFSEmbed/Modules Objects/Use Case/Create usecase with branch/Page_Simulation and Use case - Micr (1)/li'))
 
-WebUI.click(findTestObject('TFSEmbed/Modules Objects/Use Case/Create usecase with branch/Page_Simulation and Use case - Micr (3)/html_htmlbodypadding0margin-1p'))
+not_run: TestObject myobj = CustomKeywords.'keyword.edevkatalon.com.GeneralKeywords.getCustomTestObjectBy'('xpath', '/html/body/ol')
 
-WebUI.click(findTestObject('TFSEmbed/Modules Objects/Use Case/Create usecase with branch/Page_Simulation and Use case - Micr (3)/body_Main Success Scenariologi'))
+not_run: WebUI.setText(myobj, 'object')
 
-WebUI.setText(findTestObject('TFSEmbed/Modules Objects/Use Case/Create usecase with branch/Page_Simulation and Use case - Micr (3)/li'), 
+not_run: WebUI.sendKeys(findTestObject('TFSEmbed/Modules Objects/Use Case/Create usecase with branch/Page_Simulation and Use case - Micr (1)/li_Login'), 
+    'sendkey')
+
+WebUI.switchToFrame(findTestObject('TFSEmbed/Modules Objects/Use Case/Create usecase with branch/Page_Simulation and Use case - Micr (2)/iframe_rteSample_Iframe'), 
+    10)
+
+WebUI.setText(findTestObject('TFSEmbed/Modules Objects/Use Case/Create usecase with branch/Page_Simulation and Use case - Micr (2)/li'), 
     'Login')
 
-WebUI.click(findTestObject('TFSEmbed/Modules Objects/Use Case/Create usecase with branch/Page_Simulation and Use case - Micr/div_useCaseActionIcon e-Branch'))
+not_run: WebUI.click(findTestObject('TFSEmbed/Modules Objects/Use Case/Create usecase with branch/Page_Simulation and Use case - Micr/div_useCaseActionIcon e-Branch'))
 
-WebUI.setText(findTestObject('TFSEmbed/Modules Objects/Use Case/Create usecase with branch/Page_Simulation and Use case - Micr/input_Scenario'), 
+not_run: WebUI.setText(findTestObject('TFSEmbed/Modules Objects/Use Case/Create usecase with branch/Page_Simulation and Use case - Micr/input_Scenario'), 
     'alternate')
 
-WebUI.click(findTestObject('TFSEmbed/Modules Objects/Use Case/Create usecase with branch/Page_Simulation and Use case - Micr/input_OkScenario'))
+not_run: WebUI.click(findTestObject('TFSEmbed/Modules Objects/Use Case/Create usecase with branch/Page_Simulation and Use case - Micr/input_OkScenario'))
 

@@ -3,22 +3,14 @@
    <description></description>
    <name>iframe_rteSample_Iframe</name>
    <tag></tag>
-   <elementGuidId>72d9e45f-a672-4599-ba7a-c5afe6a2eec5</elementGuidId>
+   <elementGuidId>6eb63c14-7622-49ff-acc4-27a3557622c1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//iframe[@id = 'rteSample_Iframe' and @ref_element = 'Object Repository/TFSEmbed/Modules Objects/Use Case/Create usecase with branch/Page_Simulation and Use case - Micr (1)/iframe_externalContentHost4']</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;rteSample_Iframe&quot;]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value></value>
+         <value>//iframe[@id = 'rteSample_Iframe' and @ref_element = 'Object Repository/TFSEmbed/Modules Objects/Use Case/Create usecase with branch/Page_Simulation and Use case - Micr (2)/iframe_externalContentHost4']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -60,6 +52,6 @@
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/TFSEmbed/Modules Objects/Use Case/Create usecase with branch/Page_Simulation and Use case - Micr (1)/iframe_externalContentHost4</value>
+      <value>Object Repository/TFSEmbed/Modules Objects/Use Case/Create usecase with branch/Page_Simulation and Use case - Micr (2)/iframe_externalContentHost4</value>
    </webElementProperties>
 </WebElementEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>delete step in existing usecase</description>
+   <name>Delete Step</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>895b0301-926a-4772-a52f-7a5798c039da</testCaseGuid>
+</TestCaseEntity>

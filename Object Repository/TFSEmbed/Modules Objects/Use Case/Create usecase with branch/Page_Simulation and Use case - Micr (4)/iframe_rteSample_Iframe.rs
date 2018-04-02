@@ -3,22 +3,21 @@
    <description></description>
    <name>iframe_rteSample_Iframe</name>
    <tag></tag>
-   <elementGuidId>72d9e45f-a672-4599-ba7a-c5afe6a2eec5</elementGuidId>
+   <elementGuidId>53366493-7147-48a7-afb0-f9ae771c4841</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//iframe[@id = 'rteSample_Iframe' and @ref_element = 'Object Repository/TFSEmbed/Modules Objects/Use Case/Create usecase with branch/Page_Simulation and Use case - Micr (1)/iframe_externalContentHost4']</value>
+         <value>id(&quot;rteSample_Iframe&quot;)[count(. | //iframe[@ref_element = 'Object Repository/TFSEmbed/Modules Objects/Use Case/Create usecase with branch/Page_Simulation and Use case - Micr (4)/iframe_externalContentHost4']) = count(//iframe[@ref_element = 'Object Repository/TFSEmbed/Modules Objects/Use Case/Create usecase with branch/Page_Simulation and Use case - Micr (4)/iframe_externalContentHost4'])]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;rteSample_Iframe&quot;]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>#rteSample_Iframe</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,11 +27,11 @@
       <value>iframe</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>rteSample_Iframe</value>
+      <value>#rteSample_Iframe</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +48,7 @@
       <value>0</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
@@ -60,6 +59,6 @@
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/TFSEmbed/Modules Objects/Use Case/Create usecase with branch/Page_Simulation and Use case - Micr (1)/iframe_externalContentHost4</value>
+      <value>Object Repository/TFSEmbed/Modules Objects/Use Case/Create usecase with branch/Page_Simulation and Use case - Micr (4)/iframe_externalContentHost4</value>
    </webElementProperties>
 </WebElementEntity>

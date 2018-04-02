@@ -3,7 +3,7 @@
    <description></description>
    <name>iframe_externalContentHost4</name>
    <tag></tag>
-   <elementGuidId>d3f6f693-4aa5-4ff3-8e2f-6c6c92bfdbe1</elementGuidId>
+   <elementGuidId>adbd6f94-2fb3-478a-b4c0-2853748497aa</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

@@ -1,65 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>iframe_rteSample_Iframe</name>
+   <name>div_Existing UseCase</name>
    <tag></tag>
-   <elementGuidId>72d9e45f-a672-4599-ba7a-c5afe6a2eec5</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//iframe[@id = 'rteSample_Iframe' and @ref_element = 'Object Repository/TFSEmbed/Modules Objects/Use Case/Create usecase with branch/Page_Simulation and Use case - Micr (1)/iframe_externalContentHost4']</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;rteSample_Iframe&quot;]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-   </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <elementGuidId>d66a3ff1-c843-4b8f-89b0-4f640c0eeb00</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>iframe</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>title</name>
       <type>Main</type>
-      <value>rteSample_Iframe</value>
+      <value>undefined/Existing UseCase.htm</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>uc-relserverpath</name>
       <type>Main</type>
-      <value>content-iframe</value>
+      <value>/124910_Existing UseCase.usc</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>frameborder</name>
+      <name>text</name>
       <type>Main</type>
-      <value>0</value>
+      <value>Existing UseCase</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;rteSample_Iframe&quot;)</value>
+      <value>id(&quot;/124910_Existing UseCase.usc&quot;)/div[1]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/TFSEmbed/Modules Objects/Use Case/Create usecase with branch/Page_Simulation and Use case - Micr (1)/iframe_externalContentHost4</value>
+      <value>Object Repository/TFSEmbed/Modules Objects/Use Case/Exising call usecase/Page_Simulation and Use case - Micr/iframe_externalContentHost4</value>
    </webElementProperties>
 </WebElementEntity>
