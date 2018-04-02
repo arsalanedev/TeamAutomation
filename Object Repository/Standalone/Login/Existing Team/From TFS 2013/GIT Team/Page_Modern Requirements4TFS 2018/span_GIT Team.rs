@@ -3,7 +3,7 @@
    <description></description>
    <name>span_GIT Team</name>
    <tag></tag>
-   <elementGuidId>7b3dc061-ed7d-44c0-bd6a-5a911c572d6a</elementGuidId>
+   <elementGuidId>2e819b25-6e70-439d-b4a1-6cd71244dd65</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

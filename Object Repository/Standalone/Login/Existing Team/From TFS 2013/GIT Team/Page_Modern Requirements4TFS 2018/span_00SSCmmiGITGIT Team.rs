@@ -3,7 +3,7 @@
    <description></description>
    <name>span_00SSCmmiGITGIT Team</name>
    <tag></tag>
-   <elementGuidId>e572798e-a1f3-424f-847c-3f33e8023ac9</elementGuidId>
+   <elementGuidId>80853094-1691-4bdc-8e1f-7e0d3142f95e</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

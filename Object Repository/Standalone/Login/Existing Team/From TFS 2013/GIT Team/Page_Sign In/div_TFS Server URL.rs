@@ -3,7 +3,7 @@
    <description></description>
    <name>div_TFS Server URL</name>
    <tag></tag>
-   <elementGuidId>1e6594d0-cd55-47e9-ad43-71d1cc7b60a6</elementGuidId>
+   <elementGuidId>d6460847-cae7-44c9-ba8b-fe334ff2cff4</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

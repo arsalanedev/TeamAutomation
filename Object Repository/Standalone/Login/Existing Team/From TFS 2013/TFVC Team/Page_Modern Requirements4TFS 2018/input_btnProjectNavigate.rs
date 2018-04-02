@@ -3,7 +3,7 @@
    <description></description>
    <name>input_btnProjectNavigate</name>
    <tag></tag>
-   <elementGuidId>507548fe-ebd6-4f64-93f1-8c31a2f88b11</elementGuidId>
+   <elementGuidId>6496f02c-c07b-4d85-9fd2-839ca5786764</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

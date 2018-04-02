@@ -3,7 +3,7 @@
    <description></description>
    <name>input_TFSServerURL</name>
    <tag></tag>
-   <elementGuidId>af8164e7-e091-4c60-b181-37a4290f7570</elementGuidId>
+   <elementGuidId>9162e3f5-36e5-450c-bdc9-98ddf77bc44f</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
