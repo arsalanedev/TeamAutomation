@@ -3,15 +3,19 @@
    <description></description>
    <name>li</name>
    <tag></tag>
-   <elementGuidId>1e362484-75ac-4b7b-bb0f-4278f300366c</elementGuidId>
+   <elementGuidId>bef4f32d-e150-41e9-a237-5dd7471138da</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>body > ol > li</value>
+         <key>BASIC</key>
+         <value>/html[1]/body[1]/ol[1]/li[1][count(. | //li[@ref_element = 'Object Repository/TFSEmbed/Modules Objects/Use Case/Create usecase with branch/Page_Simulation and Use case - Micr (1)/iframe_rteSample_Iframe']) = count(//li[@ref_element = 'Object Repository/TFSEmbed/Modules Objects/Use Case/Create usecase with branch/Page_Simulation and Use case - Micr (1)/iframe_rteSample_Iframe'])]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>/html[1]/body[1]/ol[1]/li[1]</value>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -29,5 +33,12 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/ol[1]/li[1]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/TFSEmbed/Modules Objects/Use Case/Create usecase with branch/Page_Simulation and Use case - Micr (1)/iframe_rteSample_Iframe</value>
    </webElementProperties>
 </WebElementEntity>
