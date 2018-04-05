@@ -3,7 +3,7 @@
    <description></description>
    <name>div_Project katalon Agile Gitt</name>
    <tag></tag>
-   <elementGuidId>19d999c1-0c0b-4080-9fe4-3b05317c6d77</elementGuidId>
+   <elementGuidId>5a97f385-c0d5-48b9-a015-81f14f29ffe4</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -12,27 +12,6 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>draggable jqx-rc-all jqx-tree-item jqx-item jqx-draggable jqx-fill-state-hover jqx-tree-item-hover jqx-fill-state-pressed jqx-tree-item-selected</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>jqxWidget5bcb4bc9</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>unselectable</name>
-      <type>Main</type>
-      <value>on</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,6 +25,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;jqxWidget5bcb4bc9&quot;)</value>
+      <value>id(&quot;dropDownButtonContentrvm-req-areapathDropDownButton&quot;)/div[1]</value>
    </webElementProperties>
 </WebElementEntity>

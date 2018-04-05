@@ -85,9 +85,9 @@ WebUI.click(findTestObject('Standalone/Modules Objects/Review/create review requ
 
 WebUI.click(findTestObject('Standalone/Modules Objects/Review/create review request/Page_Modern Requirements4TFS 2018/input_ig-linkToWindow-OkBtn-rv'))
 
-WebUI.click(findTestObject('Standalone/Modules Objects/Review/create review request/Page_Modern Requirements4TFS 2018 (2)/div_Rules'))
+WebUI.click(findTestObject('Standalone/Modules Objects/Review/create review request/Page_Modern Requirements4TFS 2018 (3)/div_Request ReviewersApprovers'))
 
-WebUI.click(findTestObject('Standalone/Modules Objects/Review/create review request/Page_Modern Requirements4TFS 2018 (1)/div_jqx-icon-arrow-down jqx-ic'))
+WebUI.click(findTestObject('Standalone/Modules Objects/Review/create review request/Page_Modern Requirements4TFS 2018 (1)/div_dropDownButtonContentrvm-r'))
 
 WebUI.click(findTestObject('Standalone/Modules Objects/Review/create review request/Page_Modern Requirements4TFS 2018 (1)/div_Project katalon Agile Gitt'))
 
@@ -98,6 +98,4 @@ WebUI.click(findTestObject('Standalone/Modules Objects/Review/create review requ
 WebUI.click(findTestObject('Standalone/Modules Objects/Review/create review request/Page_Modern Requirements4TFS 2018/input_rvm-req-btnpreview'))
 
 WebUI.click(findTestObject('Standalone/Modules Objects/Review/create review request/Page_Modern Requirements4TFS 2018/input_rvm-req-btnsend'))
-
-WebUI.click(findTestObject('Standalone/Modules Objects/Review/create review request/Page_Modern Requirements4TFS 2018/span_review-katalon'))
 

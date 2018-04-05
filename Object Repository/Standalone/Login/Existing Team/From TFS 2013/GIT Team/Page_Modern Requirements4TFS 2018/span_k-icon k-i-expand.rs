@@ -3,15 +3,15 @@
    <description></description>
    <name>span_k-icon k-i-expand</name>
    <tag></tag>
-   <elementGuidId>ed7c803c-8605-40f1-bb00-e1fa1a26c116</elementGuidId>
+   <elementGuidId>f08d51a1-4611-4ec7-92ba-25378fd9ef66</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>div[id='treeviewProjects'] > ul.k-treeview-lines > li[title='Test'] span.k-icon.k-i-expand</value>
-      </entry>
       <entry>
          <key>BASIC</key>
          <value>id(&quot;treeviewProjects_tv_active&quot;)/div[@class=&quot;k-bot&quot;]/span[@class=&quot;k-icon k-i-expand&quot;]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div[id='treeviewProjects'] > ul.k-treeview-lines > li[title='Test'] span.k-icon.k-i-expand</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Page</name>
+   <tag></tag>
+   <elementGuidId>30ead741-ae2f-402a-ab29-6ef65e07f183</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[count(. | //*[@class = 'k-link']) = count(//*[@class = 'k-link'])][count(. | //*[text() = 'Page']) = count(//*[text() = 'Page'])][count(. | id(&quot;snt-left-pane-new-smartnote&quot;)/span[@class=&quot;k-link&quot;]) = count(id(&quot;snt-left-pane-new-smartnote&quot;)/span[@class=&quot;k-link&quot;])][count(. | //*[@ref_element = 'Object Repository/VSTS/Modules Objects/Smart Note/Page_SmartNote - Visual Studio Team/iframe_externalContentHost4']) = count(//*[@ref_element = 'Object Repository/VSTS/Modules Objects/Smart Note/Page_SmartNote - Visual Studio Team/iframe_externalContentHost4'])]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#snt-left-pane-btn-new > div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>k-link</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Page</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;snt-left-pane-new-smartnote&quot;)/span[@class=&quot;k-link&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/VSTS/Modules Objects/Smart Note/Page_SmartNote - Visual Studio Team/iframe_externalContentHost4</value>
+   </webElementProperties>
+</WebElementEntity>

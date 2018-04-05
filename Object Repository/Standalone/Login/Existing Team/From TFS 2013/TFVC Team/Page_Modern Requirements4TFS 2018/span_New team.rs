@@ -3,7 +3,7 @@
    <description></description>
    <name>span_New team</name>
    <tag></tag>
-   <elementGuidId>5e08064e-559d-4d1e-8a28-ce86d97ad554</elementGuidId>
+   <elementGuidId>47520cfb-501d-447c-93f4-cb2bb9825460</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

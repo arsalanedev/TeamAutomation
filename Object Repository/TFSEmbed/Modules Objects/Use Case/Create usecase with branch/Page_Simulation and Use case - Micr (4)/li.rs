@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li</name>
+   <tag></tag>
+   <elementGuidId>86750e6e-fc3a-4fcd-b47a-2111b23246c4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/ol/li[count(. | //li[@ref_element = 'Object Repository/TFSEmbed/Modules Objects/Use Case/Create usecase with branch/Page_Simulation and Use case - Micr (4)/iframe_externalContentHost4']) = count(//li[@ref_element = 'Object Repository/TFSEmbed/Modules Objects/Use Case/Create usecase with branch/Page_Simulation and Use case - Micr (4)/iframe_externalContentHost4'])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>sourcenodename</name>
+      <type>Main</type>
+      <value>Rect0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/ol/li</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>body > ol > li</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/TFSEmbed/Modules Objects/Use Case/Create usecase with branch/Page_Simulation and Use case - Micr (1)/iframe_rteSample_Iframe</value>
+   </webElementProperties>
+</WebElementEntity>

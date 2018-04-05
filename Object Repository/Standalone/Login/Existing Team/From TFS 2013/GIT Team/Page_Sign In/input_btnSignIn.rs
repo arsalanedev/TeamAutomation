@@ -3,7 +3,7 @@
    <description></description>
    <name>input_btnSignIn</name>
    <tag></tag>
-   <elementGuidId>a6b7ad4f-15a3-4890-91ac-4597bb8972a3</elementGuidId>
+   <elementGuidId>3e1798ab-d27c-4797-af37-054d5c0101c3</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

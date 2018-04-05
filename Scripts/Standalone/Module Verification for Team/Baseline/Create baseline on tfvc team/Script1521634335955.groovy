@@ -81,7 +81,7 @@ WebUI.click(findTestObject('Standalone/Modules Objects/Baseline/create baseline/
 
 WebUI.click(findTestObject('Standalone/Modules Objects/Baseline/create baseline/Page_Modern Requirements4TFS 2018/span_k-icon k-i-calendar'))
 
-WebUI.click(findTestObject('Standalone/Modules Objects/Baseline/create baseline/Page_Modern Requirements4TFS 2018/a_15'))
+WebUI.click(findTestObject('Standalone/Modules Objects/Baseline/create baseline/Page_Modern Requirements4TFS 2018/div_April 2018SuMoTuWeThFrSa25'))
 
 WebUI.click(findTestObject('Standalone/Modules Objects/Baseline/create baseline/Page_Modern Requirements4TFS 2018/input_ig-linkToWindow-btnFind-'))
 

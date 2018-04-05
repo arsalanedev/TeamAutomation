@@ -6,12 +6,12 @@
    <elementGuidId>06250d42-b040-4631-b717-c859b47a24c7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div[class*='modal-dialog'] iframe</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div[class*='modal-dialog'] iframe</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

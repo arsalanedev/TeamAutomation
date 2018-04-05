@@ -3,7 +3,7 @@
    <description></description>
    <name>span_admin</name>
    <tag></tag>
-   <elementGuidId>2296f60e-184f-472c-aed3-a2013f244ab9</elementGuidId>
+   <elementGuidId>f57aae93-668d-4f9a-ba56-0020386d0ca3</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

@@ -3,7 +3,7 @@
    <description></description>
    <name>a_Browse</name>
    <tag></tag>
-   <elementGuidId>a5b2ccab-5af9-49ff-a17c-04790b3f7f89</elementGuidId>
+   <elementGuidId>6eda0210-4b2c-445c-ba47-d1154707f7dc</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

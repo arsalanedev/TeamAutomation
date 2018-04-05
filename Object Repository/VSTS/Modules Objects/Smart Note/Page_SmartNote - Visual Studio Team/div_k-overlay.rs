@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_k-overlay</name>
+   <tag></tag>
+   <elementGuidId>930252fd-4a1c-47d1-8d6b-feb73e352d1f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[count(. | //*[@class = 'k-overlay']) = count(//*[@class = 'k-overlay'])][count(. | //*[@id = 'ig-newfile-textbox-snt-new-file-dialog']) = count(//*[@id = 'ig-newfile-textbox-snt-new-file-dialog'])][count(. | //*[@ref_element = 'Object Repository/VSTS/Modules Objects/Smart Note/Page_SmartNote - Visual Studio Team/iframe_externalContentHost4']) = count(//*[@ref_element = 'Object Repository/VSTS/Modules Objects/Smart Note/Page_SmartNote - Visual Studio Team/iframe_externalContentHost4'])]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>k-overlay</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/div[@class=&quot;k-overlay&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ig-newfile-textbox-snt-new-file-dialog</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/VSTS/Modules Objects/Smart Note/Page_SmartNote - Visual Studio Team/iframe_externalContentHost4</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -3,7 +3,7 @@
    <description></description>
    <name>a_GIT Team</name>
    <tag></tag>
-   <elementGuidId>13c924b4-a963-41c8-85af-575f2c00fb1c</elementGuidId>
+   <elementGuidId>bf6080dd-e29b-43b9-b7bb-ea5a770ee2ad</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
