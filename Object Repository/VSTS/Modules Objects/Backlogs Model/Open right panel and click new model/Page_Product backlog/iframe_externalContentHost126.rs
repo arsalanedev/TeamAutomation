@@ -1,23 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>iframe_externalContentHost514</name>
+   <name>iframe_externalContentHost126</name>
    <tag></tag>
-   <elementGuidId>06250d42-b040-4631-b717-c859b47a24c7</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>div[class*='modal-dialog'] iframe</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value></value>
-      </entry>
-   </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <elementGuidId>0d27fd84-69e6-4c0c-8f3f-f18abf50fdab</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -38,18 +28,18 @@
       <value>external-content-iframe</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>externalContentHost</value>
+      <value>externalContentHost126</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>contains</matchCondition>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>externalContentHost</value>
+      <value>externalContentHost126</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -59,17 +49,17 @@
       <value>presentation</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>src</name>
       <type>Main</type>
-      <value>https://modernrequirements.net:8028/VSOInteGreat4TFS/RequestReviewDialog?reviewDialogId=RequestReview-OnPrem</value>
+      <value>https://modernrequirements.net:8028/VSOInteGreat4TFS/ModelPane?loginDialogContributerId=dialog-inteGREAT-signIn-OnPrem</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;externalContentHost514&quot;)</value>
+      <value>id(&quot;externalContentHost126&quot;)</value>
    </webElementProperties>
 </WebElementEntity>

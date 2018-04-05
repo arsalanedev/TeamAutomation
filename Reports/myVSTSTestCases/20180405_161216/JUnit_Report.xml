@@ -1,0 +1,915 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="myVSTSTestCases" time="694" tests="2" failures="1" errors="0">
+   <testsuite name="myVSTSTestCases" tests="2" failures="1" errors="0" time="694" timestamp="2018-04-05 16:12:22" hostname="syed.saad - SyedSaad.edevtech.com" id="Test Suites/myVSTSTestCases">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\syed.saad\\git\\TeamAutomation\\Reports\\myVSTSTestCases\\20180405_161216"/>
+         <property name="logFiles" value="C:\\Users\\syed.saad\\git\\TeamAutomation\\Reports\\myVSTSTestCases\\20180405_161216\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\syed.saad\\git\\TeamAutomation\\Reports\\myVSTSTestCases\\20180405_161216\\1522927206872.png"/>
+         <property name="hostName" value="syed.saad - SyedSaad.edevtech.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="192.168.47.1"/>
+         <property name="sessionId" value="27360e2481c138166f8030eead43ef59"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/VSTS/Module Verification for Team/Backlog/Baseline/Create Baseline from CM with Open Baseline Check" classname="Test Cases/VSTS/Module Verification for Team/Backlog/Baseline/Create Baseline from CM with Open Baseline Check" status="PASSED">
+         <system-out><![CDATA[2018-04-05 16:12:22 - [TEST_CASE][PASSED] - Test Cases/VSTS/Module Verification for Team/Backlog/Baseline/Create Baseline from CM with Open Baseline Check: Test Cases/VSTS/Module Verification for Team/Backlog/Baseline/Create Baseline from CM with Open Baseline Check
+
+2018-04-05 16:12:22 - [TEST_STEP][PASSED] - Statement - BaselineName = CustomKeywords.keyword.edevkatalon.com.GeneralKeywords.GetRandomString(): keyword.edevkatalon.com.GeneralKeywords.GetRandomString is PASSED
+
+2018-04-05 16:12:22 - [MESSAGE][PASSED] - keyword.edevkatalon.com.GeneralKeywords.GetRandomString is PASSED
+
+2018-04-05 16:12:22 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/VSTS/Login/New Team/TFVC Team/TFVC- Login , New Project , New Team' successfully
+
+2018-04-05 16:12:22 - [TEST_CASE][PASSED] - Test Cases/VSTS/Login/New Team/TFVC Team/TFVC- Login , New Project , New Team: Test Cases/VSTS/Login/New Team/TFVC Team/TFVC- Login , New Project , New Team
+
+2018-04-05 16:12:22 - [TEST_STEP][PASSED] - Statement - projectName = CustomKeywords.keyword.edevkatalon.com.GeneralKeywords.GetRandomString(): keyword.edevkatalon.com.GeneralKeywords.GetRandomString is PASSED
+
+2018-04-05 16:12:22 - [MESSAGE][PASSED] - keyword.edevkatalon.com.GeneralKeywords.GetRandomString is PASSED
+
+2018-04-05 16:12:22 - [TEST_STEP][PASSED] - Statement - TeamName = CustomKeywords.keyword.edevkatalon.com.GeneralKeywords.GetRandomString(): keyword.edevkatalon.com.GeneralKeywords.GetRandomString is PASSED
+
+2018-04-05 16:12:22 - [MESSAGE][PASSED] - keyword.edevkatalon.com.GeneralKeywords.GetRandomString is PASSED
+
+2018-04-05 16:12:22 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/VSTS/Login/Login VSTS' successfully
+
+2018-04-05 16:12:22 - [TEST_CASE][PASSED] - Test Cases/VSTS/Login/Login VSTS: Test Cases/VSTS/Login/Login VSTS
+
+2018-04-05 16:12:22 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-05 16:12:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-05 16:12:25 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-04-05 16:12:26 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-05 16:12:26 - [TEST_STEP][PASSED] - deleteAllCookies: Delete all cookies successfully
+
+2018-04-05 16:12:26 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2018-04-05 16:12:26 - [TEST_STEP][PASSED] - Statement - server = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Datafile).getValue("TFSServer", 2): Reading excel file with source file '\\arsalanmushtaq\datadriven\datadriven.xlsx' and sheet name 'All'
+
+2018-04-05 16:12:27 - [TEST_STEP][PASSED] - Statement - username = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Datafile).getValue("username", 1): Reading excel file with source file '\\arsalanmushtaq\datadriven\datadriven.xlsx' and sheet name 'All'
+
+2018-04-05 16:12:27 - [TEST_STEP][PASSED] - Statement - password = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Datafile).getValue("password", 1): Reading excel file with source file '\\arsalanmushtaq\datadriven\datadriven.xlsx' and sheet name 'All'
+
+2018-04-05 16:12:27 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://automationkatalon.visualstudio.com' successfully
+
+2018-04-05 16:12:36 - [MESSAGE][PASSED] - Navigate to 'https://automationkatalon.visualstudio.com' successfully
+
+2018-04-05 16:12:36 - [TEST_STEP][PASSED] - setText: Text 'syed.saad@edevtech.com' is set on object 'Object Repository/VSTS/Login/Existing Team/GIT Team/Page_Sign in to your Microsoft acco/input_loginfmt'
+
+2018-04-05 16:12:41 - [MESSAGE][PASSED] - Text 'syed.saad@edevtech.com' is set on object 'Object Repository/VSTS/Login/Existing Team/GIT Team/Page_Sign in to your Microsoft acco/input_loginfmt'
+
+2018-04-05 16:12:41 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-05 16:12:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-05 16:12:44 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/VSTS/Login/Existing Team/GIT Team/Page_Sign in to your Microsoft acco/input_loginfmt'
+
+2018-04-05 16:12:44 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/VSTS/Login/Existing Team/GIT Team/Page_Sign in to your Microsoft acco/input_loginfmt'
+
+2018-04-05 16:12:44 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/VSTS/Login/New Team/TFVC Team/Login/Page_Sign in to your Microsoft acco/input_loginfmt'
+
+2018-04-05 16:12:44 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/VSTS/Login/New Team/TFVC Team/Login/Page_Sign in to your Microsoft acco/input_loginfmt'
+
+2018-04-05 16:12:44 - [TEST_STEP][PASSED] - setText: Text 'inte!!GREAT' is set on object 'Object Repository/VSTS/Login/Existing Team/GIT Team/Page_Sign in to your Microsoft acco/input_passwd'
+
+2018-04-05 16:12:45 - [MESSAGE][PASSED] - Text 'inte!!GREAT' is set on object 'Object Repository/VSTS/Login/Existing Team/GIT Team/Page_Sign in to your Microsoft acco/input_passwd'
+
+2018-04-05 16:12:45 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-05 16:12:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-05 16:12:48 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/VSTS/Login/Existing Team/GIT Team/Page_Sign in to your Microsoft acco/input_passwd'
+
+2018-04-05 16:12:51 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/VSTS/Login/Existing Team/GIT Team/Page_Sign in to your Microsoft acco/input_passwd'
+
+2018-04-05 16:12:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VSTS/Login/New Team/TFVC Team/Login/Page_Sign in to your account/input_idBtn_Back' is clicked on
+
+2018-04-05 16:13:02 - [MESSAGE][PASSED] - Object: 'Object Repository/VSTS/Login/New Team/TFVC Team/Login/Page_Sign in to your account/input_idBtn_Back' is clicked on
+
+2018-04-05 16:13:02 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-05 16:13:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-05 16:13:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/VSTS/Login/Login VSTS' successfully
+
+2018-04-05 16:13:05 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-05 16:13:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-05 16:13:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New Project and Team for VSTS and Embed 2017/newProject-btn' is clicked on
+
+2018-04-05 16:13:08 - [MESSAGE][PASSED] - Object: 'Object Repository/New Project and Team for VSTS and Embed 2017/newProject-btn' is clicked on
+
+2018-04-05 16:13:08 - [TEST_STEP][PASSED] - setText: Text 'vq947qbxrj' is set on object 'Object Repository/New Project and Team for VSTS and Embed 2017/newProjectTextField'
+
+2018-04-05 16:13:11 - [MESSAGE][PASSED] - Text 'vq947qbxrj' is set on object 'Object Repository/New Project and Team for VSTS and Embed 2017/newProjectTextField'
+
+2018-04-05 16:13:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New Project and Team for VSTS and Embed 2017/versionControlDropdown' is clicked on
+
+2018-04-05 16:13:11 - [MESSAGE][PASSED] - Object: 'Object Repository/New Project and Team for VSTS and Embed 2017/versionControlDropdown' is clicked on
+
+2018-04-05 16:13:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New Project and Team for VSTS and Embed 2017/versionControlValue -TFVC' is clicked on
+
+2018-04-05 16:13:11 - [MESSAGE][PASSED] - Object: 'Object Repository/New Project and Team for VSTS and Embed 2017/versionControlValue -TFVC' is clicked on
+
+2018-04-05 16:13:11 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/New Project and Team for VSTS and Embed 2017/button_Create' is clickable
+
+2018-04-05 16:13:11 - [MESSAGE][PASSED] - Object 'Object Repository/New Project and Team for VSTS and Embed 2017/button_Create' is clickable
+
+2018-04-05 16:13:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New Project and Team for VSTS and Embed 2017/button_Create' is clicked on
+
+2018-04-05 16:13:11 - [MESSAGE][PASSED] - Object: 'Object Repository/New Project and Team for VSTS and Embed 2017/button_Create' is clicked on
+
+2018-04-05 16:13:11 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-04-05 16:13:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-04-05 16:13:16 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/New Project and Team for VSTS and Embed 2017/ProjectNameOnDashboard - Project name for Team' is not present after 10 second(s)
+
+2018-04-05 16:13:27 - [MESSAGE][WARNING] - Object 'Object Repository/New Project and Team for VSTS and Embed 2017/ProjectNameOnDashboard - Project name for Team' is not present after 10 second(s)
+
+2018-04-05 16:13:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New Project and Team for VSTS and Embed 2017/Project dropdown for Create Team' is clicked on
+
+2018-04-05 16:13:55 - [MESSAGE][PASSED] - Object: 'Object Repository/New Project and Team for VSTS and Embed 2017/Project dropdown for Create Team' is clicked on
+
+2018-04-05 16:13:55 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-04-05 16:14:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-04-05 16:14:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New Project and Team for VSTS and Embed 2017/span_New team' is clicked on
+
+2018-04-05 16:14:00 - [MESSAGE][PASSED] - Object: 'Object Repository/New Project and Team for VSTS and Embed 2017/span_New team' is clicked on
+
+2018-04-05 16:14:00 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-04-05 16:14:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-04-05 16:14:05 - [TEST_STEP][PASSED] - setText: Text '0i78nras8g' is set on object 'Object Repository/New Project and Team for VSTS and Embed 2017/input_groupName'
+
+2018-04-05 16:14:05 - [MESSAGE][PASSED] - Text '0i78nras8g' is set on object 'Object Repository/New Project and Team for VSTS and Embed 2017/input_groupName'
+
+2018-04-05 16:14:05 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-04-05 16:14:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-04-05 16:14:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New Project and Team for VSTS and Embed 2017/span_Create team' is clicked on
+
+2018-04-05 16:14:10 - [MESSAGE][PASSED] - Object: 'Object Repository/New Project and Team for VSTS and Embed 2017/span_Create team' is clicked on
+
+2018-04-05 16:14:10 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-04-05 16:14:20 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-04-05 16:14:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/VSTS/Login/New Team/TFVC Team/TFVC- Login , New Project , New Team' successfully
+
+2018-04-05 16:14:20 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-05 16:14:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-05 16:14:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VSTS/Modules Objects/Backlog/Click Work Tab/Page_Overview dashboard - Visual St/span_Work' is clicked on
+
+2018-04-05 16:14:46 - [MESSAGE][PASSED] - Object: 'Object Repository/VSTS/Modules Objects/Backlog/Click Work Tab/Page_Overview dashboard - Visual St/span_Work' is clicked on
+
+2018-04-05 16:14:46 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-05 16:14:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-05 16:14:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VSTS/Modules Objects/Backlog/Click Work Tab/Click Backlogs Tab/span_Backlogs' is clicked on
+
+2018-04-05 16:14:52 - [MESSAGE][PASSED] - Object: 'Object Repository/VSTS/Modules Objects/Backlog/Click Work Tab/Click Backlogs Tab/span_Backlogs' is clicked on
+
+2018-04-05 16:14:52 - [TEST_STEP][PASSED] - Statement - For (def index : (1..10)): Object: 'Object Repository/VSTS/Modules Objects/Backlog/Add work item/Page_Features/button_Add' is clicked on
+
+2018-04-05 16:14:52 - [TEST_STEP][PASSED] - setText: Text 'TestWI1' is set on object 'Object Repository/VSTS/Modules Objects/Backlog/Work Tab Click/backlog_newWiTextBox'
+
+2018-04-05 16:14:54 - [MESSAGE][PASSED] - Text 'TestWI1' is set on object 'Object Repository/VSTS/Modules Objects/Backlog/Work Tab Click/backlog_newWiTextBox'
+
+2018-04-05 16:14:54 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-05 16:14:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-05 16:14:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VSTS/Modules Objects/Backlog/Add work item/Page_Features/button_Add' is clicked on
+
+2018-04-05 16:14:57 - [MESSAGE][PASSED] - Object: 'Object Repository/VSTS/Modules Objects/Backlog/Add work item/Page_Features/button_Add' is clicked on
+
+2018-04-05 16:14:57 - [TEST_STEP][PASSED] - setText: Text 'TestWI2' is set on object 'Object Repository/VSTS/Modules Objects/Backlog/Work Tab Click/backlog_newWiTextBox'
+
+2018-04-05 16:14:57 - [MESSAGE][PASSED] - Text 'TestWI2' is set on object 'Object Repository/VSTS/Modules Objects/Backlog/Work Tab Click/backlog_newWiTextBox'
+
+2018-04-05 16:14:57 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-05 16:15:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-05 16:15:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VSTS/Modules Objects/Backlog/Add work item/Page_Features/button_Add' is clicked on
+
+2018-04-05 16:15:01 - [MESSAGE][PASSED] - Object: 'Object Repository/VSTS/Modules Objects/Backlog/Add work item/Page_Features/button_Add' is clicked on
+
+2018-04-05 16:15:01 - [TEST_STEP][PASSED] - setText: Text 'TestWI3' is set on object 'Object Repository/VSTS/Modules Objects/Backlog/Work Tab Click/backlog_newWiTextBox'
+
+2018-04-05 16:15:01 - [MESSAGE][PASSED] - Text 'TestWI3' is set on object 'Object Repository/VSTS/Modules Objects/Backlog/Work Tab Click/backlog_newWiTextBox'
+
+2018-04-05 16:15:01 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-05 16:15:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-05 16:15:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VSTS/Modules Objects/Backlog/Add work item/Page_Features/button_Add' is clicked on
+
+2018-04-05 16:15:04 - [MESSAGE][PASSED] - Object: 'Object Repository/VSTS/Modules Objects/Backlog/Add work item/Page_Features/button_Add' is clicked on
+
+2018-04-05 16:15:04 - [TEST_STEP][PASSED] - setText: Text 'TestWI4' is set on object 'Object Repository/VSTS/Modules Objects/Backlog/Work Tab Click/backlog_newWiTextBox'
+
+2018-04-05 16:15:04 - [MESSAGE][PASSED] - Text 'TestWI4' is set on object 'Object Repository/VSTS/Modules Objects/Backlog/Work Tab Click/backlog_newWiTextBox'
+
+2018-04-05 16:15:04 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-05 16:15:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-05 16:15:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VSTS/Modules Objects/Backlog/Add work item/Page_Features/button_Add' is clicked on
+
+2018-04-05 16:15:07 - [MESSAGE][PASSED] - Object: 'Object Repository/VSTS/Modules Objects/Backlog/Add work item/Page_Features/button_Add' is clicked on
+
+2018-04-05 16:15:07 - [TEST_STEP][PASSED] - setText: Text 'TestWI5' is set on object 'Object Repository/VSTS/Modules Objects/Backlog/Work Tab Click/backlog_newWiTextBox'
+
+2018-04-05 16:15:07 - [MESSAGE][PASSED] - Text 'TestWI5' is set on object 'Object Repository/VSTS/Modules Objects/Backlog/Work Tab Click/backlog_newWiTextBox'
+
+2018-04-05 16:15:07 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-05 16:15:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-05 16:15:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VSTS/Modules Objects/Backlog/Add work item/Page_Features/button_Add' is clicked on
+
+2018-04-05 16:15:10 - [MESSAGE][PASSED] - Object: 'Object Repository/VSTS/Modules Objects/Backlog/Add work item/Page_Features/button_Add' is clicked on
+
+2018-04-05 16:15:10 - [TEST_STEP][PASSED] - setText: Text 'TestWI6' is set on object 'Object Repository/VSTS/Modules Objects/Backlog/Work Tab Click/backlog_newWiTextBox'
+
+2018-04-05 16:15:10 - [MESSAGE][PASSED] - Text 'TestWI6' is set on object 'Object Repository/VSTS/Modules Objects/Backlog/Work Tab Click/backlog_newWiTextBox'
+
+2018-04-05 16:15:10 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-05 16:15:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-05 16:15:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VSTS/Modules Objects/Backlog/Add work item/Page_Features/button_Add' is clicked on
+
+2018-04-05 16:15:13 - [MESSAGE][PASSED] - Object: 'Object Repository/VSTS/Modules Objects/Backlog/Add work item/Page_Features/button_Add' is clicked on
+
+2018-04-05 16:15:13 - [TEST_STEP][PASSED] - setText: Text 'TestWI7' is set on object 'Object Repository/VSTS/Modules Objects/Backlog/Work Tab Click/backlog_newWiTextBox'
+
+2018-04-05 16:15:13 - [MESSAGE][PASSED] - Text 'TestWI7' is set on object 'Object Repository/VSTS/Modules Objects/Backlog/Work Tab Click/backlog_newWiTextBox'
+
+2018-04-05 16:15:13 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-05 16:15:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-05 16:15:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VSTS/Modules Objects/Backlog/Add work item/Page_Features/button_Add' is clicked on
+
+2018-04-05 16:15:17 - [MESSAGE][PASSED] - Object: 'Object Repository/VSTS/Modules Objects/Backlog/Add work item/Page_Features/button_Add' is clicked on
+
+2018-04-05 16:15:17 - [TEST_STEP][PASSED] - setText: Text 'TestWI8' is set on object 'Object Repository/VSTS/Modules Objects/Backlog/Work Tab Click/backlog_newWiTextBox'
+
+2018-04-05 16:15:17 - [MESSAGE][PASSED] - Text 'TestWI8' is set on object 'Object Repository/VSTS/Modules Objects/Backlog/Work Tab Click/backlog_newWiTextBox'
+
+2018-04-05 16:15:17 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-05 16:15:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-05 16:15:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VSTS/Modules Objects/Backlog/Add work item/Page_Features/button_Add' is clicked on
+
+2018-04-05 16:15:20 - [MESSAGE][PASSED] - Object: 'Object Repository/VSTS/Modules Objects/Backlog/Add work item/Page_Features/button_Add' is clicked on
+
+2018-04-05 16:15:20 - [TEST_STEP][PASSED] - setText: Text 'TestWI9' is set on object 'Object Repository/VSTS/Modules Objects/Backlog/Work Tab Click/backlog_newWiTextBox'
+
+2018-04-05 16:15:20 - [MESSAGE][PASSED] - Text 'TestWI9' is set on object 'Object Repository/VSTS/Modules Objects/Backlog/Work Tab Click/backlog_newWiTextBox'
+
+2018-04-05 16:15:20 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-05 16:15:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-05 16:15:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VSTS/Modules Objects/Backlog/Add work item/Page_Features/button_Add' is clicked on
+
+2018-04-05 16:15:23 - [MESSAGE][PASSED] - Object: 'Object Repository/VSTS/Modules Objects/Backlog/Add work item/Page_Features/button_Add' is clicked on
+
+2018-04-05 16:15:23 - [TEST_STEP][PASSED] - setText: Text 'TestWI10' is set on object 'Object Repository/VSTS/Modules Objects/Backlog/Work Tab Click/backlog_newWiTextBox'
+
+2018-04-05 16:15:23 - [MESSAGE][PASSED] - Text 'TestWI10' is set on object 'Object Repository/VSTS/Modules Objects/Backlog/Work Tab Click/backlog_newWiTextBox'
+
+2018-04-05 16:15:23 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-05 16:15:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-05 16:15:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VSTS/Modules Objects/Backlog/Add work item/Page_Features/button_Add' is clicked on
+
+2018-04-05 16:15:26 - [MESSAGE][PASSED] - Object: 'Object Repository/VSTS/Modules Objects/Backlog/Add work item/Page_Features/button_Add' is clicked on
+
+2018-04-05 16:15:26 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-05 16:15:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-05 16:15:29 - [TEST_STEP][PASSED] - keyword.edevkatalon.com.ActionClass.SelectElement: keyword.edevkatalon.com.ActionClass.SelectElement is PASSED
+
+2018-04-05 16:15:29 - [MESSAGE][PASSED] - keyword.edevkatalon.com.ActionClass.SelectElement is PASSED
+
+2018-04-05 16:15:29 - [TEST_STEP][PASSED] - rightClick: Object: 'Object Repository/VSTS/Modules Objects/Backlog/Click Work Tab/Page_Features/div_grid-context-menu-containe' is right clicked on
+
+2018-04-05 16:15:29 - [MESSAGE][PASSED] - Object: 'Object Repository/VSTS/Modules Objects/Backlog/Click Work Tab/Page_Features/div_grid-context-menu-containe' is right clicked on
+
+2018-04-05 16:15:29 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/VSTS/Modules Objects/Backlog/Click Context Menu and Select Baseline/Page_Features/span_Create Baseline CLick' is visible
+
+2018-04-05 16:15:31 - [MESSAGE][PASSED] - Object 'Object Repository/VSTS/Modules Objects/Backlog/Click Context Menu and Select Baseline/Page_Features/span_Create Baseline CLick' is visible
+
+2018-04-05 16:15:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VSTS/Modules Objects/Backlog/Click Context Menu and Select Baseline/Page_Features/span_Create Baseline CLick' is clicked on
+
+2018-04-05 16:15:31 - [MESSAGE][PASSED] - Object: 'Object Repository/VSTS/Modules Objects/Backlog/Click Context Menu and Select Baseline/Page_Features/span_Create Baseline CLick' is clicked on
+
+2018-04-05 16:15:31 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/VSTS/Modules Objects/Backlog/Baseline Create button/iframe_externalContentHost481' is visible
+
+2018-04-05 16:16:40 - [MESSAGE][PASSED] - Object 'Object Repository/VSTS/Modules Objects/Backlog/Baseline Create button/iframe_externalContentHost481' is visible
+
+2018-04-05 16:16:40 - [TEST_STEP][PASSED] - switchToFrame: Switched to iframe: 'Object Repository/VSTS/Modules Objects/Backlog/Baseline Create button/iframe_externalContentHost481'
+
+2018-04-05 16:16:40 - [TEST_STEP][PASSED] - setText: Text 'm7qkdys65a' is set on object 'Object Repository/VSTS/Modules Objects/Backlog/Baseline TextBox/input_ig-NewBaselineDialog-txt'
+
+2018-04-05 16:16:40 - [MESSAGE][PASSED] - Text 'm7qkdys65a' is set on object 'Object Repository/VSTS/Modules Objects/Backlog/Baseline TextBox/input_ig-NewBaselineDialog-txt'
+
+2018-04-05 16:16:40 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-04-05 16:16:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-04-05 16:16:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VSTS/Modules Objects/Backlog/Baseline Create button/Page_Product backlog/input_ig-NewBaselineDialog-new' is clicked on
+
+2018-04-05 16:16:45 - [MESSAGE][PASSED] - Object: 'Object Repository/VSTS/Modules Objects/Backlog/Baseline Create button/Page_Product backlog/input_ig-NewBaselineDialog-new' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/VSTS/Module Verification for Team/Backlog/Model/Create a model file against work item" classname="Test Cases/VSTS/Module Verification for Team/Backlog/Model/Create a model file against work item" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/VSTS/Modules Objects/Backlog/Click Work Tab/Page_Overview dashboard - Visual St/span_Work' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/VSTS/Modules Objects/Backlog/Click Work Tab/Page_Overview dashboard - Visual St/span_Work' located by 'By.xpath: id(&quot;mi_50_ms.vss-work-web.work-hub-group&quot;)/span[@class=&quot;text&quot;]' not found)"/>
+         <system-out><![CDATA[2018-04-05 16:16:46 - [TEST_CASE][FAILED] - Test Cases/VSTS/Module Verification for Team/Backlog/Model/Create a model file against work item: Test Cases/VSTS/Module Verification for Team/Backlog/Model/Create a model file against work item FAILED because (of) Unable to click on object 'Object Repository/VSTS/Modules Objects/Backlog/Click Work Tab/Page_Overview dashboard - Visual St/span_Work' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/VSTS/Modules Objects/Backlog/Click Work Tab/Page_Overview dashboard - Visual St/span_Work' located by 'By.xpath: id("mi_50_ms.vss-work-web.work-hub-group")/span[@class="text"]' not found)
+
+2018-04-05 16:16:46 - [TEST_STEP][PASSED] - Statement - BaselineName = CustomKeywords.keyword.edevkatalon.com.GeneralKeywords.GetRandomString(): keyword.edevkatalon.com.GeneralKeywords.GetRandomString is PASSED
+
+2018-04-05 16:16:46 - [MESSAGE][PASSED] - keyword.edevkatalon.com.GeneralKeywords.GetRandomString is PASSED
+
+2018-04-05 16:16:46 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/VSTS/Login/New Team/TFVC Team/TFVC- Login , New Project , New Team' successfully
+
+2018-04-05 16:16:46 - [TEST_CASE][PASSED] - Test Cases/VSTS/Login/New Team/TFVC Team/TFVC- Login , New Project , New Team: Test Cases/VSTS/Login/New Team/TFVC Team/TFVC- Login , New Project , New Team
+
+2018-04-05 16:16:46 - [TEST_STEP][PASSED] - Statement - projectName = CustomKeywords.keyword.edevkatalon.com.GeneralKeywords.GetRandomString(): keyword.edevkatalon.com.GeneralKeywords.GetRandomString is PASSED
+
+2018-04-05 16:16:46 - [MESSAGE][PASSED] - keyword.edevkatalon.com.GeneralKeywords.GetRandomString is PASSED
+
+2018-04-05 16:16:46 - [TEST_STEP][PASSED] - Statement - TeamName = CustomKeywords.keyword.edevkatalon.com.GeneralKeywords.GetRandomString(): keyword.edevkatalon.com.GeneralKeywords.GetRandomString is PASSED
+
+2018-04-05 16:16:46 - [MESSAGE][PASSED] - keyword.edevkatalon.com.GeneralKeywords.GetRandomString is PASSED
+
+2018-04-05 16:16:46 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/VSTS/Login/Login VSTS' successfully
+
+2018-04-05 16:16:46 - [TEST_CASE][PASSED] - Test Cases/VSTS/Login/Login VSTS: Test Cases/VSTS/Login/Login VSTS
+
+2018-04-05 16:16:46 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-05 16:16:46 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-04-05 16:16:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-05 16:16:48 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-04-05 16:16:49 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-05 16:16:49 - [TEST_STEP][PASSED] - deleteAllCookies: Delete all cookies successfully
+
+2018-04-05 16:16:50 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2018-04-05 16:16:50 - [TEST_STEP][PASSED] - Statement - server = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Datafile).getValue("TFSServer", 2): Reading excel file with source file '\\arsalanmushtaq\datadriven\datadriven.xlsx' and sheet name 'All'
+
+2018-04-05 16:16:50 - [TEST_STEP][PASSED] - Statement - username = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Datafile).getValue("username", 1): Reading excel file with source file '\\arsalanmushtaq\datadriven\datadriven.xlsx' and sheet name 'All'
+
+2018-04-05 16:16:50 - [TEST_STEP][PASSED] - Statement - password = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Datafile).getValue("password", 1): Reading excel file with source file '\\arsalanmushtaq\datadriven\datadriven.xlsx' and sheet name 'All'
+
+2018-04-05 16:16:50 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://automationkatalon.visualstudio.com' successfully
+
+2018-04-05 16:16:59 - [MESSAGE][PASSED] - Navigate to 'https://automationkatalon.visualstudio.com' successfully
+
+2018-04-05 16:16:59 - [TEST_STEP][PASSED] - setText: Text 'syed.saad@edevtech.com' is set on object 'Object Repository/VSTS/Login/Existing Team/GIT Team/Page_Sign in to your Microsoft acco/input_loginfmt'
+
+2018-04-05 16:17:04 - [MESSAGE][PASSED] - Text 'syed.saad@edevtech.com' is set on object 'Object Repository/VSTS/Login/Existing Team/GIT Team/Page_Sign in to your Microsoft acco/input_loginfmt'
+
+2018-04-05 16:17:04 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-05 16:17:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-05 16:17:07 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/VSTS/Login/Existing Team/GIT Team/Page_Sign in to your Microsoft acco/input_loginfmt'
+
+2018-04-05 16:17:07 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/VSTS/Login/Existing Team/GIT Team/Page_Sign in to your Microsoft acco/input_loginfmt'
+
+2018-04-05 16:17:07 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/VSTS/Login/New Team/TFVC Team/Login/Page_Sign in to your Microsoft acco/input_loginfmt'
+
+2018-04-05 16:17:07 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/VSTS/Login/New Team/TFVC Team/Login/Page_Sign in to your Microsoft acco/input_loginfmt'
+
+2018-04-05 16:17:07 - [TEST_STEP][PASSED] - setText: Text 'inte!!GREAT' is set on object 'Object Repository/VSTS/Login/Existing Team/GIT Team/Page_Sign in to your Microsoft acco/input_passwd'
+
+2018-04-05 16:17:08 - [MESSAGE][PASSED] - Text 'inte!!GREAT' is set on object 'Object Repository/VSTS/Login/Existing Team/GIT Team/Page_Sign in to your Microsoft acco/input_passwd'
+
+2018-04-05 16:17:08 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-05 16:17:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-05 16:17:11 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/VSTS/Login/Existing Team/GIT Team/Page_Sign in to your Microsoft acco/input_passwd'
+
+2018-04-05 16:17:16 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/VSTS/Login/Existing Team/GIT Team/Page_Sign in to your Microsoft acco/input_passwd'
+
+2018-04-05 16:17:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VSTS/Login/New Team/TFVC Team/Login/Page_Sign in to your account/input_idBtn_Back' is clicked on
+
+2018-04-05 16:17:21 - [MESSAGE][PASSED] - Object: 'Object Repository/VSTS/Login/New Team/TFVC Team/Login/Page_Sign in to your account/input_idBtn_Back' is clicked on
+
+2018-04-05 16:17:21 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-05 16:17:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-05 16:17:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/VSTS/Login/Login VSTS' successfully
+
+2018-04-05 16:17:24 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-05 16:17:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-05 16:17:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New Project and Team for VSTS and Embed 2017/newProject-btn' is clicked on
+
+2018-04-05 16:17:28 - [MESSAGE][PASSED] - Object: 'Object Repository/New Project and Team for VSTS and Embed 2017/newProject-btn' is clicked on
+
+2018-04-05 16:17:28 - [TEST_STEP][PASSED] - setText: Text '501n8yudjm' is set on object 'Object Repository/New Project and Team for VSTS and Embed 2017/newProjectTextField'
+
+2018-04-05 16:17:28 - [MESSAGE][PASSED] - Text '501n8yudjm' is set on object 'Object Repository/New Project and Team for VSTS and Embed 2017/newProjectTextField'
+
+2018-04-05 16:17:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New Project and Team for VSTS and Embed 2017/versionControlDropdown' is clicked on
+
+2018-04-05 16:17:28 - [MESSAGE][PASSED] - Object: 'Object Repository/New Project and Team for VSTS and Embed 2017/versionControlDropdown' is clicked on
+
+2018-04-05 16:17:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New Project and Team for VSTS and Embed 2017/versionControlValue -TFVC' is clicked on
+
+2018-04-05 16:17:28 - [MESSAGE][PASSED] - Object: 'Object Repository/New Project and Team for VSTS and Embed 2017/versionControlValue -TFVC' is clicked on
+
+2018-04-05 16:17:28 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/New Project and Team for VSTS and Embed 2017/button_Create' is clickable
+
+2018-04-05 16:17:29 - [MESSAGE][PASSED] - Object 'Object Repository/New Project and Team for VSTS and Embed 2017/button_Create' is clickable
+
+2018-04-05 16:17:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New Project and Team for VSTS and Embed 2017/button_Create' is clicked on
+
+2018-04-05 16:17:29 - [MESSAGE][PASSED] - Object: 'Object Repository/New Project and Team for VSTS and Embed 2017/button_Create' is clicked on
+
+2018-04-05 16:17:29 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-04-05 16:17:34 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-04-05 16:17:34 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/New Project and Team for VSTS and Embed 2017/ProjectNameOnDashboard - Project name for Team' is not present after 10 second(s)
+
+2018-04-05 16:17:44 - [MESSAGE][WARNING] - Object 'Object Repository/New Project and Team for VSTS and Embed 2017/ProjectNameOnDashboard - Project name for Team' is not present after 10 second(s)
+
+2018-04-05 16:17:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New Project and Team for VSTS and Embed 2017/Project dropdown for Create Team' is clicked on
+
+2018-04-05 16:18:03 - [MESSAGE][PASSED] - Object: 'Object Repository/New Project and Team for VSTS and Embed 2017/Project dropdown for Create Team' is clicked on
+
+2018-04-05 16:18:03 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-04-05 16:18:08 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-04-05 16:18:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New Project and Team for VSTS and Embed 2017/span_New team' is clicked on
+
+2018-04-05 16:18:08 - [MESSAGE][PASSED] - Object: 'Object Repository/New Project and Team for VSTS and Embed 2017/span_New team' is clicked on
+
+2018-04-05 16:18:08 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-04-05 16:18:13 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-04-05 16:18:13 - [TEST_STEP][PASSED] - setText: Text 'j8i07s0zak' is set on object 'Object Repository/New Project and Team for VSTS and Embed 2017/input_groupName'
+
+2018-04-05 16:18:13 - [MESSAGE][PASSED] - Text 'j8i07s0zak' is set on object 'Object Repository/New Project and Team for VSTS and Embed 2017/input_groupName'
+
+2018-04-05 16:18:13 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-04-05 16:18:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-04-05 16:18:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New Project and Team for VSTS and Embed 2017/span_Create team' is clicked on
+
+2018-04-05 16:18:18 - [MESSAGE][PASSED] - Object: 'Object Repository/New Project and Team for VSTS and Embed 2017/span_Create team' is clicked on
+
+2018-04-05 16:18:18 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-04-05 16:18:28 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-04-05 16:18:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/VSTS/Login/New Team/TFVC Team/TFVC- Login , New Project , New Team' successfully
+
+2018-04-05 16:18:28 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-05 16:18:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-05 16:18:31 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/VSTS/Modules Objects/Backlog/Click Work Tab/Page_Overview dashboard - Visual St/span_Work' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/VSTS/Modules Objects/Backlog/Click Work Tab/Page_Overview dashboard - Visual St/span_Work' located by 'By.xpath: id("mi_50_ms.vss-work-web.work-hub-group")/span[@class="text"]' not found)
+
+2018-04-05 16:20:07 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/VSTS/Modules Objects/Backlog/Click Work Tab/Page_Overview dashboard - Visual St/span_Work' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/VSTS/Modules Objects/Backlog/Click Work Tab/Page_Overview dashboard - Visual St/span_Work' located by 'By.xpath: id("mi_50_ms.vss-work-web.work-hub-group")/span[@class="text"]' not found)
+[[ATTACHMENT|C:\\Users\\syed.saad\\git\\TeamAutomation\\Reports\\myVSTSTestCases\\20180405_161216\\1522927206872.png]]]]></system-out>
+         <system-err><![CDATA[2018-04-05 16:16:46 - [TEST_CASE][FAILED] - Test Cases/VSTS/Module Verification for Team/Backlog/Model/Create a model file against work item: Test Cases/VSTS/Module Verification for Team/Backlog/Model/Create a model file against work item FAILED because (of) Unable to click on object 'Object Repository/VSTS/Modules Objects/Backlog/Click Work Tab/Page_Overview dashboard - Visual St/span_Work' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/VSTS/Modules Objects/Backlog/Click Work Tab/Page_Overview dashboard - Visual St/span_Work' located by 'By.xpath: id("mi_50_ms.vss-work-web.work-hub-group")/span[@class="text"]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/VSTS/Module Verification for Team/Backlog/Review Request Folder/Review Request from backlogs" classname="Test Cases/VSTS/Module Verification for Team/Backlog/Review Request Folder/Review Request from backlogs" status="PASSED">
+         <system-out><![CDATA[2018-04-05 16:20:07 - [TEST_CASE][PASSED] - Test Cases/VSTS/Module Verification for Team/Backlog/Review Request Folder/Review Request from backlogs: Test Cases/VSTS/Module Verification for Team/Backlog/Review Request Folder/Review Request from backlogs
+
+2018-04-05 16:20:07 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/VSTS/Login/New Team/TFVC Team/TFVC- Login , New Project , New Team' successfully
+
+2018-04-05 16:20:07 - [TEST_CASE][PASSED] - Test Cases/VSTS/Login/New Team/TFVC Team/TFVC- Login , New Project , New Team: Test Cases/VSTS/Login/New Team/TFVC Team/TFVC- Login , New Project , New Team
+
+2018-04-05 16:20:07 - [TEST_STEP][PASSED] - Statement - projectName = CustomKeywords.keyword.edevkatalon.com.GeneralKeywords.GetRandomString(): keyword.edevkatalon.com.GeneralKeywords.GetRandomString is PASSED
+
+2018-04-05 16:20:07 - [MESSAGE][PASSED] - keyword.edevkatalon.com.GeneralKeywords.GetRandomString is PASSED
+
+2018-04-05 16:20:07 - [TEST_STEP][PASSED] - Statement - TeamName = CustomKeywords.keyword.edevkatalon.com.GeneralKeywords.GetRandomString(): keyword.edevkatalon.com.GeneralKeywords.GetRandomString is PASSED
+
+2018-04-05 16:20:07 - [MESSAGE][PASSED] - keyword.edevkatalon.com.GeneralKeywords.GetRandomString is PASSED
+
+2018-04-05 16:20:07 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/VSTS/Login/Login VSTS' successfully
+
+2018-04-05 16:20:07 - [TEST_CASE][PASSED] - Test Cases/VSTS/Login/Login VSTS: Test Cases/VSTS/Login/Login VSTS
+
+2018-04-05 16:20:07 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-05 16:20:07 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-04-05 16:20:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-05 16:20:10 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-04-05 16:20:11 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-05 16:20:11 - [TEST_STEP][PASSED] - deleteAllCookies: Delete all cookies successfully
+
+2018-04-05 16:20:11 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2018-04-05 16:20:11 - [TEST_STEP][PASSED] - Statement - server = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Datafile).getValue("TFSServer", 2): Reading excel file with source file '\\arsalanmushtaq\datadriven\datadriven.xlsx' and sheet name 'All'
+
+2018-04-05 16:20:11 - [TEST_STEP][PASSED] - Statement - username = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Datafile).getValue("username", 1): Reading excel file with source file '\\arsalanmushtaq\datadriven\datadriven.xlsx' and sheet name 'All'
+
+2018-04-05 16:20:11 - [TEST_STEP][PASSED] - Statement - password = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Datafile).getValue("password", 1): Reading excel file with source file '\\arsalanmushtaq\datadriven\datadriven.xlsx' and sheet name 'All'
+
+2018-04-05 16:20:11 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://automationkatalon.visualstudio.com' successfully
+
+2018-04-05 16:20:18 - [MESSAGE][PASSED] - Navigate to 'https://automationkatalon.visualstudio.com' successfully
+
+2018-04-05 16:20:18 - [TEST_STEP][PASSED] - setText: Text 'syed.saad@edevtech.com' is set on object 'Object Repository/VSTS/Login/Existing Team/GIT Team/Page_Sign in to your Microsoft acco/input_loginfmt'
+
+2018-04-05 16:20:23 - [MESSAGE][PASSED] - Text 'syed.saad@edevtech.com' is set on object 'Object Repository/VSTS/Login/Existing Team/GIT Team/Page_Sign in to your Microsoft acco/input_loginfmt'
+
+2018-04-05 16:20:23 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-05 16:20:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-05 16:20:26 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/VSTS/Login/Existing Team/GIT Team/Page_Sign in to your Microsoft acco/input_loginfmt'
+
+2018-04-05 16:20:26 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/VSTS/Login/Existing Team/GIT Team/Page_Sign in to your Microsoft acco/input_loginfmt'
+
+2018-04-05 16:20:26 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/VSTS/Login/New Team/TFVC Team/Login/Page_Sign in to your Microsoft acco/input_loginfmt'
+
+2018-04-05 16:20:26 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/VSTS/Login/New Team/TFVC Team/Login/Page_Sign in to your Microsoft acco/input_loginfmt'
+
+2018-04-05 16:20:26 - [TEST_STEP][PASSED] - setText: Text 'inte!!GREAT' is set on object 'Object Repository/VSTS/Login/Existing Team/GIT Team/Page_Sign in to your Microsoft acco/input_passwd'
+
+2018-04-05 16:20:27 - [MESSAGE][PASSED] - Text 'inte!!GREAT' is set on object 'Object Repository/VSTS/Login/Existing Team/GIT Team/Page_Sign in to your Microsoft acco/input_passwd'
+
+2018-04-05 16:20:27 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-05 16:20:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-05 16:20:30 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/VSTS/Login/Existing Team/GIT Team/Page_Sign in to your Microsoft acco/input_passwd'
+
+2018-04-05 16:20:34 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/VSTS/Login/Existing Team/GIT Team/Page_Sign in to your Microsoft acco/input_passwd'
+
+2018-04-05 16:20:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VSTS/Login/New Team/TFVC Team/Login/Page_Sign in to your account/input_idBtn_Back' is clicked on
+
+2018-04-05 16:20:40 - [MESSAGE][PASSED] - Object: 'Object Repository/VSTS/Login/New Team/TFVC Team/Login/Page_Sign in to your account/input_idBtn_Back' is clicked on
+
+2018-04-05 16:20:40 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-05 16:20:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-05 16:20:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/VSTS/Login/Login VSTS' successfully
+
+2018-04-05 16:20:43 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-05 16:20:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-05 16:20:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New Project and Team for VSTS and Embed 2017/newProject-btn' is clicked on
+
+2018-04-05 16:20:46 - [MESSAGE][PASSED] - Object: 'Object Repository/New Project and Team for VSTS and Embed 2017/newProject-btn' is clicked on
+
+2018-04-05 16:20:46 - [TEST_STEP][PASSED] - setText: Text 'iz4qeeqzdu' is set on object 'Object Repository/New Project and Team for VSTS and Embed 2017/newProjectTextField'
+
+2018-04-05 16:20:46 - [MESSAGE][PASSED] - Text 'iz4qeeqzdu' is set on object 'Object Repository/New Project and Team for VSTS and Embed 2017/newProjectTextField'
+
+2018-04-05 16:20:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New Project and Team for VSTS and Embed 2017/versionControlDropdown' is clicked on
+
+2018-04-05 16:20:46 - [MESSAGE][PASSED] - Object: 'Object Repository/New Project and Team for VSTS and Embed 2017/versionControlDropdown' is clicked on
+
+2018-04-05 16:20:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New Project and Team for VSTS and Embed 2017/versionControlValue -TFVC' is clicked on
+
+2018-04-05 16:20:47 - [MESSAGE][PASSED] - Object: 'Object Repository/New Project and Team for VSTS and Embed 2017/versionControlValue -TFVC' is clicked on
+
+2018-04-05 16:20:47 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/New Project and Team for VSTS and Embed 2017/button_Create' is clickable
+
+2018-04-05 16:20:47 - [MESSAGE][PASSED] - Object 'Object Repository/New Project and Team for VSTS and Embed 2017/button_Create' is clickable
+
+2018-04-05 16:20:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New Project and Team for VSTS and Embed 2017/button_Create' is clicked on
+
+2018-04-05 16:20:47 - [MESSAGE][PASSED] - Object: 'Object Repository/New Project and Team for VSTS and Embed 2017/button_Create' is clicked on
+
+2018-04-05 16:20:47 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-04-05 16:20:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-04-05 16:20:52 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/New Project and Team for VSTS and Embed 2017/ProjectNameOnDashboard - Project name for Team' is not present after 10 second(s)
+
+2018-04-05 16:21:03 - [MESSAGE][WARNING] - Object 'Object Repository/New Project and Team for VSTS and Embed 2017/ProjectNameOnDashboard - Project name for Team' is not present after 10 second(s)
+
+2018-04-05 16:21:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New Project and Team for VSTS and Embed 2017/Project dropdown for Create Team' is clicked on
+
+2018-04-05 16:21:18 - [MESSAGE][PASSED] - Object: 'Object Repository/New Project and Team for VSTS and Embed 2017/Project dropdown for Create Team' is clicked on
+
+2018-04-05 16:21:18 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-04-05 16:21:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-04-05 16:21:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New Project and Team for VSTS and Embed 2017/span_New team' is clicked on
+
+2018-04-05 16:21:24 - [MESSAGE][PASSED] - Object: 'Object Repository/New Project and Team for VSTS and Embed 2017/span_New team' is clicked on
+
+2018-04-05 16:21:24 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-04-05 16:21:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-04-05 16:21:29 - [TEST_STEP][PASSED] - setText: Text 'n7lhjf8jk3' is set on object 'Object Repository/New Project and Team for VSTS and Embed 2017/input_groupName'
+
+2018-04-05 16:21:29 - [MESSAGE][PASSED] - Text 'n7lhjf8jk3' is set on object 'Object Repository/New Project and Team for VSTS and Embed 2017/input_groupName'
+
+2018-04-05 16:21:29 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-04-05 16:21:34 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-04-05 16:21:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New Project and Team for VSTS and Embed 2017/span_Create team' is clicked on
+
+2018-04-05 16:21:34 - [MESSAGE][PASSED] - Object: 'Object Repository/New Project and Team for VSTS and Embed 2017/span_Create team' is clicked on
+
+2018-04-05 16:21:34 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-04-05 16:21:44 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-04-05 16:21:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/VSTS/Login/New Team/TFVC Team/TFVC- Login , New Project , New Team' successfully
+
+2018-04-05 16:21:44 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-05 16:21:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-05 16:21:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VSTS/Modules Objects/Backlog/Click Work Tab/Page_Overview dashboard - Visual St/span_Work' is clicked on
+
+2018-04-05 16:21:49 - [MESSAGE][PASSED] - Object: 'Object Repository/VSTS/Modules Objects/Backlog/Click Work Tab/Page_Overview dashboard - Visual St/span_Work' is clicked on
+
+2018-04-05 16:21:49 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-05 16:21:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-05 16:21:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VSTS/Modules Objects/Backlog/Click Work Tab/Click Backlogs Tab/span_Backlogs' is clicked on
+
+2018-04-05 16:21:56 - [MESSAGE][PASSED] - Object: 'Object Repository/VSTS/Modules Objects/Backlog/Click Work Tab/Click Backlogs Tab/span_Backlogs' is clicked on
+
+2018-04-05 16:21:56 - [TEST_STEP][PASSED] - Statement - For (def index : (1..10)): Object: 'Object Repository/VSTS/Modules Objects/Backlog/Add work item/Page_Features/button_Add' is clicked on
+
+2018-04-05 16:21:56 - [TEST_STEP][PASSED] - setText: Text 'TestWI1' is set on object 'Object Repository/VSTS/Modules Objects/Backlog/Work Tab Click/backlog_newWiTextBox'
+
+2018-04-05 16:21:58 - [MESSAGE][PASSED] - Text 'TestWI1' is set on object 'Object Repository/VSTS/Modules Objects/Backlog/Work Tab Click/backlog_newWiTextBox'
+
+2018-04-05 16:21:58 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-05 16:22:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-05 16:22:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VSTS/Modules Objects/Backlog/Add work item/Page_Features/button_Add' is clicked on
+
+2018-04-05 16:22:01 - [MESSAGE][PASSED] - Object: 'Object Repository/VSTS/Modules Objects/Backlog/Add work item/Page_Features/button_Add' is clicked on
+
+2018-04-05 16:22:01 - [TEST_STEP][PASSED] - setText: Text 'TestWI2' is set on object 'Object Repository/VSTS/Modules Objects/Backlog/Work Tab Click/backlog_newWiTextBox'
+
+2018-04-05 16:22:01 - [MESSAGE][PASSED] - Text 'TestWI2' is set on object 'Object Repository/VSTS/Modules Objects/Backlog/Work Tab Click/backlog_newWiTextBox'
+
+2018-04-05 16:22:01 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-05 16:22:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-05 16:22:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VSTS/Modules Objects/Backlog/Add work item/Page_Features/button_Add' is clicked on
+
+2018-04-05 16:22:04 - [MESSAGE][PASSED] - Object: 'Object Repository/VSTS/Modules Objects/Backlog/Add work item/Page_Features/button_Add' is clicked on
+
+2018-04-05 16:22:04 - [TEST_STEP][PASSED] - setText: Text 'TestWI3' is set on object 'Object Repository/VSTS/Modules Objects/Backlog/Work Tab Click/backlog_newWiTextBox'
+
+2018-04-05 16:22:04 - [MESSAGE][PASSED] - Text 'TestWI3' is set on object 'Object Repository/VSTS/Modules Objects/Backlog/Work Tab Click/backlog_newWiTextBox'
+
+2018-04-05 16:22:04 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-05 16:22:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-05 16:22:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VSTS/Modules Objects/Backlog/Add work item/Page_Features/button_Add' is clicked on
+
+2018-04-05 16:22:07 - [MESSAGE][PASSED] - Object: 'Object Repository/VSTS/Modules Objects/Backlog/Add work item/Page_Features/button_Add' is clicked on
+
+2018-04-05 16:22:07 - [TEST_STEP][PASSED] - setText: Text 'TestWI4' is set on object 'Object Repository/VSTS/Modules Objects/Backlog/Work Tab Click/backlog_newWiTextBox'
+
+2018-04-05 16:22:07 - [MESSAGE][PASSED] - Text 'TestWI4' is set on object 'Object Repository/VSTS/Modules Objects/Backlog/Work Tab Click/backlog_newWiTextBox'
+
+2018-04-05 16:22:07 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-05 16:22:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-05 16:22:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VSTS/Modules Objects/Backlog/Add work item/Page_Features/button_Add' is clicked on
+
+2018-04-05 16:22:10 - [MESSAGE][PASSED] - Object: 'Object Repository/VSTS/Modules Objects/Backlog/Add work item/Page_Features/button_Add' is clicked on
+
+2018-04-05 16:22:10 - [TEST_STEP][PASSED] - setText: Text 'TestWI5' is set on object 'Object Repository/VSTS/Modules Objects/Backlog/Work Tab Click/backlog_newWiTextBox'
+
+2018-04-05 16:22:10 - [MESSAGE][PASSED] - Text 'TestWI5' is set on object 'Object Repository/VSTS/Modules Objects/Backlog/Work Tab Click/backlog_newWiTextBox'
+
+2018-04-05 16:22:10 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-05 16:22:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-05 16:22:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VSTS/Modules Objects/Backlog/Add work item/Page_Features/button_Add' is clicked on
+
+2018-04-05 16:22:13 - [MESSAGE][PASSED] - Object: 'Object Repository/VSTS/Modules Objects/Backlog/Add work item/Page_Features/button_Add' is clicked on
+
+2018-04-05 16:22:13 - [TEST_STEP][PASSED] - setText: Text 'TestWI6' is set on object 'Object Repository/VSTS/Modules Objects/Backlog/Work Tab Click/backlog_newWiTextBox'
+
+2018-04-05 16:22:13 - [MESSAGE][PASSED] - Text 'TestWI6' is set on object 'Object Repository/VSTS/Modules Objects/Backlog/Work Tab Click/backlog_newWiTextBox'
+
+2018-04-05 16:22:13 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-05 16:22:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-05 16:22:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VSTS/Modules Objects/Backlog/Add work item/Page_Features/button_Add' is clicked on
+
+2018-04-05 16:22:16 - [MESSAGE][PASSED] - Object: 'Object Repository/VSTS/Modules Objects/Backlog/Add work item/Page_Features/button_Add' is clicked on
+
+2018-04-05 16:22:16 - [TEST_STEP][PASSED] - setText: Text 'TestWI7' is set on object 'Object Repository/VSTS/Modules Objects/Backlog/Work Tab Click/backlog_newWiTextBox'
+
+2018-04-05 16:22:16 - [MESSAGE][PASSED] - Text 'TestWI7' is set on object 'Object Repository/VSTS/Modules Objects/Backlog/Work Tab Click/backlog_newWiTextBox'
+
+2018-04-05 16:22:16 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-05 16:22:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-05 16:22:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VSTS/Modules Objects/Backlog/Add work item/Page_Features/button_Add' is clicked on
+
+2018-04-05 16:22:20 - [MESSAGE][PASSED] - Object: 'Object Repository/VSTS/Modules Objects/Backlog/Add work item/Page_Features/button_Add' is clicked on
+
+2018-04-05 16:22:20 - [TEST_STEP][PASSED] - setText: Text 'TestWI8' is set on object 'Object Repository/VSTS/Modules Objects/Backlog/Work Tab Click/backlog_newWiTextBox'
+
+2018-04-05 16:22:20 - [MESSAGE][PASSED] - Text 'TestWI8' is set on object 'Object Repository/VSTS/Modules Objects/Backlog/Work Tab Click/backlog_newWiTextBox'
+
+2018-04-05 16:22:20 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-05 16:22:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-05 16:22:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VSTS/Modules Objects/Backlog/Add work item/Page_Features/button_Add' is clicked on
+
+2018-04-05 16:22:23 - [MESSAGE][PASSED] - Object: 'Object Repository/VSTS/Modules Objects/Backlog/Add work item/Page_Features/button_Add' is clicked on
+
+2018-04-05 16:22:23 - [TEST_STEP][PASSED] - setText: Text 'TestWI9' is set on object 'Object Repository/VSTS/Modules Objects/Backlog/Work Tab Click/backlog_newWiTextBox'
+
+2018-04-05 16:22:23 - [MESSAGE][PASSED] - Text 'TestWI9' is set on object 'Object Repository/VSTS/Modules Objects/Backlog/Work Tab Click/backlog_newWiTextBox'
+
+2018-04-05 16:22:23 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-05 16:22:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-05 16:22:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VSTS/Modules Objects/Backlog/Add work item/Page_Features/button_Add' is clicked on
+
+2018-04-05 16:22:26 - [MESSAGE][PASSED] - Object: 'Object Repository/VSTS/Modules Objects/Backlog/Add work item/Page_Features/button_Add' is clicked on
+
+2018-04-05 16:22:26 - [TEST_STEP][PASSED] - setText: Text 'TestWI10' is set on object 'Object Repository/VSTS/Modules Objects/Backlog/Work Tab Click/backlog_newWiTextBox'
+
+2018-04-05 16:22:26 - [MESSAGE][PASSED] - Text 'TestWI10' is set on object 'Object Repository/VSTS/Modules Objects/Backlog/Work Tab Click/backlog_newWiTextBox'
+
+2018-04-05 16:22:26 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-05 16:22:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-05 16:22:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VSTS/Modules Objects/Backlog/Add work item/Page_Features/button_Add' is clicked on
+
+2018-04-05 16:22:29 - [MESSAGE][PASSED] - Object: 'Object Repository/VSTS/Modules Objects/Backlog/Add work item/Page_Features/button_Add' is clicked on
+
+2018-04-05 16:22:29 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-05 16:22:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-05 16:22:32 - [TEST_STEP][PASSED] - keyword.edevkatalon.com.ActionClass.SelectElement: keyword.edevkatalon.com.ActionClass.SelectElement is PASSED
+
+2018-04-05 16:22:32 - [MESSAGE][PASSED] - keyword.edevkatalon.com.ActionClass.SelectElement is PASSED
+
+2018-04-05 16:22:32 - [TEST_STEP][PASSED] - Statement - ReviewName = CustomKeywords.keyword.edevkatalon.com.GeneralKeywords.GetRandomString(): keyword.edevkatalon.com.GeneralKeywords.GetRandomString is PASSED
+
+2018-04-05 16:22:32 - [MESSAGE][PASSED] - keyword.edevkatalon.com.GeneralKeywords.GetRandomString is PASSED
+
+2018-04-05 16:22:32 - [TEST_STEP][PASSED] - rightClick: Object: 'Object Repository/VSTS/Modules Objects/Backlog/Click Work Tab/Page_Features/div_grid-context-menu-containe' is right clicked on
+
+2018-04-05 16:22:32 - [MESSAGE][PASSED] - Object: 'Object Repository/VSTS/Modules Objects/Backlog/Click Work Tab/Page_Features/div_grid-context-menu-containe' is right clicked on
+
+2018-04-05 16:22:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VSTS/Modules Objects/Backlog/Review Request/Page_Product backlog/span_Review Request' is clicked on
+
+2018-04-05 16:22:34 - [MESSAGE][PASSED] - Object: 'Object Repository/VSTS/Modules Objects/Backlog/Review Request/Page_Product backlog/span_Review Request' is clicked on
+
+2018-04-05 16:22:34 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-04-05 16:22:44 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-04-05 16:22:44 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/VSTS/Modules Objects/Backlog/RR window/Page_Product backlog/iframe_externalContentHost514' is visible
+
+2018-04-05 16:23:24 - [MESSAGE][PASSED] - Object 'Object Repository/VSTS/Modules Objects/Backlog/RR window/Page_Product backlog/iframe_externalContentHost514' is visible
+
+2018-04-05 16:23:24 - [TEST_STEP][PASSED] - switchToFrame: Switched to iframe: 'Object Repository/VSTS/Modules Objects/Backlog/RR window/Page_Product backlog/iframe_externalContentHost514'
+
+2018-04-05 16:23:24 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/VSTS/Modules Objects/Backlog/RR window/Page_Product backlog/input_rvm-req-stakeholdercombo' is double clicked on
+
+2018-04-05 16:23:55 - [MESSAGE][PASSED] - Object: 'Object Repository/VSTS/Modules Objects/Backlog/RR window/Page_Product backlog/input_rvm-req-stakeholdercombo' is double clicked on
+
+2018-04-05 16:23:55 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-04-05 16:23:55 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-04-05 16:23:55 - [TEST_STEP][NOT_RUN] - sendKeys: NOT_RUN: sendKeys
+
+2018-04-05 16:23:55 - [MESSAGE][NOT_RUN] - NOT_RUN: sendKeys
+
+2018-04-05 16:23:55 - [TEST_STEP][NOT_RUN] - doubleClick: NOT_RUN: doubleClick
+
+2018-04-05 16:23:55 - [MESSAGE][NOT_RUN] - NOT_RUN: doubleClick
+
+2018-04-05 16:23:55 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-04-05 16:23:55 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-04-05 16:23:55 - [TEST_STEP][NOT_RUN] - sendKeys: NOT_RUN: sendKeys
+
+2018-04-05 16:23:55 - [MESSAGE][NOT_RUN] - NOT_RUN: sendKeys
+
+2018-04-05 16:23:55 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-04-05 16:23:55 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-04-05 16:23:55 - [TEST_STEP][NOT_RUN] - sendKeys: NOT_RUN: sendKeys
+
+2018-04-05 16:23:55 - [MESSAGE][NOT_RUN] - NOT_RUN: sendKeys
+
+2018-04-05 16:23:55 - [TEST_STEP][PASSED] - setText: Text 'shehzad ali' is set on object 'Object Repository/VSTS/Modules Objects/Backlog/RR window/Page_Product backlog/input_rvm-req-stakeholdercombo'
+
+2018-04-05 16:23:55 - [MESSAGE][PASSED] - Text 'shehzad ali' is set on object 'Object Repository/VSTS/Modules Objects/Backlog/RR window/Page_Product backlog/input_rvm-req-stakeholdercombo'
+
+2018-04-05 16:23:55 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/VSTS/Modules Objects/Backlog/RR window/Page_Product backlog/input_rvm-req-stakeholdercombo'
+
+2018-04-05 16:23:55 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/VSTS/Modules Objects/Backlog/RR window/Page_Product backlog/input_rvm-req-stakeholdercombo'
+
+2018-04-05 16:23:55 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/VSTS/Modules Objects/Backlog/Review Set Text dropdowns/Page_Product backlog/input_rvm-req-approverscombobo' is double clicked on
+
+2018-04-05 16:23:55 - [MESSAGE][PASSED] - Object: 'Object Repository/VSTS/Modules Objects/Backlog/Review Set Text dropdowns/Page_Product backlog/input_rvm-req-approverscombobo' is double clicked on
+
+2018-04-05 16:23:55 - [TEST_STEP][PASSED] - setText: Text 'syed saad' is set on object 'Object Repository/VSTS/Modules Objects/Backlog/Review Set Text dropdowns/Page_Product backlog/input_rvm-req-approverscombobo'
+
+2018-04-05 16:23:55 - [MESSAGE][PASSED] - Text 'syed saad' is set on object 'Object Repository/VSTS/Modules Objects/Backlog/Review Set Text dropdowns/Page_Product backlog/input_rvm-req-approverscombobo'
+
+2018-04-05 16:23:55 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/VSTS/Modules Objects/Backlog/Review Set Text dropdowns/Page_Product backlog/input_rvm-req-approverscombobo'
+
+2018-04-05 16:23:55 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/VSTS/Modules Objects/Backlog/Review Set Text dropdowns/Page_Product backlog/input_rvm-req-approverscombobo'
+
+2018-04-05 16:23:55 - [TEST_STEP][PASSED] - setText: Text 'arsalan mushtaq' is set on object 'Object Repository/VSTS/Modules Objects/Backlog/Review Set Text dropdowns/Page_Product backlog/input_rvm-req-approverscombobo'
+
+2018-04-05 16:23:55 - [MESSAGE][PASSED] - Text 'arsalan mushtaq' is set on object 'Object Repository/VSTS/Modules Objects/Backlog/Review Set Text dropdowns/Page_Product backlog/input_rvm-req-approverscombobo'
+
+2018-04-05 16:23:55 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/VSTS/Modules Objects/Backlog/Review Set Text dropdowns/Page_Product backlog/input_rvm-req-approverscombobo'
+
+2018-04-05 16:23:55 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/VSTS/Modules Objects/Backlog/Review Set Text dropdowns/Page_Product backlog/input_rvm-req-approverscombobo'
+
+2018-04-05 16:23:55 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/VSTS/Modules Objects/Backlog/Review Record/Page_Product backlog (1)/input_rvm-req-workitremtitletx' is double clicked on
+
+2018-04-05 16:23:55 - [MESSAGE][PASSED] - Object: 'Object Repository/VSTS/Modules Objects/Backlog/Review Record/Page_Product backlog (1)/input_rvm-req-workitremtitletx' is double clicked on
+
+2018-04-05 16:23:55 - [TEST_STEP][PASSED] - setText: Text '24gq2n1aue' is set on object 'Object Repository/VSTS/Modules Objects/Backlog/Review Record/Page_Product backlog (1)/input_rvm-req-workitremtitletx'
+
+2018-04-05 16:23:55 - [MESSAGE][PASSED] - Text '24gq2n1aue' is set on object 'Object Repository/VSTS/Modules Objects/Backlog/Review Record/Page_Product backlog (1)/input_rvm-req-workitremtitletx'
+
+2018-04-05 16:23:55 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-04-05 16:23:55 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-04-05 16:23:55 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-04-05 16:23:55 - [MESSAGE][NOT_RUN] - NOT_RUN: click]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-05 16:12:22 - [TEST_SUITE][FAILED] - myVSTSTestCases: Test Cases/VSTS/Module Verification for Team/Backlog/Model/Create a model file against work item FAILED because (of) Unable to click on object 'Object Repository/VSTS/Modules Objects/Backlog/Click Work Tab/Page_Overview dashboard - Visual St/span_Work' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/VSTS/Modules Objects/Backlog/Click Work Tab/Page_Overview dashboard - Visual St/span_Work' located by 'By.xpath: id("mi_50_ms.vss-work-web.work-hub-group")/span[@class="text"]' not found)]]></system-out>
+      <system-err><![CDATA[2018-04-05 16:12:22 - [TEST_SUITE][FAILED] - myVSTSTestCases: Test Cases/VSTS/Module Verification for Team/Backlog/Model/Create a model file against work item FAILED because (of) Unable to click on object 'Object Repository/VSTS/Modules Objects/Backlog/Click Work Tab/Page_Overview dashboard - Visual St/span_Work' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/VSTS/Modules Objects/Backlog/Click Work Tab/Page_Overview dashboard - Visual St/span_Work' located by 'By.xpath: id("mi_50_ms.vss-work-web.work-hub-group")/span[@class="text"]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

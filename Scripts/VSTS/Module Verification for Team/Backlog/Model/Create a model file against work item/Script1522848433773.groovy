@@ -45,29 +45,25 @@ for (def index : (1..10)) {
 
 WebUI.delay(3)
 
-'Select all Work Items (Keyword)'
-CustomKeywords.'keyword.edevkatalon.com.ActionClass.SelectElement'()
+WebUI.click(findTestObject('VSTS/Modules Objects/Backlogs Model/Mozilla/div_TestWI1'))
 
-'Open Context Menu options'
-WebUI.rightClick(findTestObject('VSTS/Modules Objects/Backlog/Click Work Tab/Page_Features/div_grid-context-menu-containe'))
+WebUI.click(findTestObject('VSTS/Modules Objects/Backlogs Model/Mozilla/span_Off'))
 
-WebUI.waitForElementVisible(findTestObject('VSTS/Modules Objects/Backlog/Click Context Menu and Select Baseline/Page_Features/span_Create Baseline CLick'), 
-    20)
+WebUI.click(findTestObject('VSTS/Modules Objects/Backlogs Model/Mozilla/span_Model'))
 
-'Clicked Create Baseline window to open'
-WebUI.click(findTestObject('VSTS/Modules Objects/Backlog/Click Context Menu and Select Baseline/Page_Features/span_Create Baseline CLick'))
-
-WebUI.waitForElementVisible(findTestObject('VSTS/Modules Objects/Backlog/Baseline Create button/iframe_externalContentHost481'), 
+WebUI.waitForElementVisible(findTestObject('VSTS/Modules Objects/Backlogs Model/Mozilla/Spy/Page_Product backlog/span_Define Model'), 
     50)
 
-WebUI.switchToFrame(findTestObject('VSTS/Modules Objects/Backlog/Baseline Create button/iframe_externalContentHost481'), 
-    5)
+WebUI.click(findTestObject('VSTS/Modules Objects/Backlogs Model/Mozilla/Spy/Page_Product backlog/span_Define Model'))
 
-'Random Baseline Name '
-WebUI.setText(findTestObject('VSTS/Modules Objects/Backlog/Baseline TextBox/input_ig-NewBaselineDialog-txt'), BaselineName)
+WebUI.click(findTestObject('VSTS/Modules Objects/Backlogs Model/Mozilla/span_Diagram'))
 
-WebUI.delay(5)
+WebUI.waitForElementPresent(findTestObject('VSTS/Modules Objects/Backlogs Model/Mozilla/input_dia-title-text dia-show-'), 
+    10)
 
-'Baseline file created and opened in new tab'
-WebUI.click(findTestObject('VSTS/Modules Objects/Backlog/Baseline Create button/Page_Product backlog/input_ig-NewBaselineDialog-new'))
+WebUI.doubleClick(findTestObject('VSTS/Modules Objects/Backlogs Model/Mozilla/input_dia-title-text dia-show-'))
+
+WebUI.setText(findTestObject('VSTS/Modules Objects/Backlogs Model/Mozilla/input_dia-title-text dia-show-'), 'TestDiagram')
+
+WebUI.click(findTestObject('VSTS/Modules Objects/Backlogs Model/Mozilla/input_dia-okBtn'))
 

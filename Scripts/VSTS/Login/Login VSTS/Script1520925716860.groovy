@@ -24,6 +24,8 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
+WebUI.deleteAllCookies()
+
 String server = findTestData('Datafile').getValue('TFSServer', 2)
 
 String username = findTestData('Datafile').getValue('username', 1)
