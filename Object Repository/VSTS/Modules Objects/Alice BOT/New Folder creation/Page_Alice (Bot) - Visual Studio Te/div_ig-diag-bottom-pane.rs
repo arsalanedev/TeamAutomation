@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_k-icon  k-i-arrow-60-down</name>
+   <name>div_ig-diag-bottom-pane</name>
    <tag></tag>
-   <elementGuidId>9f8531d4-fe32-4cd7-86d2-125ccdf6ec70</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;mdl-left-pane-btn-new&quot;)/span[@class=&quot;k-link&quot;]/span[@class=&quot;k-icon  k-i-arrow-60-down&quot;]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>36b1dcf1-b514-4e61-8941-24f5f7c5e4f1</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -21,20 +11,27 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>k-icon  k-i-arrow-60-down</value>
+      <value>ig-diag-bottom-pane</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mdl-left-pane-btn-new&quot;)/span[@class=&quot;k-link&quot;]/span[@class=&quot;k-icon  k-i-arrow-60-down&quot;]</value>
+      <value>id(&quot;ig-newfolder-window-content-bot-new-folder-dialog&quot;)/div[1]/div[1]/div[4]/div[1]/div[@class=&quot;ig-diag-bottom-pane&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/VSTS/Modules Objects/Alice BOT/New Folder creation/Page_Alice (Bot) - Visual Studio Te/iframe_externalContentHost4</value>
    </webElementProperties>
 </WebElementEntity>

@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_k-icon  k-i-arrow-60-down</name>
+   <name>span_DEFINE</name>
    <tag></tag>
-   <elementGuidId>9f8531d4-fe32-4cd7-86d2-125ccdf6ec70</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;mdl-left-pane-btn-new&quot;)/span[@class=&quot;k-link&quot;]/span[@class=&quot;k-icon  k-i-arrow-60-down&quot;]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>7c16d946-265c-4603-a095-a0154202d099</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -28,13 +18,20 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>k-icon  k-i-arrow-60-down</value>
+      <value>k-link</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>DEFINE</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mdl-left-pane-btn-new&quot;)/span[@class=&quot;k-link&quot;]/span[@class=&quot;k-icon  k-i-arrow-60-down&quot;]</value>
+      <value>id(&quot;projectComponentsToolbar_mn_active&quot;)/span[@class=&quot;k-link&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

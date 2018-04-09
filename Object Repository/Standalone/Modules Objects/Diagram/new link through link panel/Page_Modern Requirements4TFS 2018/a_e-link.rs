@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_k-icon  k-i-arrow-60-down</name>
+   <name>a_e-link</name>
    <tag></tag>
-   <elementGuidId>9f8531d4-fe32-4cd7-86d2-125ccdf6ec70</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;mdl-left-pane-btn-new&quot;)/span[@class=&quot;k-link&quot;]/span[@class=&quot;k-icon  k-i-arrow-60-down&quot;]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>6a384343-1f2c-4d5f-aa03-a5b95bc28f85</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -21,20 +11,27 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#dia_allLinks</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>k-icon  k-i-arrow-60-down</value>
+      <value>e-link</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mdl-left-pane-btn-new&quot;)/span[@class=&quot;k-link&quot;]/span[@class=&quot;k-icon  k-i-arrow-60-down&quot;]</value>
+      <value>id(&quot;dia_allLinkIcon&quot;)/a[@class=&quot;e-link&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

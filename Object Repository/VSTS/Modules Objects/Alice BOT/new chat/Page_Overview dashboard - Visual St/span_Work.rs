@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_k-icon  k-i-arrow-60-down</name>
+   <name>span_Work</name>
    <tag></tag>
-   <elementGuidId>9f8531d4-fe32-4cd7-86d2-125ccdf6ec70</elementGuidId>
+   <elementGuidId>b771a528-d26f-4b28-a7df-9eceac1341c2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;mdl-left-pane-btn-new&quot;)/span[@class=&quot;k-link&quot;]/span[@class=&quot;k-icon  k-i-arrow-60-down&quot;]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value></value>
+         <value>id(&quot;mi_358_ms.vss-work-web.work-hub-group&quot;)/span[@class=&quot;text&quot;][count(. | //span[(text() = 'Work' or . = 'Work')]) = count(//span[(text() = 'Work' or . = 'Work')])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -28,13 +24,27 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>k-icon  k-i-arrow-60-down</value>
+      <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Work</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mdl-left-pane-btn-new&quot;)/span[@class=&quot;k-link&quot;]/span[@class=&quot;k-icon  k-i-arrow-60-down&quot;]</value>
+      <value>id(&quot;mi_358_ms.vss-work-web.work-hub-group&quot;)/span[@class=&quot;text&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

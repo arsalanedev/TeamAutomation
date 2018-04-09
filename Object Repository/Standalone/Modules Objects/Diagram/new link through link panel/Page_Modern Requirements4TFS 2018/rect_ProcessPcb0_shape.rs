@@ -3,21 +3,18 @@
    <description></description>
    <name>rect_ProcessPcb0_shape</name>
    <tag></tag>
-   <elementGuidId>1c3b8f68-6a4f-478e-85fc-c8df69ed44a6</elementGuidId>
+   <elementGuidId>a98b0a22-fb88-4cca-902c-940a0f6d98ac</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div[id='dia_workAreaSpace'] > div.dia-e-documentContainer.edevDiagramDocument  > div[id='dia_workAreaSpace_Document_4'] > div[id='dia_workAreaSpace_Document_4_DiagramModule'] > div[id='dia_workAreaSpace_Document_4_DiagramModule_canvas'] > svg [id='dia_workAreaSpace_Document_4_DiagramModule_canvas_svg'] > div[id='dia_workAreaSpace_Document_4_DiagramModule_canvas_htmlLayer'] > div[id='ProcessPcb0'] </value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-      </entry>
-      <entry>
          <key>BASIC</key>
-         <value>id(&quot;ProcessPcb0_shape&quot;)[count(. | //rect[@id = 'ProcessPcb0_shape']) = count(//rect[@id = 'ProcessPcb0_shape'])]</value>
+         <value>//rect[@id = 'ProcessPcb0_shape']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -90,7 +87,7 @@
       <value>1</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

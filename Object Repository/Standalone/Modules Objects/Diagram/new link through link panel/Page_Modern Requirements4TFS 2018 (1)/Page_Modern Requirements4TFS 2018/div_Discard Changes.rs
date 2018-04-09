@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_k-icon  k-i-arrow-60-down</name>
+   <name>div_Discard Changes</name>
    <tag></tag>
-   <elementGuidId>9f8531d4-fe32-4cd7-86d2-125ccdf6ec70</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;mdl-left-pane-btn-new&quot;)/span[@class=&quot;k-link&quot;]/span[@class=&quot;k-icon  k-i-arrow-60-down&quot;]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>710bac32-c5ad-4b61-ac4c-f635ba19e21c</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -21,20 +11,36 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>dia_discardChangesList</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>k-icon  k-i-arrow-60-down</value>
+      <value>dia-saveOptions dia-saveMenu dia-menuOptions</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+        Discard Changes
+    </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mdl-left-pane-btn-new&quot;)/span[@class=&quot;k-link&quot;]/span[@class=&quot;k-icon  k-i-arrow-60-down&quot;]</value>
+      <value>id(&quot;dia_discardChangesList&quot;)</value>
    </webElementProperties>
 </WebElementEntity>

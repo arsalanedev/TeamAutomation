@@ -1,99 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>rect_ProcessPcb0_shape</name>
+   <name>ul_Check In ChangesDiscard Cha</name>
    <tag></tag>
-   <elementGuidId>1c3b8f68-6a4f-478e-85fc-c8df69ed44a6</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>div[id='dia_workAreaSpace'] > div.dia-e-documentContainer.edevDiagramDocument  > div[id='dia_workAreaSpace_Document_4'] > div[id='dia_workAreaSpace_Document_4_DiagramModule'] > div[id='dia_workAreaSpace_Document_4_DiagramModule_canvas'] > svg [id='dia_workAreaSpace_Document_4_DiagramModule_canvas_svg'] > div[id='dia_workAreaSpace_Document_4_DiagramModule_canvas_htmlLayer'] > div[id='ProcessPcb0'] </value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;ProcessPcb0_shape&quot;)[count(. | //rect[@id = 'ProcessPcb0_shape']) = count(//rect[@id = 'ProcessPcb0_shape'])]</value>
-      </entry>
-   </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <elementGuidId>7a6c271a-1c4c-4c47-988a-c995e4e7e33f</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>rect</value>
+      <value>ul</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>k-widget k-reset k-header k-menu ig-filemngt-toolbar k-menu-horizontal</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>containerid</name>
+      <type>Main</type>
+      <value>bot-toolbarcontainer</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>ProcessPcb0_shape</value>
+      <value>ig-filemngt-menu-bot-toolbarcontainer</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>rx</name>
+      <name>data-role</name>
+      <type>Main</type>
+      <value>menu</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>ry</name>
+      <name>role</name>
       <type>Main</type>
-      <value>0</value>
+      <value>menubar</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>width</name>
+      <name>aria-activedescendant</name>
       <type>Main</type>
-      <value>120</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>height</name>
-      <type>Main</type>
-      <value>80</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>fill</name>
-      <type>Main</type>
-      <value>#3D85C6</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>stroke</name>
-      <type>Main</type>
-      <value>#A7A9AC</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>stroke-width</name>
-      <type>Main</type>
-      <value>1</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>opacity</name>
-      <type>Main</type>
-      <value>1</value>
+      <value>bot-savemainbtn</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Check In ChangesDiscard Changes </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;ProcessPcb0_shape&quot;)</value>
+      <value>id(&quot;ig-filemngt-menu-bot-toolbarcontainer&quot;)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/VSTS/Modules Objects/Alice BOT/new chat/Page_Alice (Bot) - Visual Studio Te/iframe_externalContentHost180</value>
    </webElementProperties>
 </WebElementEntity>
