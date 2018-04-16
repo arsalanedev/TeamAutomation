@@ -29,7 +29,7 @@ WebUI.navigateToUrl(server)
 
 WebUI.click(findTestObject('TFSEmbed/Login/New Team/From TFS 2017/TeamCreationObjects-Rename/button_New Project'))
 
-String ProjectName = CustomKeywords.'keyword.edevkatalon.com.GeneralKeywords.GetRandomString'()
+String ProjectName = CustomKeywords.'shehzad.GeneralKeywords.GetRandomString'()
 
 WebUI.setText(findTestObject('TFSEmbed/Login/New Team/From TFS 2017/TeamCreationObjects-Rename/input_project-name'), ProjectName)
 
@@ -45,7 +45,7 @@ WebUI.click(findTestObject('TFSEmbed/Login/New Team/From TFS 2017/TeamCreationOb
 
 WebUI.click(findTestObject('TFSEmbed/Login/New Team/From TFS 2017/TeamCreationObjects-Rename/span_New team'))
 
-String TeamName = CustomKeywords.'keyword.edevkatalon.com.GeneralKeywords.GetRandomString'()
+String TeamName = CustomKeywords.'shehzad.GeneralKeywords.GetRandomString'()
 
 WebUI.setText(findTestObject('TFSEmbed/Login/New Team/From TFS 2017/TeamCreationObjects-Rename/input_groupName'), TeamName)
 

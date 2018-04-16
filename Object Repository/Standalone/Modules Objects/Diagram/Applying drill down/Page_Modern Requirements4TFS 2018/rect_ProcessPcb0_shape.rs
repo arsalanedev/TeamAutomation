@@ -6,16 +6,15 @@
    <elementGuidId>1c3b8f68-6a4f-478e-85fc-c8df69ed44a6</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>div[id='dia_workAreaSpace'] > div.dia-e-documentContainer.edevDiagramDocument  > div[id='dia_workAreaSpace_Document_4'] > div[id='dia_workAreaSpace_Document_4_DiagramModule'] > div[id='dia_workAreaSpace_Document_4_DiagramModule_canvas'] > svg [id='dia_workAreaSpace_Document_4_DiagramModule_canvas_svg'] > div[id='dia_workAreaSpace_Document_4_DiagramModule_canvas_htmlLayer'] > div[id='ProcessPcb0'] </value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value></value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>id(&quot;ProcessPcb0_shape&quot;)[count(. | //rect[@id = 'ProcessPcb0_shape']) = count(//rect[@id = 'ProcessPcb0_shape'])]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>div.dia-e-documentContainer.edevDiagramDocument >div[id='dia_workAreaSpace_Document_2']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

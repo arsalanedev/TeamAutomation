@@ -52,7 +52,7 @@ not_run: WebUI.executeJavaScript('arguments[0].click', Arrays.asList(element))
 WebUI.waitForElementVisible(findTestObject('TFSEmbed/Modules Objects/Smart Docs/FolderCreation/input_ig-newfolder-textbox-smd'), 
     5)
 
-String FolderName = CustomKeywords.'keyword.edevkatalon.com.GeneralKeywords.GetRandomString'()
+String FolderName = CustomKeywords.'shehzad.GeneralKeywords.GetRandomString'()
 
 WebUI.setText(findTestObject('TFSEmbed/Modules Objects/Smart Docs/FolderCreation/input_ig-newfolder-textbox-smd'), FolderName)
 
@@ -61,7 +61,7 @@ WebUI.click(findTestObject('TFSEmbed/Modules Objects/Smart Docs/FolderCreation/i
 //WebUI.executeJavaScript("arguments[0].style.border='3px solid blue'", Arrays.asList(element))
 String selector = ('li.sim-ff-tv-folder-item[title=\'' + FolderName) + '\']'
 
-TestObject folderExplorer = CustomKeywords.'keyword.edevkatalon.com.GeneralKeywords.getCustomTestObjectBy'('css', selector)
+TestObject folderExplorer = CustomKeywords.'shehzad.GeneralKeywords.getCustomTestObjectBy'('css', selector)
 
 WebUI.delay(2)
 

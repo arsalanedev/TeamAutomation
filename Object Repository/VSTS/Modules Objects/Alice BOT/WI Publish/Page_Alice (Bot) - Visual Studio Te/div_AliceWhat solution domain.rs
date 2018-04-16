@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_AliceWhat solution domain</name>
+   <tag></tag>
+   <elementGuidId>b6dee59f-3412-45f4-a6c6-7bb1839448a8</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>e_ba_chatPanel</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>e-ba-panels</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>AliceWhat solution domain should we work on?15:07isyed.saad@edevtech.comepic15:07AliceWhat are the features for 'epic'? (Use Shift-Enter to list multiple features)15:07isyed.saad@edevtech.comf115:07AliceAre there any other features for 'epic'? (Use Shift-Enter to list multiple features)15:07isyed.saad@edevtech.comf215:07AliceWhat are the requirements for 'f1'? (Use Shift-Enter to list multiple requirements)15:07iThis is the second part(WHAT) of the user story i.e. ‘I can ________’ part.</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;e_ba_chatPanel&quot;)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/VSTS/Modules Objects/Alice BOT/WI Publish/Page_Alice (Bot) - Visual Studio Te/iframe_externalContentHost4</value>
+   </webElementProperties>
+</WebElementEntity>
