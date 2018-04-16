@@ -38,18 +38,23 @@ WebUI.setText(findTestObject('TFSEmbed/Modules Objects/Use Case/Create usecase w
 'Create button'
 WebUI.click(findTestObject('TFSEmbed/Modules Objects/Use Case/Create usecase with branch/Page_Simulation and Use case - Micr/input_createNewUsecase'))
 
-not_run: WebUI.click(findTestObject('TFSEmbed/Modules Objects/Use Case/Create usecase with branch/Page_Simulation and Use case - Micr (1)/li'))
+// click on editor
+not_run: TestObject myobj1 = CustomKeywords.'keyword.edevkatalon.com.GeneralKeywords.getCustomTestObjectBy'('css', 'body > ol > li')
 
-WebUI.focus(findTestObject('TFSEmbed/Modules Objects/Use Case/Create usecase with branch/Page_Simulation and Use case - Micr (1)/li'))
+not_run: WebUI.click(myobj1)
+
+WebUI.click(findTestObject('TFSEmbed/Modules Objects/Use Case/Create usecase with branch/Page_Simulation and Use case - Micr (1)/li'))
+
+not_run: WebUI.focus(findTestObject('TFSEmbed/Modules Objects/Use Case/Create usecase with branch/Page_Simulation and Use case - Micr (1)/li'))
 
 not_run: TestObject myobj = CustomKeywords.'keyword.edevkatalon.com.GeneralKeywords.getCustomTestObjectBy'('xpath', '/html/body/ol')
 
 not_run: WebUI.setText(myobj, 'object')
 
-not_run: WebUI.sendKeys(findTestObject('TFSEmbed/Modules Objects/Use Case/Create usecase with branch/Page_Simulation and Use case - Micr (1)/li_Login'), 
+not_run: WebUI.sendKeys(findTestObject('TFSEmbed/Modules Objects/Use Case/Create usecase with branch/Page_Simulation and Use case - Micr (3)/li'), 
     'sendkey')
 
-WebUI.switchToFrame(findTestObject('TFSEmbed/Modules Objects/Use Case/Create usecase with branch/Page_Simulation and Use case - Micr (2)/iframe_rteSample_Iframe'), 
+not_run: WebUI.switchToFrame(findTestObject('TFSEmbed/Modules Objects/Use Case/Create usecase with branch/Page_Simulation and Use case - Micr (2)/iframe_rteSample_Iframe'), 
     10)
 
 WebUI.setText(findTestObject('TFSEmbed/Modules Objects/Use Case/Create usecase with branch/Page_Simulation and Use case - Micr (2)/li'), 

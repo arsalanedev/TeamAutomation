@@ -19,9 +19,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('TFSEmbed/Login/Existing Team/From TFS 2017/GIT Team/Login git'), [:], FailureHandling.STOP_ON_FAILURE)
-
 String templatename = CustomKeywords.'keyword.edevkatalon.com.GeneralKeywords.GetRandomString'()
+
+WebUI.callTestCase(findTestCase('TFSEmbed/Login/Existing Team/From TFS 2017/GIT Team/Login git'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Work'
 WebUI.click(findTestObject('TFSEmbed/Modules Objects/Reporting/Create folder/Page_Overview dashboard - Microsoft/span_Work'))

@@ -20,6 +20,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+String Tagname = CustomKeywords.'keyword.edevkatalon.com.GeneralKeywords.GetRandomString'()
+
 WebUI.callTestCase(findTestCase('TFSEmbed/Login/Existing Team/From TFS 2017/GIT Team/Login git'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('TFSEmbed/Modules Objects/Use Case/Create Folder from New/Page_Overview dashboard - Microsoft/span_Work'))
@@ -31,16 +33,22 @@ WebUI.click(findTestObject('TFSEmbed/Modules Objects/Use Case/Using branch in ex
 
 WebUI.click(findTestObject('TFSEmbed/Modules Objects/Use Case/Using branch in existing usecase/Page_Simulation and Use case - Micr/a_Edit'))
 
-not_run: WebUI.click(findTestObject('TFSEmbed/Modules Objects/Use Case/Using Callusecase/Page_Simulation and Use case - Micr/li_user name'))
+WebUI.click(findTestObject('TFSEmbed/Modules Objects/Use Case/Using Callusecase/Page_Simulation and Use case - Micr/li_user name'))
 
-WebUI.doubleClick(findTestObject('TFSEmbed/Modules Objects/Use Case/Using Smarttag/Page_Simulation and Use case - Micr/li_user name'))
+not_run: WebUI.doubleClick(findTestObject('TFSEmbed/Modules Objects/Use Case/Using Smarttag/Page_Simulation and Use case - Micr/li_user name'))
 
 WebUI.click(findTestObject('TFSEmbed/Modules Objects/Use Case/Using Smarttag/Page_Simulation and Use case - Micr/li_Tag'))
 
-not_run: WebUI.setText(findTestObject('TFSEmbed/Modules Objects/Use Case/Using Smarttag/Page_Simulation and Use case - Micr/input_uc-st-txtWorkItemTitle'), 
-    'bug123')
+WebUI.setText(findTestObject('TFSEmbed/Modules Objects/Use Case/Using Smarttag/Page_Simulation and Use case - Micr/input_uc-st-txtWorkItemTitle'), 
+    Tagname)
 
 WebUI.click(findTestObject('TFSEmbed/Modules Objects/Use Case/Using Smarttag/Page_Simulation and Use case - Micr/input_uc-sTOkButton'))
+
+WebUI.verifyElementText(findTestObject('TFSEmbed/Modules Objects/Use Case/Using Smarttag/Page_Simulation and Use case - Micr (1)/span_name'), 
+    Tagname)
+
+WebUI.verifyElementPresent(findTestObject('TFSEmbed/Modules Objects/Use Case/Using Smarttag/Page_Simulation and Use case - Micr (1)/img_e-Usecase-smartEditlink e-'), 
+    0)
 
 WebUI.click(findTestObject('TFSEmbed/Modules Objects/Use Case/Using branch in existing usecase/Page_Simulation and Use case - Micr (1)/div_useCaseSave'))
 

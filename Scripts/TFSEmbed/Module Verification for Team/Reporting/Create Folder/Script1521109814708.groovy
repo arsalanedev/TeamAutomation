@@ -18,6 +18,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.eclipse.persistence.internal.jpa.parsing.jpql.antlr.JPQLParser.deleteClause_scope as deleteClause_scope
 import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('TFSEmbed/Login/Existing Team/From TFS 2017/GIT Team/Login git'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -41,4 +42,17 @@ WebUI.setText(findTestObject('TFSEmbed/Modules Objects/Reporting/Create folder/P
     Foldername)
 
 WebUI.click(findTestObject('TFSEmbed/Modules Objects/Reporting/Create folder/Page_Reporting - Microsoft Team Fou/input_ig-newfolder-ok-button-r'))
+
+WebUI.delay(5)
+
+//assert true.equals(folderex == Foldername)
+not_run: assert WebUI.getText(findTestObject('TFSEmbed/Modules Objects/Reporting/Create folder/Page_Reporting - Microsoft Team Fou (1)/span_22')) == 
+Foldername
+
+not_run: assert true.call(folderex.equals(Foldername))
+
+not_run: assert WebUI.getText(folderex == Foldername, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementText(findTestObject('TFSEmbed/Modules Objects/Reporting/Create folder/Page_Reporting - Microsoft Team Fou (1)/span_22'), 
+    Foldername)
 

@@ -70,3 +70,6 @@ WebUI.click(findTestObject('TFSEmbed/Modules Objects/Reporting/create report wit
 'Run'
 WebUI.click(findTestObject('TFSEmbed/Modules Objects/Reporting/create report with basic/Page_Reporting - Microsoft Team Fou/span_k-sprite rpt-mp-editor-ru'))
 
+WebUI.verifyElementText(findTestObject('TFSEmbed/Modules Objects/Reporting/Create folder/Page_Reporting - Microsoft Team Fou (1)/span_22'), 
+    templatename)
+

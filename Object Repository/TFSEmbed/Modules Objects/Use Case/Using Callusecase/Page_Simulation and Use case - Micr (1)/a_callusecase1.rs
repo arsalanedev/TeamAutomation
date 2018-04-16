@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_callusecase1</name>
+   <tag></tag>
+   <elementGuidId>7d23047d-38cb-4820-94ac-0bf4ee3e8173</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html[1]/body[1]/ol[1]/li[2]/a[1][count(. | //a[@ref_element = 'Object Repository/TFSEmbed/Modules Objects/Use Case/Using Callusecase/Page_Simulation and Use case - Micr (1)/iframe_rteSample_Iframe']) = count(//a[@ref_element = 'Object Repository/TFSEmbed/Modules Objects/Use Case/Using Callusecase/Page_Simulation and Use case - Micr (1)/iframe_rteSample_Iframe'])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>callusecase1</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>filejsondata</name>
+      <type>Main</type>
+      <value>{&quot;FileId&quot;:125431,&quot;Status&quot;:{&quot;IsCheckedOut&quot;:true,&quot;IsCheckedByOther&quot;:false,&quot;CheckedoutBy&quot;:&quot;EDEVTECH\\younas&quot;,&quot;LatestChangeSetID&quot;:7352},&quot;FileType&quot;:&quot;Usecase&quot;,&quot;Extension&quot;:null,&quot;id&quot;:&quot;125431&quot;,&quot;imageUrl&quot;:&quot;../Content/Icons/usecase.ico&quot;,&quot;RelServerPath&quot;:&quot;/125431_callusecase1.usc&quot;,&quot;Name&quot;:&quot;callusecase1&quot;,&quot;IsCheckedOut&quot;:true,&quot;text&quot;:&quot;callusecase1&quot;,&quot;hasChildren&quot;:false,&quot;IsFolder&quot;:false,&quot;CreatedBy&quot;:&quot;EDEVTECH\\younas&quot;,&quot;CreatedDate&quot;:&quot;04/16/2018 10:30:02&quot;,&quot;ParentFolderPath&quot;:&quot;/&quot;,&quot;FileGuid&quot;:&quot;00000000-0000-0000-0000-000000000000&quot;}</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>usecasename</name>
+      <type>Main</type>
+      <value>callusecase1</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>OpenUsecase</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Go to &quot;callusecase1&quot; Use case file</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>callusecase1</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/ol[1]/li[2]/a[1]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/TFSEmbed/Modules Objects/Use Case/Using Callusecase/Page_Simulation and Use case - Micr (1)/iframe_rteSample_Iframe</value>
+   </webElementProperties>
+</WebElementEntity>

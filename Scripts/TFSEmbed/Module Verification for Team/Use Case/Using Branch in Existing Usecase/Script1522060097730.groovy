@@ -40,6 +40,12 @@ WebUI.setText(findTestObject('TFSEmbed/Modules Objects/Use Case/Using branch in 
 
 WebUI.click(findTestObject('TFSEmbed/Modules Objects/Use Case/Using branch in existing usecase/Page_Simulation and Use case - Micr (1)/input_OkScenario'))
 
+WebUI.verifyElementPresent(findTestObject('TFSEmbed/Modules Objects/Use Case/Using branch in existing usecase/Page_Simulation and Use case - Micr (2)/div_Alternate Scenario'), 
+    5)
+
+WebUI.verifyElementText(findTestObject('TFSEmbed/Modules Objects/Use Case/Using branch in existing usecase/Page_Simulation and Use case - Micr (2)/div_alt'), 
+    'Alt scenario')
+
 WebUI.click(findTestObject('TFSEmbed/Modules Objects/Use Case/Using branch in existing usecase/Page_Simulation and Use case - Micr (1)/div_useCaseSave'))
 
 WebUI.click(findTestObject('TFSEmbed/Modules Objects/Use Case/Using branch in existing usecase/Page_Simulation and Use case - Micr (1)/Page_Simulation and Use case - Micr/div_Discard Changes'))

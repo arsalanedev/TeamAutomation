@@ -22,7 +22,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('TFSEmbed/Login/Existing Team/From TFS 2017/GIT Team/Login git'), [:], FailureHandling.STOP_ON_FAILURE)
 
-String  Foldername  =  CustomKeywords.'keyword.edevkatalon.com.GeneralKeywords.GetRandomString'()
+String Foldername = CustomKeywords.'keyword.edevkatalon.com.GeneralKeywords.GetRandomString'()
 
 WebUI.click(findTestObject('TFSEmbed/Modules Objects/Use Case/Create Folder from New/Page_Overview dashboard - Microsoft/span_Work'))
 
@@ -32,8 +32,12 @@ WebUI.click(findTestObject('TFSEmbed/Modules Objects/Use Case/Create Folder from
 
 WebUI.click(findTestObject('TFSEmbed/Modules Objects/Use Case/Create Folder from New/Page_Simulation and Use case - Micr/span_Folder'))
 
+
 WebUI.setText(findTestObject('TFSEmbed/Modules Objects/Use Case/Create Folder from New/Page_Simulation and Use case - Micr/input_txtNewFolderName'), 
     Foldername)
 
 WebUI.click(findTestObject('TFSEmbed/Modules Objects/Use Case/Create Folder from New/Page_Simulation and Use case - Micr/input_newFolderOkButton'))
+
+WebUI.verifyElementText(findTestObject('TFSEmbed/Modules Objects/Use Case/Create Folder from New/Page_Simulation and Use case - Micr (1)/span_2'), 
+    Foldername)
 

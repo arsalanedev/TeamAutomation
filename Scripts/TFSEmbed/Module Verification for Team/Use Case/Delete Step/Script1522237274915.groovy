@@ -38,6 +38,9 @@ WebUI.click(findTestObject('TFSEmbed/Modules Objects/Use Case/Delete step/Page_S
 
 WebUI.click(findTestObject('TFSEmbed/Modules Objects/Use Case/Delete step/Page_Simulation and Use case - Micr/input_DelteNode'))
 
+WebUI.verifyElementNotPresent(findTestObject('TFSEmbed/Modules Objects/Use Case/Delete step/Page_Simulation and Use case - Micr (1)/li_user name'), 
+    2)
+
 WebUI.click(findTestObject('TFSEmbed/Modules Objects/Use Case/Using branch in existing usecase/Page_Simulation and Use case - Micr (1)/div_useCaseSave'))
 
 WebUI.click(findTestObject('TFSEmbed/Modules Objects/Use Case/Using branch in existing usecase/Page_Simulation and Use case - Micr (1)/Page_Simulation and Use case - Micr/div_Discard Changes'))

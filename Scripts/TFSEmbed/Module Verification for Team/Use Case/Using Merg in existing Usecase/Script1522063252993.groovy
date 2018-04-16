@@ -38,6 +38,12 @@ WebUI.click(findTestObject('TFSEmbed/Modules Objects/Use Case/Using Merge/Page_S
 
 WebUI.click(findTestObject('TFSEmbed/Modules Objects/Use Case/Using Merge/Page_Simulation and Use case - Micr/input_MergeOk'))
 
+WebUI.verifyElementText(findTestObject('TFSEmbed/Modules Objects/Use Case/Using Merge/Page_Simulation and Use case - Micr (1)/a_user name'), 
+    'user name')
+
+WebUI.verifyElementPresent(findTestObject('TFSEmbed/Modules Objects/Use Case/Using Merge/Page_Simulation and Use case - Micr (1)/img_e-Usecase-MergeEditlink e-'), 
+    0)
+
 WebUI.click(findTestObject('TFSEmbed/Modules Objects/Use Case/Using branch in existing usecase/Page_Simulation and Use case - Micr (1)/div_useCaseSave'))
 
 WebUI.click(findTestObject('TFSEmbed/Modules Objects/Use Case/Using branch in existing usecase/Page_Simulation and Use case - Micr (1)/Page_Simulation and Use case - Micr/div_Discard Changes'))

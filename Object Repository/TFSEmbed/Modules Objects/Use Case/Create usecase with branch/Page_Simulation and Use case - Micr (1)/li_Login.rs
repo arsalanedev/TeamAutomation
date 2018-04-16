@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//li[@id = 'body > ol > li' and @ref_element = 'Object Repository/TFSEmbed/Modules Objects/Use Case/Create usecase with branch/Page_Simulation and Use case - Micr (4)/iframe_rteSample_Iframe']</value>
+         <value>body > ol > li</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -16,7 +16,7 @@
          <key>CSS</key>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -40,9 +40,16 @@
       <value>Login</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
+      <type>Main</type>
+      <value>body > ol > li</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>css</name>
       <type>Main</type>
       <value>body > ol > li</value>
    </webElementProperties>

@@ -4,6 +4,12 @@
    <name>iframe_externalContentHost4</name>
    <tag></tag>
    <elementGuidId>fe293dfb-3cc0-44e2-ad7f-fc62cec1a7a3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//iframe[@id = 'externalContentHost4' and @name = 'externalContentHost4']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -42,7 +48,7 @@
       <value>externalContentHost4</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>src</name>
       <type>Main</type>
@@ -53,6 +59,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;externalContentHost4&quot;)</value>
+      <value>id(&quot;externalContentHost204&quot;)</value>
    </webElementProperties>
 </WebElementEntity>

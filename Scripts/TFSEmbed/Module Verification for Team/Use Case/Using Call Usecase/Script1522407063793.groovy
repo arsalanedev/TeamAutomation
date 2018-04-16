@@ -42,6 +42,12 @@ WebUI.setText(findTestObject('TFSEmbed/Modules Objects/Use Case/Using Callusecas
 
 WebUI.click(findTestObject('TFSEmbed/Modules Objects/Use Case/Using Callusecase/Page_Simulation and Use case - Micr/input_OpenUsecaseLinkOk'))
 
+WebUI.verifyElementText(findTestObject('TFSEmbed/Modules Objects/Use Case/Using Callusecase/Page_Simulation and Use case - Micr (1)/a_callusecase1'), 
+    callusecase)
+
+WebUI.verifyElementPresent(findTestObject('TFSEmbed/Modules Objects/Use Case/Using Callusecase/Page_Simulation and Use case - Micr (1)/img_e-Usecase-UsecaseEditlink'), 
+    0)
+
 WebUI.click(findTestObject('TFSEmbed/Modules Objects/Use Case/Using branch in existing usecase/Page_Simulation and Use case - Micr (1)/div_useCaseSave'))
 
 WebUI.click(findTestObject('TFSEmbed/Modules Objects/Use Case/Using branch in existing usecase/Page_Simulation and Use case - Micr (1)/Page_Simulation and Use case - Micr/div_Discard Changes'))
